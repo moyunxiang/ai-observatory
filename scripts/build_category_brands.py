@@ -9,6 +9,10 @@ plus the category's Task 1 seed brands. This script only attaches provenance:
     brands; else an evidence page from another category (logged as cross-category).
   - origin: "seed" if the brand is a Task 1 seed of this category, else "expanded".
 
+Post-validation additions (Task 3 feedback): accepted rows of
+data/raw/task2/post_validation_decisions.csv are appended with origin=added_post_validation and
+the Wikipedia page as source, so `score` can report recall with and without them.
+
 Any brand with no source fails the build, so every row stays traceable.
 
     python scripts/build_category_brands.py
@@ -157,6 +161,22 @@ def main() -> int:
             rows.append({"category_id": cid, "brand": brand, "world_china": wc,
                          "origin": "seed" if seed else "expanded", "source_url": url, "source_method": method})
 
+    existing = {(r["category_id"], normalize_brand(r["brand"], amaps[r["category_id"]])) for r in rows}
+    n_post = 0
+    with open(DATA_DIR / "raw" / "task2" / "post_validation_decisions.csv", newline="", encoding="utf-8") as f:
+        for d in csv.DictReader(f):
+            if d["decision"] != "accept":
+                continue
+            key = (d["category_id"], normalize_brand(d["brand"], amaps[d["category_id"]]))
+            if key in existing:
+                errors.append(f"{d['category_id']}/{d['brand']}: post-validation addition already in table")
+                continue
+            existing.add(key)
+            n_post += 1
+            rows.append({"category_id": d["category_id"], "brand": d["brand"], "world_china": d["world_china"],
+                         "origin": "added_post_validation", "source_url": d["wiki_url"],
+                         "source_method": d.get("source_method") or "wikipedia_summary"})
+
     if errors:
         print("\n".join(errors))
         return 1
@@ -164,7 +184,7 @@ def main() -> int:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
         w.writerows(rows)
-    print(f"{len(rows)} rows for {len(b2c)} categories -> data/category_brands.csv")
+    print(f"{len(rows)} rows ({n_post} added_post_validation) for {len(b2c)} categories -> data/category_brands.csv")
     if cross:
         print(f"{len(cross)} cross-category sources: " + "; ".join(cross))
     return 0

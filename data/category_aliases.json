@@ -145,5 +145,31 @@
    "AT&T Fiber",
    "AT&T Internet"
   ]
+ },
+ "smartphones": {
+  "Google Pixel": [
+   "Google"
+  ]
+ },
+ "consumer_electronics": {},
+ "ai_chatbots": {
+  "ChatGPT": [
+   "OpenAI"
+  ],
+  "Claude": [
+   "Anthropic"
+  ],
+  "Gemini": [
+   "Google"
+  ],
+  "Microsoft Copilot": [
+   "Microsoft"
+  ],
+  "Meta AI": [
+   "Meta"
+  ],
+  "Grok": [
+   "xAI"
+  ]
  }
 }

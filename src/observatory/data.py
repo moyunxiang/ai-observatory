@@ -50,14 +50,14 @@ def load_attempts() -> list[dict]:
     return read_csv(DATA_DIR / "category_attempts.csv")
 
 
-def append_attempts(rows: list[dict]) -> None:
+def upsert_attempts(run_id: str, rows: list[dict]) -> None:
+    """Replace this run's rows (re-scoring the same raw answers), keep all other runs."""
     path = DATA_DIR / "category_attempts.csv"
-    new_file = not path.exists()
-    with open(path, "a", newline="", encoding="utf-8") as f:
+    kept = [a for a in load_attempts() if a["run_id"] != run_id]
+    with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=ATTEMPT_FIELDS)
-        if new_file:
-            w.writeheader()
-        w.writerows(rows)
+        w.writeheader()
+        w.writerows(kept + rows)
 
 
 def load_aliases() -> dict[str, list[str]]:
@@ -77,12 +77,12 @@ def alias_maps(category_ids: list[str]) -> dict[str, dict[str, str]]:
     """Per-category alias map = global aliases + that category's own aliases."""
     global_aliases = load_aliases()
     per_cat = load_category_aliases()
+    global_map = build_alias_map(global_aliases)
     maps = {}
     for cid in category_ids:
-        merged = {k: list(v) for k, v in global_aliases.items()}
-        for canonical, variants in per_cat.get(cid, {}).items():
-            merged.setdefault(canonical, []).extend(variants)  # union, not override
-        maps[cid] = build_alias_map(merged)
+        m = dict(global_map)
+        m.update(build_alias_map(per_cat.get(cid, {})))  # category entries win on conflict
+        maps[cid] = m
     return maps
 
 

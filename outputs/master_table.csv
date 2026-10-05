@@ -1,0 +1,958 @@
+﻿Category,Brand,World/China,Category验证结果
+Smartphones,Apple,World,Pass
+Smartphones,Samsung,World,Pass
+Smartphones,Xiaomi,China,Pass
+Smartphones,vivo,China,Pass
+Smartphones,Huawei,China,Pass
+Smartphones,OPPO,China,Pass
+Smartphones,Honor,China,Pass
+Smartphones,realme,China,Pass
+Smartphones,Tecno,China,Pass
+Smartphones,Infinix,China,Pass
+Smartphones,Motorola,World,Pass
+Smartphones,Google Pixel,World,Pass
+Smartphones,OnePlus,China,Pass
+Smartphones,Sony,World,Pass
+Search Engines,Google,World,Pass
+Search Engines,Bing,World,Pass
+Search Engines,Baidu,China,Pass
+Search Engines,Yandex,World,Pass
+Search Engines,Yahoo,World,Pass
+Search Engines,DuckDuckGo,World,Pass
+Search Engines,Ecosia,World,Pass
+Search Engines,Brave Search,World,Pass
+Search Engines,Sogou,China,Pass
+Search Engines,Qwant,World,Pass
+Search Engines,Startpage,World,Pass
+Search Engines,Petal Search,China,Pass
+Social Media Platforms,Facebook,World,Pass
+Social Media Platforms,Instagram,World,Pass
+Social Media Platforms,WhatsApp,World,Pass
+Social Media Platforms,YouTube,World,Pass
+Social Media Platforms,TikTok,China,Pass
+Social Media Platforms,WeChat,China,Pass
+Social Media Platforms,Telegram,World,Pass
+Social Media Platforms,Facebook Messenger,World,Pass
+Social Media Platforms,Snapchat,World,Pass
+Social Media Platforms,Douyin,China,Pass
+Social Media Platforms,Kuaishou,China,Pass
+Social Media Platforms,Reddit,World,Pass
+Social Media Platforms,Weibo,China,Pass
+Social Media Platforms,X,World,Pass
+Social Media Platforms,QQ,China,Pass
+Social Media Platforms,LinkedIn,World,Pass
+Social Media Platforms,Xiaohongshu,China,Pass
+Short Video Apps,TikTok,China,Pass
+Short Video Apps,Douyin,China,Pass
+Short Video Apps,Kuaishou,China,Pass
+Short Video Apps,Instagram Reels,World,Pass
+Short Video Apps,YouTube Shorts,World,Pass
+Short Video Apps,Snapchat Spotlight,World,Pass
+Short Video Apps,Facebook Reels,World,Pass
+Short Video Apps,Clapper,World,Pass
+Short Video Apps,Lemon8,China,Pass
+Short Video Apps,Triller,World,Pass
+Short Video Apps,Likee,World,Pass
+Short Video Apps,Xiaohongshu,China,Pass
+Short Video Apps,Skylight,World,Pass
+Short Video Apps,Moj,World,Pass
+Short Video Apps,Roposo,World,Pass
+Video Streaming Services,Netflix,World,Pass
+Video Streaming Services,YouTube,World,Pass
+Video Streaming Services,Prime Video,World,Pass
+Video Streaming Services,Disney+,World,Pass
+Video Streaming Services,Hulu,World,Pass
+Video Streaming Services,HBO Max,World,Pass
+Video Streaming Services,Apple TV,World,Pass
+Video Streaming Services,Paramount+,World,Pass
+Video Streaming Services,Peacock,World,Pass
+Video Streaming Services,JioHotstar,World,Pass
+Video Streaming Services,Tencent Video,China,Pass
+Video Streaming Services,iQIYI,China,Pass
+Video Streaming Services,Youku,China,Pass
+Video Streaming Services,Mango TV,China,Pass
+Video Streaming Services,Bilibili,China,Pass
+Video Streaming Services,Crunchyroll,World,Pass
+Music Streaming Services,Spotify,World,Pass
+Music Streaming Services,Apple Music,World,Pass
+Music Streaming Services,Amazon Music,World,Pass
+Music Streaming Services,YouTube Music,World,Pass
+Music Streaming Services,Tencent Music,China,Pass
+Music Streaming Services,NetEase Cloud Music,China,Pass
+Music Streaming Services,Yandex Music,World,Pass
+Music Streaming Services,Deezer,World,Pass
+Music Streaming Services,Qobuz,World,Pass
+Music Streaming Services,Kugou,China,Pass
+Music Streaming Services,Tidal,World,Pass
+Music Streaming Services,Pandora,World,Pass
+Music Streaming Services,SoundCloud,World,Pass
+Music Streaming Services,iHeartRadio,World,Pass
+Online Shopping Platforms,Amazon,World,Pass
+Online Shopping Platforms,Alibaba,China,Pass
+Online Shopping Platforms,JD,China,Pass
+Online Shopping Platforms,Pinduoduo,China,Pass
+Online Shopping Platforms,Mercado Libre,World,Pass
+Online Shopping Platforms,Taobao,China,Pass
+Online Shopping Platforms,Tmall,China,Pass
+Online Shopping Platforms,eBay,World,Pass
+Online Shopping Platforms,Shopee,World,Pass
+Online Shopping Platforms,Temu,China,Pass
+Online Shopping Platforms,Walmart,World,Pass
+Online Shopping Platforms,Etsy,World,Pass
+Online Shopping Platforms,Flipkart,World,Pass
+Online Shopping Platforms,StockX,World,Pass
+Online Shopping Platforms,Shein,China,Pass
+Online Shopping Platforms,ASOS,World,Pass
+Fast Food Chains,McDonald's,World,Pass
+Fast Food Chains,KFC,World,Pass
+Fast Food Chains,Chipotle,World,Pass
+Fast Food Chains,Burger King,World,Pass
+Fast Food Chains,Subway,World,Pass
+Fast Food Chains,Taco Bell,World,Pass
+Fast Food Chains,Pizza Hut,World,Pass
+Fast Food Chains,Domino's,World,Pass
+Fast Food Chains,Wendy's,World,Pass
+Fast Food Chains,Chick-fil-A,World,Pass
+Fast Food Chains,Popeyes,World,Pass
+Fast Food Chains,Tim Hortons,World,Pass
+Fast Food Chains,Dairy Queen,World,Pass
+Fast Food Chains,Papa John's,World,Pass
+Fast Food Chains,Jack in the Box,World,Pass
+Fast Food Chains,In-N-Out Burger,World,Pass
+Fast Food Chains,Shake Shack,World,Pass
+Fast Food Chains,Starbucks,World,Pass
+Coffee Chains,Starbucks,World,Pass
+Coffee Chains,Luckin Coffee,China,Pass
+Coffee Chains,Costa Coffee,World,Pass
+Coffee Chains,Cotti Coffee,China,Pass
+Coffee Chains,Caffè Nero,World,Pass
+Coffee Chains,Caribou Coffee,World,Pass
+Coffee Chains,The Coffee Bean & Tea Leaf,World,Pass
+Coffee Chains,Café Amazon,World,Pass
+Coffee Chains,Café Coffee Day,World,Pass
+Coffee Chains,Blue Bottle Coffee,World,Pass
+Coffee Chains,% Arabica,World,Pass
+Coffee Chains,Compose Coffee,World,Pass
+Coffee Chains,Tim Hortons,World,Pass
+Coffee Chains,Dunkin',World,Pass
+Coffee Chains,McCafé,World,Pass
+Coffee Chains,Peet's Coffee,World,Pass
+Coffee Chains,Dutch Bros,World,Pass
+Bubble Tea Chains,Mixue Bingcheng,China,Pass
+Bubble Tea Chains,Heytea,China,Pass
+Bubble Tea Chains,Chagee,China,Pass
+Bubble Tea Chains,Good Me,China,Pass
+Bubble Tea Chains,Auntea Jenny,China,Pass
+Bubble Tea Chains,Baicha Baidao,China,Pass
+Bubble Tea Chains,Nayuki,China,Pass
+Bubble Tea Chains,Chatime,World,Pass
+Bubble Tea Chains,CoCo Fresh Tea & Juice,World,Pass
+Bubble Tea Chains,Gong Cha,World,Pass
+Bubble Tea Chains,Yi Dian Dian,World,Pass
+Bubble Tea Chains,Tiger Sugar,World,Pass
+Bubble Tea Chains,Xing Fu Tang,World,Pass
+Bubble Tea Chains,Kung Fu Tea,World,Pass
+Bubble Tea Chains,The Alley,World,Pass
+Bubble Tea Chains,Tealive,World,Pass
+Bubble Tea Chains,Happy Lemon,World,Pass
+Bubble Tea Chains,Sharetea,World,Pass
+Hot Pot Restaurant Chains,Haidilao,China,Pass
+Hot Pot Restaurant Chains,Xiabu Xiabu,China,Pass
+Hot Pot Restaurant Chains,Banu,China,Pass
+Hot Pot Restaurant Chains,Coucou,China,Pass
+Hot Pot Restaurant Chains,Xiaolongkan,China,Pass
+Hot Pot Restaurant Chains,Dezhuang,China,Pass
+Hot Pot Restaurant Chains,Liuyishou,China,Pass
+Hot Pot Restaurant Chains,Shu Daxia,China,Pass
+Hot Pot Restaurant Chains,Dalongyi,China,Pass
+Hot Pot Restaurant Chains,Little Sheep,China,Pass
+Hot Pot Restaurant Chains,Happy Lamb,China,Pass
+Hot Pot Restaurant Chains,Dong Lai Shun,China,Pass
+Hot Pot Restaurant Chains,Dolar Shop,China,Pass
+Soft Drinks,Coca-Cola,World,Pass
+Soft Drinks,Genki Forest,China,Pass
+Soft Drinks,Pepsi,World,Pass
+Soft Drinks,Sprite,World,Pass
+Soft Drinks,Fanta,World,Pass
+Soft Drinks,7 Up,World,Pass
+Soft Drinks,Dr Pepper,World,Pass
+Soft Drinks,Schweppes,World,Pass
+Soft Drinks,RC Cola,World,Pass
+Soft Drinks,Irn-Bru,World,Pass
+Soft Drinks,Jones Soda,World,Pass
+Soft Drinks,Mountain Dew,World,Pass
+Soft Drinks,Canada Dry,World,Pass
+Soft Drinks,A&W,World,Pass
+Bottled Water,Nongfu Spring,China,Pass
+Bottled Water,Evian,World,Pass
+Bottled Water,Perrier,World,Pass
+Bottled Water,San Pellegrino,World,Pass
+Bottled Water,Volvic,World,Pass
+Bottled Water,Nestlé Pure Life,World,Pass
+Bottled Water,Aquafina,World,Pass
+Bottled Water,Dasani,World,Pass
+Bottled Water,Poland Spring,World,Pass
+Bottled Water,Fiji Water,World,Pass
+Bottled Water,Voss,World,Pass
+Bottled Water,Ganten,China,Pass
+Bottled Water,Watsons Water,China,Pass
+Bottled Water,Topo Chico,World,Pass
+Bottled Water,Gerolsteiner,World,Pass
+Bottled Water,Icelandic Glacial,World,Pass
+Bottled Water,Crystal Geyser,World,Pass
+Bottled Water,Smartwater,World,Pass
+Bottled Water,Mountain Valley,World,Pass
+Bottled Water,Acqua Panna,World,Pass
+Dairy Products,Yili,China,Pass
+Dairy Products,Mengniu,China,Pass
+Dairy Products,Lactalis,World,Pass
+Dairy Products,Nestlé,World,Pass
+Dairy Products,Danone,World,Pass
+Dairy Products,Fonterra,World,Pass
+Dairy Products,Arla,World,Pass
+Dairy Products,FrieslandCampina,World,Pass
+Dairy Products,Amul,World,Pass
+Dairy Products,Saputo,World,Pass
+Dairy Products,Dairy Farmers of America,World,Pass
+Dairy Products,Müller,World,Pass
+Dairy Products,Grupo Lala,World,Pass
+Dairy Products,Kerrygold,World,Pass
+Dairy Products,Tillamook,World,Pass
+Baijiu,Moutai,China,Pass
+Baijiu,Wuliangye,China,Pass
+Baijiu,Luzhou Laojiao,China,Pass
+Baijiu,National Cellar 1573,China,Pass
+Baijiu,Yanghe,China,Pass
+Baijiu,Gujing Gong Jiu,China,Pass
+Baijiu,Fenjiu,China,Pass
+Baijiu,Guoyuan,China,Pass
+Baijiu,Langjiu,China,Pass
+Baijiu,Jiannanchun,China,Pass
+Baijiu,Shuijingfang,China,Pass
+Baijiu,Xifeng,China,Pass
+Baijiu,Xijiu,China,Pass
+Baijiu,Jiugui,China,Pass
+Baijiu,Jiang Xiaobai,China,Pass
+Baijiu,Niulanshan,China,Pass
+Baijiu,Shede,China,Pass
+Beer,Tsingtao,China,Pass
+Beer,Snow,China,Pass
+Beer,Corona,World,Pass
+Beer,Heineken,World,Pass
+Beer,Budweiser,World,Pass
+Beer,Michelob Ultra,World,Pass
+Beer,Modelo,World,Pass
+Beer,Guinness,World,Pass
+Beer,Stella Artois,World,Pass
+Beer,Carlsberg,World,Pass
+Beer,Harbin,China,Pass
+Beer,Yanjing,China,Pass
+Beer,Zhujiang,China,Pass
+Beer,Wusu,China,Pass
+Beer,Westvleteren,World,Pass
+Beer,Pilsner Urquell,World,Pass
+Beer,Sierra Nevada,World,Pass
+Beer,Weihenstephaner,World,Pass
+Beer,Duvel,World,Pass
+Beer,The Alchemist,World,Pass
+Beer,Orval,World,Pass
+Beer,Cantillon,World,Pass
+Beer,Russian River,World,Pass
+Energy Drinks,Eastroc Beverage,China,Pass
+Energy Drinks,Red Bull,World,Pass
+Energy Drinks,Monster Energy,World,Pass
+Energy Drinks,Celsius,World,Pass
+Energy Drinks,Rockstar Energy,World,Pass
+Energy Drinks,Lucozade,World,Pass
+Energy Drinks,Prime,World,Pass
+Energy Drinks,5-Hour Energy,World,Pass
+Energy Drinks,NOS,World,Pass
+Energy Drinks,Amp,World,Pass
+Energy Drinks,Krating Daeng,World,Pass
+Energy Drinks,Lipovitan,World,Pass
+Energy Drinks,V,World,Pass
+Energy Drinks,Power Horse,World,Pass
+Energy Drinks,Hi-Tiger,China,Pass
+Energy Drinks,Bang,World,Pass
+Energy Drinks,Reign,World,Pass
+Energy Drinks,Ghost,World,Pass
+Soy Sauce,Haday,China,Pass
+Soy Sauce,Kikkoman,World,Pass
+Soy Sauce,Lee Kum Kee,China,Pass
+Soy Sauce,Yamasa,World,Pass
+Soy Sauce,Pearl River Bridge,China,Pass
+Soy Sauce,Qianhe,China,Pass
+Soy Sauce,Chubang,China,Pass
+Soy Sauce,Marukin,World,Pass
+Soy Sauce,San-J,World,Pass
+Soy Sauce,Wan Ja Shan,World,Pass
+Soy Sauce,La Choy,World,Pass
+Soy Sauce,ABC,World,Pass
+Soy Sauce,Aloha Shoyu,World,Pass
+Soy Sauce,Higeta,World,Pass
+Soy Sauce,Sempio,World,Pass
+Soy Sauce,Ohsawa,World,Pass
+Soy Sauce,Kishibori,World,Pass
+Processed Meat Products,Shuanghui,China,Pass
+Processed Meat Products,Yurun,China,Pass
+Processed Meat Products,Smithfield,World,Pass
+Processed Meat Products,Oscar Mayer,World,Pass
+Processed Meat Products,Hormel,World,Pass
+Processed Meat Products,Hillshire Farm,World,Pass
+Processed Meat Products,Boar's Head,World,Pass
+Processed Meat Products,Ball Park,World,Pass
+Processed Meat Products,Jimmy Dean,World,Pass
+Processed Meat Products,Tyson,World,Pass
+Processed Meat Products,Applegate,World,Pass
+Processed Meat Products,Land O' Frost,World,Pass
+Processed Meat Products,Niman Ranch,World,Pass
+Processed Meat Products,Johnsonville,World,Pass
+Processed Meat Products,Columbus,World,Pass
+Processed Meat Products,Nathan's Famous,World,Pass
+Banks,Chase,World,Pass
+Banks,J.P. Morgan,World,Pass
+Banks,Wells Fargo,World,Pass
+Banks,Bank of America,World,Pass
+Banks,RBC,World,Pass
+Banks,HDFC Bank,World,Pass
+Banks,BCA,World,Pass
+Banks,CommBank,World,Pass
+Banks,Morgan Stanley,World,Pass
+Banks,ICBC,China,Pass
+Banks,Agricultural Bank of China,China,Pass
+Banks,China Construction Bank,China,Pass
+Banks,Bank of China,China,Pass
+Banks,China Merchants Bank,China,Pass
+Banks,Bank of Communications,China,Pass
+Banks,China Everbright Bank,China,Pass
+Banks,China CITIC Bank,China,Pass
+Banks,Bank of Ningbo,China,Pass
+Banks,China Minsheng Bank,China,Pass
+Banks,HSBC,World,Pass
+Banks,Citi,World,Pass
+Banks,BNP Paribas,World,Pass
+Banks,Barclays,World,Pass
+Banks,Banco Santander,World,Pass
+Banks,MUFG,World,Pass
+Banks,Goldman Sachs,World,Pass
+Banks,Deutsche Bank,World,Pass
+Banks,UBS,World,Pass
+Banks,TD Bank,World,Pass
+Payment Card Networks,Visa,World,Pass
+Payment Card Networks,Mastercard,World,Pass
+Payment Card Networks,American Express,World,Pass
+Payment Card Networks,UnionPay,China,Pass
+Payment Card Networks,Discover,World,Pass
+Payment Card Networks,JCB,World,Pass
+Payment Card Networks,Diners Club,World,Pass
+Payment Card Networks,RuPay,World,Pass
+Payment Card Networks,Elo,World,Pass
+Payment Card Networks,Mir,World,Pass
+Payment Card Networks,Interac,World,Pass
+Digital Payment Services,PayPal,World,Pass
+Digital Payment Services,Stripe,World,Pass
+Digital Payment Services,Apple Pay,World,Pass
+Digital Payment Services,Google Pay,World,Pass
+Digital Payment Services,WeChat Pay,China,Pass
+Digital Payment Services,Alipay,China,Pass
+Digital Payment Services,Venmo,World,Pass
+Digital Payment Services,Cash App,World,Pass
+Digital Payment Services,Zelle,World,Pass
+Digital Payment Services,Samsung Pay,World,Pass
+Digital Payment Services,Wise,World,Pass
+Digital Payment Services,PhonePe,World,Pass
+Insurance Companies,Ping An,China,Pass
+Insurance Companies,China Life,China,Pass
+Insurance Companies,CPIC,China,Pass
+Insurance Companies,PICC,China,Pass
+Insurance Companies,Taikang,China,Pass
+Insurance Companies,NCI,China,Pass
+Insurance Companies,Allianz,World,Pass
+Insurance Companies,AXA,World,Pass
+Insurance Companies,MetLife,World,Pass
+Insurance Companies,Prudential,World,Pass
+Insurance Companies,Generali,World,Pass
+Insurance Companies,AIG,World,Pass
+Insurance Companies,Zurich,World,Pass
+Insurance Companies,State Farm,World,Pass
+Insurance Companies,Allstate,World,Pass
+Insurance Companies,Progressive,World,Pass
+Insurance Companies,Liberty Mutual,World,Pass
+Insurance Companies,Nippon Life,World,Pass
+Insurance Companies,Manulife,World,Pass
+Insurance Companies,Aviva,World,Pass
+Insurance Companies,LIC,World,Pass
+Health Insurance,UnitedHealthcare,World,Pass
+Health Insurance,Elevance Health,World,Pass
+Health Insurance,Anthem,World,Pass
+Health Insurance,Aetna,World,Pass
+Health Insurance,Centene,World,Pass
+Health Insurance,Ambetter,World,Pass
+Health Insurance,Health Care Service Corporation,World,Pass
+Health Insurance,Blue Cross Blue Shield,World,Pass
+Health Insurance,Cigna,World,Pass
+Health Insurance,Kaiser Permanente,World,Pass
+Health Insurance,Humana,World,Pass
+Mobile Carriers,China Mobile,China,Pass
+Mobile Carriers,China Telecom,China,Pass
+Mobile Carriers,China Unicom,China,Pass
+Mobile Carriers,Verizon,World,Pass
+Mobile Carriers,AT&T,World,Pass
+Mobile Carriers,T-Mobile,World,Pass
+Mobile Carriers,Airtel,World,Pass
+Mobile Carriers,Reliance Jio,World,Pass
+Mobile Carriers,Vodafone,World,Pass
+Mobile Carriers,América Móvil,World,Pass
+Mobile Carriers,Orange,World,Pass
+Mobile Carriers,Telefónica,World,Pass
+Mobile Carriers,MTN,World,Pass
+Mobile Carriers,Deutsche Telekom,World,Pass
+Mobile Carriers,NTT Docomo,World,Pass
+Mobile Carriers,Telkomsel,World,Pass
+Mobile Carriers,Etisalat,World,Pass
+Mobile Carriers,Telenor,World,Pass
+Mobile Carriers,Viettel,World,Pass
+Mobile Carriers,Ooredoo,World,Pass
+Mobile Carriers,Vodafone Idea,World,Pass
+Internet Service Providers,Spectrum,World,Pass
+Internet Service Providers,Xfinity,World,Pass
+Internet Service Providers,AT&T,World,Pass
+Internet Service Providers,Verizon,World,Pass
+Internet Service Providers,Frontier,World,Pass
+Internet Service Providers,Optimum,World,Pass
+Internet Service Providers,Cox,World,Pass
+Internet Service Providers,T-Mobile,World,Pass
+Internet Service Providers,Google Fiber,World,Pass
+Internet Service Providers,Starlink,World,Pass
+Internet Service Providers,Astound,World,Pass
+Internet Service Providers,WOW!,World,Pass
+Airlines,Air China,China,Pass
+Airlines,China Southern Airlines,China,Pass
+Airlines,China Eastern Airlines,China,Pass
+Airlines,Hainan Airlines,China,Pass
+Airlines,Cathay Pacific,China,Pass
+Airlines,Qatar Airways,World,Pass
+Airlines,Singapore Airlines,World,Pass
+Airlines,Emirates,World,Pass
+Airlines,ANA,World,Pass
+Airlines,Turkish Airlines,World,Pass
+Airlines,Korean Air,World,Pass
+Airlines,Air France,World,Pass
+Airlines,Japan Airlines,World,Pass
+Airlines,Swiss,World,Pass
+Airlines,EVA Air,World,Pass
+Airlines,British Airways,World,Pass
+Airlines,Qantas,World,Pass
+Airlines,Lufthansa,World,Pass
+Airlines,Virgin Atlantic,World,Pass
+Airlines,Delta Air Lines,World,Pass
+Airlines,American Airlines,World,Pass
+Airlines,United Airlines,World,Pass
+Airlines,Southwest Airlines,World,Pass
+Airlines,Ryanair,World,Pass
+Express Delivery Services,UPS,World,Pass
+Express Delivery Services,FedEx,World,Pass
+Express Delivery Services,DHL,World,Pass
+Express Delivery Services,SF Express,China,Pass
+Express Delivery Services,ZTO Express,China,Pass
+Express Delivery Services,YTO Express,China,Pass
+Express Delivery Services,Yunda,China,Pass
+Express Delivery Services,STO Express,China,Pass
+Express Delivery Services,J&T Express,China,Pass
+Express Delivery Services,JD Logistics,China,Pass
+Express Delivery Services,USPS,World,Pass
+Express Delivery Services,Royal Mail,World,Pass
+Express Delivery Services,DPD,World,Pass
+Express Delivery Services,GLS,World,Pass
+Express Delivery Services,Aramex,World,Pass
+Express Delivery Services,Blue Dart,World,Pass
+Express Delivery Services,Yamato,World,Pass
+Food Delivery Platforms,Meituan,China,Pass
+Food Delivery Platforms,Ele.me,China,Pass
+Food Delivery Platforms,DoorDash,World,Pass
+Food Delivery Platforms,Uber Eats,World,Pass
+Food Delivery Platforms,Deliveroo,World,Pass
+Food Delivery Platforms,Just Eat Takeaway,World,Pass
+Food Delivery Platforms,Zomato,World,Pass
+Food Delivery Platforms,Swiggy,World,Pass
+Food Delivery Platforms,Grab,World,Pass
+Food Delivery Platforms,iFood,World,Pass
+Food Delivery Platforms,Foodpanda,World,Pass
+Food Delivery Platforms,Glovo,World,Pass
+Food Delivery Platforms,Talabat,World,Pass
+Food Delivery Platforms,Baemin,World,Pass
+Ride-Hailing Apps,Uber,World,Pass
+Ride-Hailing Apps,Didi,China,Pass
+Ride-Hailing Apps,Lyft,World,Pass
+Ride-Hailing Apps,Grab,World,Pass
+Ride-Hailing Apps,Bolt,World,Pass
+Ride-Hailing Apps,inDrive,World,Pass
+Ride-Hailing Apps,Ola,World,Pass
+Ride-Hailing Apps,Gojek,World,Pass
+Ride-Hailing Apps,Yandex Go,World,Pass
+Ride-Hailing Apps,Careem,World,Pass
+Online Travel Agencies,Ctrip,China,Pass
+Online Travel Agencies,Booking.com,World,Pass
+Online Travel Agencies,Qunar,China,Pass
+Online Travel Agencies,Fliggy,China,Pass
+Online Travel Agencies,Expedia,World,Pass
+Online Travel Agencies,Airbnb,World,Pass
+Online Travel Agencies,MakeMyTrip,World,Pass
+Online Travel Agencies,Tongcheng,China,Pass
+Online Travel Agencies,Tripadvisor,World,Pass
+Online Travel Agencies,Agoda,World,Pass
+Online Travel Agencies,Priceline,World,Pass
+Online Travel Agencies,KAYAK,World,Pass
+Online Travel Agencies,Despegar,World,Pass
+Online Travel Agencies,eDreams,World,Pass
+Online Travel Agencies,Hotels.com,World,Pass
+Online Travel Agencies,Orbitz,World,Pass
+Online Travel Agencies,Travelocity,World,Pass
+Hotel Chains,Hilton,World,Pass
+Hotel Chains,Marriott,World,Pass
+Hotel Chains,Hyatt,World,Pass
+Hotel Chains,IHG,World,Pass
+Hotel Chains,Holiday Inn,World,Pass
+Hotel Chains,Four Seasons,World,Pass
+Hotel Chains,The Ritz-Carlton,World,Pass
+Hotel Chains,Sheraton,World,Pass
+Hotel Chains,Shangri-La,China,Pass
+Hotel Chains,Hampton by Hilton,World,Pass
+Hotel Chains,Best Western,World,Pass
+Hotel Chains,Ibis,World,Pass
+Hotel Chains,Sofitel,World,Pass
+Hotel Chains,Fairmont,World,Pass
+Hotel Chains,Mandarin Oriental,China,Pass
+Hotel Chains,Hanting,China,Pass
+Hotel Chains,Waldorf Astoria,World,Pass
+Hotel Chains,Taj Hotels,World,Pass
+Hotel Chains,Motel 6,World,Pass
+Hotel Chains,Accor,World,Pass
+Hotel Chains,Wyndham,World,Pass
+Hotel Chains,Choice Hotels,World,Pass
+Restaurant Review Platforms,Dianping,China,Pass
+Restaurant Review Platforms,Yelp,World,Pass
+Restaurant Review Platforms,Tripadvisor,World,Pass
+Restaurant Review Platforms,Google Maps,World,Pass
+Restaurant Review Platforms,OpenTable,World,Pass
+Restaurant Review Platforms,Zomato,World,Pass
+Restaurant Review Platforms,Foursquare,World,Pass
+Restaurant Review Platforms,Zagat,World,Pass
+Restaurant Review Platforms,TheFork,World,Pass
+Restaurant Review Platforms,Michelin Guide,World,Pass
+Restaurant Review Platforms,Tabelog,World,Pass
+Restaurant Review Platforms,Resy,World,Pass
+Real Estate Agencies,KE,China,Pass
+Real Estate Agencies,Lianjia,China,Pass
+Real Estate Agencies,Compass,World,Pass
+Real Estate Agencies,eXp Realty,World,Pass
+Real Estate Agencies,RE/MAX,World,Pass
+Real Estate Agencies,Century 21,World,Pass
+Real Estate Agencies,Coldwell Banker,World,Pass
+Real Estate Agencies,Keller Williams,World,Pass
+Real Estate Agencies,Sotheby's International Realty,World,Pass
+Real Estate Agencies,Berkshire Hathaway HomeServices,World,Pass
+Real Estate Agencies,Douglas Elliman,World,Pass
+Real Estate Agencies,Redfin,World,Pass
+Real Estate Agencies,Better Homes and Gardens Real Estate,World,Pass
+Real Estate Agencies,Engel & Völkers,World,Pass
+Real Estate Agencies,Christie's International Real Estate,World,Pass
+Chinese Real Estate Developers,Vanke,China,Pass
+Chinese Real Estate Developers,Poly,China,Pass
+Chinese Real Estate Developers,CR Land,China,Pass
+Chinese Real Estate Developers,China Overseas Land,China,Pass
+Chinese Real Estate Developers,Greentown,China,Pass
+Chinese Real Estate Developers,China Merchants Shekou,China,Pass
+Chinese Real Estate Developers,C&D Real Estate,China,Pass
+Chinese Real Estate Developers,China Jinmao,China,Pass
+Chinese Real Estate Developers,Yuexiu Property,China,Pass
+Chinese Real Estate Developers,Binjiang Group,China,Pass
+Chinese Real Estate Developers,Greenland,China,Pass
+Chinese Real Estate Developers,Longfor,China,Pass
+Electric Vehicles,Tesla,World,Pass
+Electric Vehicles,BYD,China,Pass
+Electric Vehicles,Li Auto,China,Pass
+Electric Vehicles,Xpeng,China,Pass
+Electric Vehicles,NIO,China,Pass
+Electric Vehicles,Geely,China,Pass
+Electric Vehicles,Leapmotor,China,Pass
+Electric Vehicles,Wuling,China,Pass
+Electric Vehicles,Xiaomi,China,Pass
+Electric Vehicles,BMW,World,Pass
+Electric Vehicles,Volkswagen,World,Pass
+Electric Vehicles,Mercedes-Benz,World,Pass
+Electric Vehicles,Hyundai,World,Pass
+Electric Vehicles,Kia,World,Pass
+Electric Vehicles,Ford,World,Pass
+Electric Vehicles,Audi,World,Pass
+Electric Vehicles,Lucid,World,Pass
+Electric Vehicles,Rivian,World,Pass
+Electric Vehicles,Nissan,World,Pass
+Cars,Toyota,World,Pass
+Cars,Mercedes-Benz,World,Pass
+Cars,BMW,World,Pass
+Cars,Volkswagen,World,Pass
+Cars,Porsche,World,Pass
+Cars,Audi,World,Pass
+Cars,Tesla,World,Pass
+Cars,BYD,China,Pass
+Cars,Ferrari,World,Pass
+Cars,Hyundai,World,Pass
+Cars,Ford,World,Pass
+Cars,Honda,World,Pass
+Cars,Nissan,World,Pass
+Cars,Kia,World,Pass
+Cars,Chevrolet,World,Pass
+Cars,Geely,China,Pass
+Luxury Fashion,Louis Vuitton,World,Pass
+Luxury Fashion,Hermès,World,Pass
+Luxury Fashion,Chanel,World,Pass
+Luxury Fashion,Gucci,World,Pass
+Luxury Fashion,Dior,World,Pass
+Luxury Fashion,Prada,World,Pass
+Luxury Fashion,Burberry,World,Pass
+Luxury Fashion,Moncler,World,Pass
+Luxury Fashion,Coach,World,Pass
+Luxury Fashion,Michael Kors,World,Pass
+Luxury Fashion,Tom Ford,World,Pass
+Luxury Fashion,Dolce & Gabbana,World,Pass
+Luxury Fashion,Christian Louboutin,World,Pass
+Luxury Fashion,Polo Ralph Lauren,World,Pass
+Luxury Fashion,Saint Laurent,World,Pass
+Luxury Fashion,Balenciaga,World,Pass
+Luxury Fashion,Versace,World,Pass
+Sportswear,Nike,World,Pass
+Sportswear,Adidas,World,Pass
+Sportswear,Anta,China,Pass
+Sportswear,Puma,World,Pass
+Sportswear,Lululemon,World,Pass
+Sportswear,Under Armour,World,Pass
+Sportswear,New Balance,World,Pass
+Sportswear,ASICS,World,Pass
+Sportswear,Skechers,World,Pass
+Sportswear,Li-Ning,China,Pass
+Sportswear,Alo Yoga,World,Pass
+Sportswear,Gymshark,World,Pass
+Sportswear,Arc'teryx,World,Pass
+Sportswear,Outdoor Voices,World,Pass
+Fast Fashion,Zara,World,Pass
+Fast Fashion,Uniqlo,World,Pass
+Fast Fashion,Shein,China,Pass
+Fast Fashion,H&M,World,Pass
+Fast Fashion,Mango,World,Pass
+Fast Fashion,Gap,World,Pass
+Fast Fashion,Primark,World,Pass
+Fast Fashion,Fashion Nova,World,Pass
+Fast Fashion,Forever 21,World,Pass
+Fast Fashion,ASOS,World,Pass
+Fast Fashion,Boohoo,World,Pass
+Fast Fashion,New Look,World,Pass
+Fast Fashion,Stradivarius,World,Pass
+Cosmetics,L'Oréal Paris,World,Pass
+Cosmetics,Chanel,World,Pass
+Cosmetics,Lancôme,World,Pass
+Cosmetics,Estée Lauder,World,Pass
+Cosmetics,Shiseido,World,Pass
+Cosmetics,Nivea,World,Pass
+Cosmetics,Guerlain,World,Pass
+Cosmetics,Maybelline,World,Pass
+Cosmetics,MAC,World,Pass
+Cosmetics,NARS,World,Pass
+Cosmetics,Clinique,World,Pass
+Cosmetics,Fenty Beauty,World,Pass
+Cosmetics,Dior,World,Pass
+Cosmetics,Revlon,World,Pass
+Cosmetics,CoverGirl,World,Pass
+Cosmetics,e.l.f.,World,Pass
+Cosmetics,Avon,World,Pass
+Cosmetics,Pechoin,China,Pass
+Jewelry,Chow Tai Fook,China,Pass
+Jewelry,Cartier,World,Pass
+Jewelry,Tiffany & Co.,World,Pass
+Jewelry,Bulgari,World,Pass
+Jewelry,Pandora,World,Pass
+Jewelry,Swarovski,World,Pass
+Jewelry,Chopard,World,Pass
+Jewelry,Chow Sang Sang,China,Pass
+Jewelry,Lao Feng Xiang,China,Pass
+Jewelry,Luk Fook,China,Pass
+Jewelry,Zhou Da Sheng,China,Pass
+Jewelry,Chao Hong Ji,China,Pass
+Jewelry,Laopu Gold,China,Pass
+Jewelry,Van Cleef & Arpels,World,Pass
+Jewelry,Harry Winston,World,Pass
+Jewelry,Graff,World,Pass
+Jewelry,Buccellati,World,Pass
+Jewelry,David Yurman,World,Pass
+Jewelry,Mikimoto,World,Pass
+Home Appliances,Haier,China,Pass
+Home Appliances,Midea,China,Pass
+Home Appliances,Gree,China,Pass
+Home Appliances,Whirlpool,World,Pass
+Home Appliances,Electrolux,World,Pass
+Home Appliances,Bosch,World,Pass
+Home Appliances,LG,World,Pass
+Home Appliances,Samsung,World,Pass
+Home Appliances,Beko,World,Pass
+Home Appliances,Siemens,World,Pass
+Home Appliances,Miele,World,Pass
+Home Appliances,Panasonic,World,Pass
+Home Appliances,Dyson,World,Pass
+Home Appliances,Hisense,China,Pass
+Home Appliances,GE Appliances,World,Pass
+Home Appliances,Sub-Zero,World,Pass
+Home Appliances,Speed Queen,World,Pass
+Home Appliances,KitchenAid,World,Pass
+Home Appliances,Breville,World,Pass
+Air Conditioners,Gree,China,Pass
+Air Conditioners,Daikin,World,Pass
+Air Conditioners,Carrier,World,Pass
+Air Conditioners,Midea,China,Pass
+Air Conditioners,LG,World,Pass
+Air Conditioners,Mitsubishi Electric,World,Pass
+Air Conditioners,Panasonic,World,Pass
+Air Conditioners,Trane,World,Pass
+Air Conditioners,Haier,China,Pass
+Air Conditioners,Hitachi,World,Pass
+Air Conditioners,Johnson Controls,World,Pass
+Air Conditioners,Lennox,World,Pass
+Air Conditioners,American Standard,World,Pass
+TVs,TCL,China,Pass
+TVs,Samsung,World,Pass
+TVs,Hisense,China,Pass
+TVs,LG,World,Pass
+TVs,Xiaomi,China,Pass
+TVs,Vizio,World,Pass
+TVs,Sony,World,Pass
+TVs,Panasonic,World,Pass
+TVs,Roku,World,Pass
+TVs,Philips,World,Pass
+Laptops,Lenovo,China,Pass
+Laptops,Dell,World,Pass
+Laptops,HP,World,Pass
+Laptops,Apple,World,Pass
+Laptops,Asus,World,Pass
+Laptops,Acer,World,Pass
+Laptops,Microsoft Surface,World,Pass
+Laptops,MSI,World,Pass
+Laptops,Razer,World,Pass
+Laptops,Alienware,World,Pass
+Laptops,Huawei,China,Pass
+Drones,DJI,China,Pass
+Drones,Autel,China,Pass
+Drones,Skydio,World,Pass
+Drones,Parrot,World,Pass
+Drones,Yuneec,China,Pass
+Drones,Hubsan,China,Pass
+Drones,PowerVision,China,Pass
+Drones,HoverAir,China,Pass
+Drones,Potensic,China,Pass
+Drones,Holy Stone,World,Pass
+Drones,Antigravity,China,Pass
+Drones,Insta360,China,Pass
+Video Game Consoles,Xbox,World,Pass
+Video Game Consoles,PlayStation,World,Pass
+Video Game Consoles,Nintendo,World,Pass
+Video Game Consoles,Steam Deck,World,Pass
+Video Game Consoles,ROG Ally,World,Pass
+Video Game Consoles,Legion Go,China,Pass
+Video Game Consoles,MSI Claw,World,Pass
+Video Game Consoles,Ayaneo,China,Pass
+Video Game Consoles,Meta Quest,World,Pass
+Video Game Consoles,Sega,World,Pass
+Video Game Consoles,Atari,World,Pass
+Video Game Consoles,Nex Playground,World,Pass
+Video Game Consoles,NEC,World,Pass
+Video Game Consoles,SNK,World,Pass
+Video Game Consoles,Magnavox,World,Pass
+Video Game Consoles,Panasonic,World,Pass
+Consumer Electronics,Sony,World,Pass
+Consumer Electronics,Apple,World,Pass
+Consumer Electronics,Samsung,World,Pass
+Consumer Electronics,LG,World,Pass
+Consumer Electronics,Panasonic,World,Pass
+Consumer Electronics,Huawei,China,Pass
+Consumer Electronics,Xiaomi,China,Pass
+Consumer Electronics,Philips,World,Pass
+Consumer Electronics,Toshiba,World,Pass
+Consumer Electronics,Epson,World,Pass
+Consumer Electronics,Bose,World,Pass
+Consumer Electronics,Microsoft,World,Pass
+Consumer Electronics,Google,World,Pass
+Consumer Electronics,Amazon,World,Pass
+Consumer Electronics,Dyson,World,Pass
+AI Chatbot Apps,ChatGPT,World,Pass
+AI Chatbot Apps,DeepSeek,China,Pass
+AI Chatbot Apps,Gemini,World,Pass
+AI Chatbot Apps,Perplexity,World,Pass
+AI Chatbot Apps,Claude,World,Pass
+AI Chatbot Apps,Microsoft Copilot,World,Pass
+AI Chatbot Apps,Grok,World,Pass
+AI Chatbot Apps,Poe,World,Pass
+AI Chatbot Apps,Meta AI,World,Pass
+AI Chatbot Apps,Mistral,World,Pass
+AI Chatbot Apps,Doubao,China,Pass
+AI Chatbot Apps,Kimi,China,Pass
+AI Chatbot Apps,ChatGLM,China,Pass
+AI Chatbot Apps,Character.AI,World,Pass
+AI Chatbot Apps,Replika,World,Pass
+Supermarket Chains,Walmart,World,Pass
+Supermarket Chains,Costco,World,Pass
+Supermarket Chains,Aldi,World,Pass
+Supermarket Chains,Freshippo,China,Pass
+Supermarket Chains,Carrefour,World,Pass
+Supermarket Chains,Lidl,World,Pass
+Supermarket Chains,Tesco,World,Pass
+Supermarket Chains,Kroger,World,Pass
+Supermarket Chains,Albertsons,World,Pass
+Supermarket Chains,Aeon,World,Pass
+Supermarket Chains,Edeka,World,Pass
+Supermarket Chains,Auchan,World,Pass
+Supermarket Chains,Kaufland,World,Pass
+Supermarket Chains,Lotte Mart,World,Pass
+Supermarket Chains,Whole Foods Market,World,Pass
+Supermarket Chains,Ahold Delhaize,World,Pass
+Home Improvement Retail Chains,The Home Depot,World,Pass
+Home Improvement Retail Chains,Lowe's,World,Pass
+Home Improvement Retail Chains,Ace Hardware,World,Pass
+Home Improvement Retail Chains,True Value,World,Pass
+Home Improvement Retail Chains,Menards,World,Pass
+Home Improvement Retail Chains,Leroy Merlin,World,Pass
+Home Improvement Retail Chains,B&Q,World,Pass
+Home Improvement Retail Chains,Castorama,World,Pass
+Home Improvement Retail Chains,Screwfix,World,Pass
+Home Improvement Retail Chains,Bunnings,World,Pass
+Home Improvement Retail Chains,OBI,World,Pass
+Home Improvement Retail Chains,Bauhaus,World,Pass
+Home Improvement Retail Chains,Sodimac,World,Pass
+Home Improvement Retail Chains,Do it Best,World,Pass
+Home Improvement Retail Chains,Home Hardware,World,Pass
+Furniture Stores,IKEA,World,Pass
+Furniture Stores,Wayfair,World,Pass
+Furniture Stores,Williams-Sonoma,World,Pass
+Furniture Stores,Pottery Barn,World,Pass
+Furniture Stores,West Elm,World,Pass
+Furniture Stores,Ashley Furniture,World,Pass
+Furniture Stores,RH,World,Pass
+Furniture Stores,La-Z-Boy,World,Pass
+Furniture Stores,Rooms To Go,World,Pass
+Furniture Stores,Raymour & Flanigan,World,Pass
+Furniture Stores,Room & Board,World,Pass
+Furniture Stores,Ethan Allen,World,Pass
+Furniture Stores,Crate & Barrel,World,Pass
+Traditional Chinese Medicine,Tong Ren Tang,China,Pass
+Traditional Chinese Medicine,Yunnan Baiyao,China,Pass
+Traditional Chinese Medicine,Dong E E Jiao,China,Pass
+Traditional Chinese Medicine,CR Sanjiu,China,Pass
+Traditional Chinese Medicine,Pien Tze Huang,China,Pass
+Traditional Chinese Medicine,Guangyuyuan,China,Pass
+Traditional Chinese Medicine,Chen Liji,China,Pass
+Traditional Chinese Medicine,Hu Qing Yu Tang,China,Pass
+Traditional Chinese Medicine,Baiyunshan,China,Pass
+Traditional Chinese Medicine,Eu Yan Sang,World,Pass
+Traditional Chinese Medicine,Tasly,China,Pass
+Traditional Chinese Medicine,Kangmei,China,Pass
+Online Healthcare Platforms,WeDoctor,China,Pass
+Online Healthcare Platforms,Ping An Good Doctor,China,Pass
+Online Healthcare Platforms,JD Health,China,Pass
+Online Healthcare Platforms,AliHealth,China,Pass
+Online Healthcare Platforms,Haodf,China,Pass
+Online Healthcare Platforms,Teladoc,World,Pass
+Online Healthcare Platforms,Amwell,World,Pass
+Online Healthcare Platforms,Doctor On Demand,World,Pass
+Online Healthcare Platforms,MDLIVE,World,Pass
+Online Healthcare Platforms,Sesame,World,Pass
+Online Healthcare Platforms,PlushCare,World,Pass
+Online Healthcare Platforms,LifeMD,World,Pass
+Online Healthcare Platforms,LiveHealth Online,World,Pass
+Online Healthcare Platforms,Babylon Health,World,Pass
+Online Healthcare Platforms,Zocdoc,World,Pass
+Online Healthcare Platforms,Hims & Hers,World,Pass
+Online Healthcare Platforms,BetterHelp,World,Pass
+Online Healthcare Platforms,Carbon Health,World,Pass
+Job Search Platforms,Boss Zhipin,China,Pass
+Job Search Platforms,LinkedIn,World,Pass
+Job Search Platforms,Indeed,World,Pass
+Job Search Platforms,Glassdoor,World,Pass
+Job Search Platforms,ZipRecruiter,World,Pass
+Job Search Platforms,Monster,World,Pass
+Job Search Platforms,CareerBuilder,World,Pass
+Job Search Platforms,SimplyHired,World,Pass
+Job Search Platforms,Dice,World,Pass
+Job Search Platforms,FlexJobs,World,Pass
+Job Search Platforms,Zhaopin,China,Pass
+Job Search Platforms,51job,China,Pass
+Job Search Platforms,Liepin,China,Pass
+Job Search Platforms,Lagou,China,Pass
+Job Search Platforms,Maimai,China,Pass
+News Apps,Toutiao,China,Pass
+News Apps,Google News,World,Pass
+News Apps,Apple News,World,Pass
+News Apps,Flipboard,World,Pass
+News Apps,SmartNews,World,Pass
+News Apps,Yahoo News,World,Pass
+News Apps,BBC News,World,Pass
+News Apps,CNN,World,Pass
+News Apps,AP News,World,Pass
+News Apps,NewsBreak,World,Pass
+News Apps,Fox News,World,Pass
+News Apps,The New York Times,World,Pass
+News Apps,Tencent News,China,Pass
+News Apps,NetEase News,China,Pass
+News Apps,Feedly,World,Pass
+News Apps,Ground News,World,Pass
+News Apps,Reuters,World,Pass
+Video Game Companies,Tencent,China,Pass
+Video Game Companies,NetEase,China,Pass
+Video Game Companies,Sony Interactive Entertainment,World,Pass
+Video Game Companies,Xbox,World,Pass
+Video Game Companies,Nintendo,World,Pass
+Video Game Companies,Electronic Arts,World,Pass
+Video Game Companies,Take-Two Interactive,World,Pass
+Video Game Companies,Valve,World,Pass
+Video Game Companies,Epic Games,World,Pass
+Video Game Companies,Roblox,World,Pass
+Video Game Companies,miHoYo,China,Pass
+Video Game Companies,Bandai Namco,World,Pass
+Video Game Companies,Nexon,World,Pass
+Video Game Companies,Sega,World,Pass
+Video Game Companies,Krafton,World,Pass
+Video Game Companies,Konami,World,Pass
+Video Game Companies,Activision Blizzard,World,Pass
+Video Game Companies,Riot Games,World,Pass
+Video Game Companies,Supercell,World,Pass
+Video Game Companies,Rockstar Games,World,Pass
+Video Game Companies,Capcom,World,Pass
+Video Game Companies,FromSoftware,World,Pass
+Video Game Companies,Blizzard,World,Pass
+Video Game Companies,Square Enix,World,Pass
+Movie Studios,Disney,World,Pass
+Movie Studios,Warner Bros.,World,Pass
+Movie Studios,Universal Pictures,World,Pass
+Movie Studios,Sony Pictures,World,Pass
+Movie Studios,Paramount Pictures,World,Pass
+Movie Studios,Lionsgate,World,Pass
+Movie Studios,A24,World,Pass
+Movie Studios,Amazon MGM Studios,World,Pass
+Movie Studios,20th Century Studios,World,Pass
+Movie Studios,Columbia Pictures,World,Pass
+Movie Studios,DreamWorks,World,Pass
+Movie Studios,Marvel Studios,World,Pass
+Movie Studios,Lucasfilm,World,Pass
+Movie Studios,Legendary,World,Pass
+Movie Studios,Blumhouse,World,Pass
+Movie Studios,Neon,World,Pass
+Cigarette Brands,Marlboro,World,Pass
+Cigarette Brands,L&M,World,Pass
+Cigarette Brands,Pall Mall,World,Pass
+Cigarette Brands,Winston,World,Pass
+Cigarette Brands,Camel,World,Pass
+Cigarette Brands,Rothmans,World,Pass
+Cigarette Brands,Chesterfield,World,Pass
+Cigarette Brands,Newport,World,Pass
+Cigarette Brands,Gold Flake,World,Pass
+Cigarette Brands,Sampoerna,World,Pass
+Cigarette Brands,Dunhill,World,Pass
+Cigarette Brands,Lucky Strike,World,Pass
+Cigarette Brands,Parliament,World,Pass
+Cigarette Brands,Bond Street,World,Pass

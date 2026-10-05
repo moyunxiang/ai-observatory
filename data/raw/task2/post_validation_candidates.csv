@@ -1,0 +1,136 @@
+category_id,brand,world_china,wiki_query,found_in_run
+smartphones,Google Pixel,World,Google Pixel,r1_ds
+smartphones,OnePlus,China,OnePlus,r1_ds
+smartphones,Sony,World,Sony Xperia,r1_ds
+short_video,Moj,World,Moj (app),r1_ds
+short_video,Josh,World,Josh (app),r1_ds
+short_video,Roposo,World,Roposo,r1_ds
+music_streaming,Tidal,World,Tidal (service),r1_ds
+music_streaming,Pandora,World,Pandora (service),r1_ds
+music_streaming,SoundCloud,World,SoundCloud,r1_ds
+music_streaming,iHeartRadio,World,iHeartRadio,r1_ds
+ecommerce,Etsy,World,Etsy,r1_ds
+ecommerce,Flipkart,World,Flipkart,r1_ds
+ecommerce,StockX,World,StockX,r1_ds
+ecommerce,Shein,China,Shein,r1_ds
+ecommerce,ASOS,World,Asos.com,r1_ds
+fast_food,In-N-Out Burger,World,In-N-Out Burger,r1_ds
+fast_food,Shake Shack,World,Shake Shack,r1_ds
+fast_food,Starbucks,World,Starbucks,r1_ds
+coffee_chains,McCafé,World,McCafé,r1_ds
+coffee_chains,Peet's Coffee,World,Peet's Coffee,r1_ds
+coffee_chains,Dutch Bros,World,Dutch Bros. Coffee,r1_ds
+bubble_tea,Yi Fang,World,Yi Fang Taiwan Fruit Tea,r1_ds
+bubble_tea,Happy Lemon,World,Happy Lemon,r1_ds
+bubble_tea,Sharetea,World,Sharetea,r1_ds
+hot_pot,Happy Lamb,China,Happy Lamb Hot Pot,r1_ds
+hot_pot,Dong Lai Shun,China,Donglaishun,r1_ds
+hot_pot,Dolar Shop,China,Dolar Shop,r1_ds
+soft_drinks,Mountain Dew,World,Mountain Dew,r1_ds
+soft_drinks,Canada Dry,World,Canada Dry,r1_ds
+soft_drinks,A&W,World,A&W Root Beer,r1_ds
+bottled_water,Smartwater,World,Smartwater,r1_ds
+bottled_water,Mountain Valley,World,Mountain Valley Spring Water,r1_ds
+bottled_water,Acqua Panna,World,Acqua Panna,r1_ds
+bottled_water,Essentia,World,Essentia bottled water,r1_ds
+bottled_water,Core,World,Core Hydration water,r1_ds
+dairy,Kerrygold,World,Kerrygold,r1_ds
+dairy,Tillamook,World,Tillamook County Creamery Association,r1_ds
+dairy,Organic Valley,World,Organic Valley,r1_ds
+beer,Westvleteren,World,Westvleteren Brewery,r1_ds
+beer,Pilsner Urquell,World,Pilsner Urquell,r1_ds
+beer,Sierra Nevada,World,Sierra Nevada Brewing Company,r1_ds
+beer,Weihenstephaner,World,Weihenstephan Brewery,r1_ds
+beer,Duvel,World,Duvel Moortgat Brewery,r1_ds
+beer,The Alchemist,World,The Alchemist brewery Vermont Heady Topper,r1_ds
+beer,Orval,World,Orval Brewery,r1_ds
+beer,Cantillon,World,Cantillon Brewery,r1_ds
+beer,Russian River,World,Russian River Brewing Company,r1_ds
+energy_drinks,Bang,World,Bang Energy,r1_ds
+energy_drinks,Reign,World,Reign (energy drink),r1_ds
+energy_drinks,Ghost,World,Ghost energy drink brand,r1_ds
+energy_drinks,C4,World,Cellucor C4 energy drink,r1_ds
+energy_drinks,Alani Nu,World,Alani Nu energy drink,r1_ds
+soy_sauce,Higeta,World,Higeta Shoyu,r1_ds
+soy_sauce,Sempio,World,Sempio,r1_ds
+soy_sauce,Ohsawa,World,Ohsawa soy sauce,r1_ds
+soy_sauce,Kishibori,World,Kishibori Shoyu,r1_ds
+processed_meat,Niman Ranch,World,Niman Ranch,r1_ds
+processed_meat,Johnsonville,World,Johnsonville Foods,r1_ds
+processed_meat,Columbus,World,Columbus Craft Meats,r1_ds
+processed_meat,Nathan's Famous,World,Nathan's Famous,r1_ds
+express_delivery,Blue Dart,World,Blue Dart Express,r1_ds
+express_delivery,Yamato,World,Yamato Transport,r1_ds
+online_travel,Hotels.com,World,Hotels.com,r1_ds
+online_travel,Orbitz,World,Orbitz,r1_ds
+online_travel,Travelocity,World,Travelocity,r1_ds
+hotel_chains,Accor,World,Accor,r1_ds
+hotel_chains,Wyndham,World,Wyndham Hotels & Resorts,r1_ds
+hotel_chains,Choice Hotels,World,Choice Hotels,r1_ds
+real_estate_agencies,Engel & Völkers,World,Engel & Völkers,r1_ds
+real_estate_agencies,Christie's International Real Estate,World,Christie's International Real Estate,r1_ds
+luxury_fashion,Saint Laurent,World,Yves Saint Laurent (brand),r1_ds
+luxury_fashion,Balenciaga,World,Balenciaga,r1_ds
+luxury_fashion,Versace,World,Versace,r1_ds
+sportswear,Alo Yoga,World,Alo Yoga,r1_ds
+sportswear,Gymshark,World,Gymshark,r1_ds
+sportswear,Arc'teryx,World,Arc'teryx,r1_ds
+sportswear,Outdoor Voices,World,Outdoor Voices,r1_ds
+jewelry,Van Cleef & Arpels,World,Van Cleef & Arpels,r1_ds
+jewelry,Harry Winston,World,"Harry Winston, Inc.",r1_ds
+jewelry,Graff,World,Graff Diamonds,r1_ds
+jewelry,Buccellati,World,Buccellati,r1_ds
+jewelry,David Yurman,World,David Yurman,r1_ds
+jewelry,Mikimoto,World,Mikimoto (company),r1_ds
+home_appliances,Sub-Zero,World,Sub-Zero (company),r1_ds
+home_appliances,Speed Queen,World,Speed Queen,r1_ds
+home_appliances,KitchenAid,World,KitchenAid,r1_ds
+home_appliances,Breville,World,Breville,r1_ds
+air_conditioners,Lennox,World,Lennox International,r1_ds
+air_conditioners,Fujitsu,World,Fujitsu General air conditioner,r1_ds
+air_conditioners,American Standard,World,American Standard Companies,r1_ds
+game_consoles,NEC,World,TurboGrafx-16,r1_ds
+game_consoles,SNK,World,Neo Geo (system),r1_ds
+game_consoles,Magnavox,World,Magnavox Odyssey,r1_ds
+game_consoles,Panasonic,World,3DO Interactive Multiplayer,r1_ds
+consumer_electronics,Microsoft,World,Microsoft Surface,r1_ds
+consumer_electronics,Google,World,Google Pixel,r1_ds
+consumer_electronics,Amazon,World,Amazon Echo,r1_ds
+consumer_electronics,Dyson,World,Dyson (company),r1_ds
+supermarkets,Target,World,Target Corporation,r1_ds
+supermarkets,Whole Foods Market,World,Whole Foods Market,r1_ds
+supermarkets,Ahold Delhaize,World,Ahold Delhaize,r1_ds
+furniture,CB2,World,CB2 furniture store,r1_ds
+furniture,Room & Board,World,Room & Board,r1_ds
+furniture,Joybird,World,Joybird,r1_ds
+furniture,Ethan Allen,World,Ethan Allen (company),r1_ds
+furniture,Crate & Barrel,World,Crate & Barrel,r1_ds
+tcm,Tasly,China,Tasly,r1_ds
+tcm,Jiuzhitang,China,Jiuzhitang,r1_ds
+tcm,Kangmei,China,Kangmei Pharmaceutical,r1_ds
+online_healthcare,Included Health,World,Included Health,r1_ds
+online_healthcare,Babylon Health,World,Babylon Health,r1_ds
+online_healthcare,Practo,World,Practo,r1_ds
+online_healthcare,Zocdoc,World,Zocdoc,r1_ds
+online_healthcare,Hims & Hers,World,Hims & Hers Health,r1_ds
+online_healthcare,BetterHelp,World,BetterHelp,r1_ds
+online_healthcare,Carbon Health,World,Carbon Health,r1_ds
+news_apps,Feedly,World,Feedly,r1_ds
+news_apps,Ground News,World,Ground News,r1_ds
+news_apps,Reuters,World,Reuters,r1_ds
+video_games,Rockstar Games,World,Rockstar Games,r1_ds
+video_games,Capcom,World,Capcom,r1_ds
+video_games,FromSoftware,World,FromSoftware,r1_ds
+video_games,Blizzard,World,Blizzard Entertainment,r1_ds
+video_games,Square Enix,World,Square Enix,r1_ds
+payment_networks,EFTPOS,World,eftpos Australia,r2_ds
+home_improvement,Do it Best,World,Do it Best,r2_ds
+home_improvement,Home Hardware,World,Home Hardware,r2_ds
+property_developers,Longfor,China,Longfor Properties,r2_ds
+property_developers,Yanlord,China,Yanlord Land Group,r2_ds
+cigarettes,Dunhill,World,Dunhill (cigarette),r2_ds
+cigarettes,Lucky Strike,World,Lucky Strike,r2_ds
+cigarettes,Parliament,World,Parliament (cigarette),r2_ds
+cigarettes,Bond Street,World,Bond Street (cigarette),r2_ds
+ai_chatbots,Character.AI,World,Character.ai,r2_ds
+ai_chatbots,Replika,World,Replika,r2_ds

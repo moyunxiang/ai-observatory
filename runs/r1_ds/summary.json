@@ -1,0 +1,15 @@
+{
+  "run_id": "r1_ds",
+  "n_categories": 60,
+  "n_scored": 60,
+  "n_errors": 0,
+  "n_pass": 56,
+  "pass_threshold": 0.8,
+  "mean_recall": 0.8733,
+  "failed_categories": [
+    "payment_networks",
+    "property_developers",
+    "home_improvement",
+    "cigarettes"
+  ]
+}

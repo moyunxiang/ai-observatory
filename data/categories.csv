@@ -19,7 +19,7 @@ energy_drinks,Energy Drinks,B2C
 soy_sauce,Soy Sauce,B2C
 processed_meat,Processed Meat Products,B2C
 banks,Banks,B2C
-payment_networks,Credit Card Networks,B2C
+payment_networks,Payment Card Networks,B2C
 digital_payments,Digital Payment Services,B2C
 insurance,Insurance Companies,B2C
 health_insurance,Health Insurance,B2C
@@ -33,7 +33,7 @@ online_travel,Online Travel Agencies,B2C
 hotel_chains,Hotel Chains,B2C
 restaurant_reviews,Restaurant Review Platforms,B2C
 real_estate_agencies,Real Estate Agencies,B2C
-property_developers,Real Estate Developers,B2C
+property_developers,Chinese Real Estate Developers,B2C
 electric_vehicles,Electric Vehicles,B2C
 cars,Cars,B2C
 luxury_fashion,Luxury Fashion,B2C
@@ -48,9 +48,9 @@ laptops,Laptops,B2C
 drones,Drones,B2C
 game_consoles,Video Game Consoles,B2C
 consumer_electronics,Consumer Electronics,B2C
-ai_chatbots,AI Chatbots,B2C
+ai_chatbots,AI Chatbot Apps,B2C
 supermarkets,Supermarket Chains,B2C
-home_improvement,Home Improvement Stores,B2C
+home_improvement,Home Improvement Retail Chains,B2C
 furniture,Furniture Stores,B2C
 tcm,Traditional Chinese Medicine,B2C
 online_healthcare,Online Healthcare Platforms,B2C
@@ -58,7 +58,7 @@ job_platforms,Job Search Platforms,B2C
 news_apps,News Apps,B2C
 video_games,Video Game Companies,B2C
 movie_studios,Movie Studios,B2C
-cigarettes,Cigarettes,B2C
+cigarettes,Cigarette Brands,B2C
 enterprise_software,Enterprise Software,out_of_scope
 semiconductors,Semiconductors,out_of_scope
 it_services,IT Services,out_of_scope

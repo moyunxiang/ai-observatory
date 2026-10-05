@@ -1,0 +1,61 @@
+﻿category_id,final_name,attempts,final_recall,result
+smartphones,Smartphones,1,1.0,Pass
+search_engines,Search Engines,1,1.0,Pass
+social_media,Social Media Platforms,1,0.9,Pass
+short_video,Short Video Apps,1,0.9,Pass
+video_streaming,Video Streaming Services,1,1.0,Pass
+music_streaming,Music Streaming Services,1,1.0,Pass
+ecommerce,Online Shopping Platforms,1,0.9,Pass
+fast_food,Fast Food Chains,1,1.0,Pass
+coffee_chains,Coffee Chains,1,1.0,Pass
+bubble_tea,Bubble Tea Chains,1,0.9,Pass
+hot_pot,Hot Pot Restaurant Chains,1,1.0,Pass
+soft_drinks,Soft Drinks,1,1.0,Pass
+bottled_water,Bottled Water,1,0.8,Pass
+dairy,Dairy Products,1,0.9,Pass
+baijiu,Baijiu,1,0.9,Pass
+beer,Beer,1,1.0,Pass
+energy_drinks,Energy Drinks,1,0.8,Pass
+soy_sauce,Soy Sauce,1,1.0,Pass
+processed_meat,Processed Meat Products,1,1.0,Pass
+banks,Banks,1,1.0,Pass
+payment_networks,Payment Card Networks,2,0.9,Pass
+digital_payments,Digital Payment Services,1,0.9,Pass
+insurance,Insurance Companies,1,0.8,Pass
+health_insurance,Health Insurance,1,0.8,Pass
+mobile_carriers,Mobile Carriers,1,1.0,Pass
+isps,Internet Service Providers,1,0.8,Pass
+airlines,Airlines,1,0.9,Pass
+express_delivery,Express Delivery Services,1,1.0,Pass
+food_delivery,Food Delivery Platforms,1,0.8,Pass
+ride_hailing,Ride-Hailing Apps,1,0.9,Pass
+online_travel,Online Travel Agencies,1,1.0,Pass
+hotel_chains,Hotel Chains,1,1.0,Pass
+restaurant_reviews,Restaurant Review Platforms,1,0.9,Pass
+real_estate_agencies,Real Estate Agencies,1,0.9,Pass
+property_developers,Chinese Real Estate Developers,2,0.9,Pass
+electric_vehicles,Electric Vehicles,1,1.0,Pass
+cars,Cars,1,0.9,Pass
+luxury_fashion,Luxury Fashion,1,1.0,Pass
+sportswear,Sportswear,1,1.0,Pass
+fast_fashion,Fast Fashion,1,0.9,Pass
+cosmetics,Cosmetics,1,0.9,Pass
+jewelry,Jewelry,1,1.0,Pass
+home_appliances,Home Appliances,1,1.0,Pass
+air_conditioners,Air Conditioners,1,0.9,Pass
+televisions,TVs,1,0.8,Pass
+laptops,Laptops,1,0.8,Pass
+drones,Drones,1,0.8,Pass
+game_consoles,Video Game Consoles,1,1.0,Pass
+consumer_electronics,Consumer Electronics,1,1.0,Pass
+ai_chatbots,AI Chatbot Apps,2,1.0,Pass
+supermarkets,Supermarket Chains,1,0.9,Pass
+home_improvement,Home Improvement Retail Chains,2,1.0,Pass
+furniture,Furniture Stores,1,0.8,Pass
+tcm,Traditional Chinese Medicine,1,0.8,Pass
+online_healthcare,Online Healthcare Platforms,1,0.8,Pass
+job_platforms,Job Search Platforms,1,0.8,Pass
+news_apps,News Apps,1,1.0,Pass
+video_games,Video Game Companies,1,1.0,Pass
+movie_studios,Movie Studios,1,0.8,Pass
+cigarettes,Cigarette Brands,2,1.0,Pass

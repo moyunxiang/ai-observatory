@@ -36,8 +36,8 @@ def basic_normalize(name: str) -> str:
     tokens = s.split(" ")
     if tokens and tokens[0] == "the" and len(tokens) > 1:
         tokens = tokens[1:]
-    while len(tokens) > 1 and tokens[-1] in _CORPORATE_SUFFIXES:
-        tokens = tokens[:-1]
+    while len(tokens) > 1 and (tokens[-1] in _CORPORATE_SUFFIXES or tokens[-1] == "and"):
+        tokens = tokens[:-1]  # "Poly Developments and Holdings" -> "poly developments"
     return " ".join(tokens)
 
 
@@ -56,5 +56,9 @@ def normalize_brand(name: str, alias_map: dict[str, str] | None = None) -> str:
     """Full normalization: rules first, then alias lookup."""
     key = basic_normalize(name)
     if alias_map:
-        key = alias_map.get(key, key)
+        for _ in range(3):  # follow short chains, e.g. global variant -> canonical -> category canonical
+            nxt = alias_map.get(key, key)
+            if nxt == key:
+                break
+            key = nxt
     return key

@@ -1,0 +1,136 @@
+category_id,brand,world_china,wiki_query,found_in_run,wiki_title,wiki_url,decision,reason,source_method
+smartphones,Google Pixel,World,Google Pixel,r1_ds,Google Pixel,https://en.wikipedia.org/wiki/Google_Pixel,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+smartphones,OnePlus,China,OnePlus,r1_ds,OnePlus,https://en.wikipedia.org/wiki/OnePlus,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+smartphones,Sony,World,Sony Xperia,r1_ds,Sony Xperia,https://en.wikipedia.org/wiki/Sony_Xperia,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+short_video,Moj,World,Moj (app),r1_ds,Moj,https://en.wikipedia.org/wiki/Moj,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+short_video,Josh,World,Josh (app),r1_ds,Josh (app),https://en.wikipedia.org/wiki/Josh_(app),reject,page says it evolved into a live call/chat app; no longer short video,wikipedia_summary
+short_video,Roposo,World,Roposo,r1_ds,Roposo,https://en.wikipedia.org/wiki/Roposo,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+music_streaming,Tidal,World,Tidal (service),r1_ds,Tidal (service),https://en.wikipedia.org/wiki/Tidal_(service),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+music_streaming,Pandora,World,Pandora (service),r1_ds,Pandora (service),https://en.wikipedia.org/wiki/Pandora_(service),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+music_streaming,SoundCloud,World,SoundCloud,r1_ds,SoundCloud,https://en.wikipedia.org/wiki/SoundCloud,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+music_streaming,iHeartRadio,World,iHeartRadio,r1_ds,IHeartRadio,https://en.wikipedia.org/wiki/IHeartRadio,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+ecommerce,Etsy,World,Etsy,r1_ds,Etsy,https://en.wikipedia.org/wiki/Etsy,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+ecommerce,Flipkart,World,Flipkart,r1_ds,Flipkart,https://en.wikipedia.org/wiki/Flipkart,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+ecommerce,StockX,World,StockX,r1_ds,StockX,https://en.wikipedia.org/wiki/StockX,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+ecommerce,Shein,China,Shein,r1_ds,Shein,https://en.wikipedia.org/wiki/Shein,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+ecommerce,ASOS,World,Asos.com,r1_ds,ASOS plc,https://en.wikipedia.org/wiki/ASOS_plc,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+fast_food,In-N-Out Burger,World,In-N-Out Burger,r1_ds,In-N-Out Burger,https://en.wikipedia.org/wiki/In-N-Out_Burger,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+fast_food,Shake Shack,World,Shake Shack,r1_ds,Shake Shack,https://en.wikipedia.org/wiki/Shake_Shack,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+fast_food,Starbucks,World,Starbucks,r1_ds,Starbucks,https://en.wikipedia.org/wiki/Starbucks,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+coffee_chains,McCafé,World,McCafé,r1_ds,McCafé,https://en.wikipedia.org/wiki/McCaf%C3%A9,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+coffee_chains,Peet's Coffee,World,Peet's Coffee,r1_ds,Peet's Coffee,https://en.wikipedia.org/wiki/Peet's_Coffee,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+coffee_chains,Dutch Bros,World,Dutch Bros. Coffee,r1_ds,Dutch Bros Coffee,https://en.wikipedia.org/wiki/Dutch_Bros_Coffee,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+bubble_tea,Yi Fang,World,Yi Fang Taiwan Fruit Tea,r1_ds,50 Lan,https://en.wikipedia.org/wiki/50_Lan,reject,search hit is 50 Lan (different chain),wikipedia_summary
+bubble_tea,Happy Lemon,World,Happy Lemon,r1_ds,Happy Lemon,https://en.wikipedia.org/wiki/Happy_Lemon,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+bubble_tea,Sharetea,World,Sharetea,r1_ds,Sharetea,https://en.wikipedia.org/wiki/Sharetea,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+hot_pot,Happy Lamb,China,Happy Lamb Hot Pot,r1_ds,Little Sheep Group,https://happylambuk.com/,accept,Wikipedia had no usable page; accepted via web search result describing the brand in this category,websearch
+hot_pot,Dong Lai Shun,China,Donglaishun,r1_ds,Donglaishun,https://districtsixtyfive.com/dong-lai-shun-traditional-hot-pot-in-beijing/,accept,Wikipedia had no usable page; accepted via web search result describing the brand in this category,websearch
+hot_pot,Dolar Shop,China,Dolar Shop,r1_ds,Variety store,https://www.prnewswire.com/news-releases/chinese-macanese-hotpot-brand-the-dolar-shop-opens-us-flagship-store-in-nyc-301186580.html,accept,Wikipedia had no usable page; accepted via web search result describing the brand in this category,websearch
+soft_drinks,Mountain Dew,World,Mountain Dew,r1_ds,Mountain Dew,https://en.wikipedia.org/wiki/Mountain_Dew,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+soft_drinks,Canada Dry,World,Canada Dry,r1_ds,Canada Dry,https://en.wikipedia.org/wiki/Canada_Dry,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+soft_drinks,A&W,World,A&W Root Beer,r1_ds,A&W Root Beer,https://en.wikipedia.org/wiki/A%26W_Root_Beer,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+bottled_water,Smartwater,World,Smartwater,r1_ds,Glaceau Smartwater,https://en.wikipedia.org/wiki/Glaceau_Smartwater,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+bottled_water,Mountain Valley,World,Mountain Valley Spring Water,r1_ds,Mountain Valley Spring Water,https://en.wikipedia.org/wiki/Mountain_Valley_Spring_Water,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+bottled_water,Acqua Panna,World,Acqua Panna,r1_ds,Acqua Panna,https://en.wikipedia.org/wiki/Acqua_Panna,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+bottled_water,Essentia,World,Essentia bottled water,r1_ds,List of Nestlé brands,https://en.wikipedia.org/wiki/List_of_Nestl%C3%A9_brands,reject,search hit is a Nestlé brand list; extract does not verify,wikipedia_summary
+bottled_water,Core,World,Core Hydration water,r1_ds,Water of crystallization,https://en.wikipedia.org/wiki/Water_of_crystallization,reject,search hit unrelated,wikipedia_summary
+dairy,Kerrygold,World,Kerrygold,r1_ds,Ornua,https://en.wikipedia.org/wiki/Ornua,accept,accepted; Ornua page names Kerrygold butter/cheese brand,wikipedia_summary
+dairy,Tillamook,World,Tillamook County Creamery Association,r1_ds,Tillamook County Creamery Association,https://en.wikipedia.org/wiki/Tillamook_County_Creamery_Association,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+dairy,Organic Valley,World,Organic Valley,r1_ds,Organic Valley,https://en.wikipedia.org/wiki/Organic_Valley,reject,extract does not state the category (strict rule),wikipedia_summary
+beer,Westvleteren,World,Westvleteren Brewery,r1_ds,Westvleteren Brewery,https://en.wikipedia.org/wiki/Westvleteren_Brewery,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+beer,Pilsner Urquell,World,Pilsner Urquell,r1_ds,Pilsner Urquell,https://en.wikipedia.org/wiki/Pilsner_Urquell,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+beer,Sierra Nevada,World,Sierra Nevada Brewing Company,r1_ds,Sierra Nevada Brewing Company,https://en.wikipedia.org/wiki/Sierra_Nevada_Brewing_Company,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+beer,Weihenstephaner,World,Weihenstephan Brewery,r1_ds,Bayerische Staatsbrauerei Weihenstephan,https://en.wikipedia.org/wiki/Bayerische_Staatsbrauerei_Weihenstephan,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+beer,Duvel,World,Duvel Moortgat Brewery,r1_ds,Duvel Moortgat Brewery,https://en.wikipedia.org/wiki/Duvel_Moortgat_Brewery,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+beer,The Alchemist,World,The Alchemist brewery Vermont Heady Topper,r1_ds,Heady Topper,https://en.wikipedia.org/wiki/Heady_Topper,accept,accepted; Heady Topper page (The Alchemist brewery's beer),wikipedia_summary
+beer,Orval,World,Orval Brewery,r1_ds,Orval Brewery,https://en.wikipedia.org/wiki/Orval_Brewery,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+beer,Cantillon,World,Cantillon Brewery,r1_ds,Cantillon (brewery),https://en.wikipedia.org/wiki/Cantillon_(brewery),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+beer,Russian River,World,Russian River Brewing Company,r1_ds,Russian River Brewing Company,https://en.wikipedia.org/wiki/Russian_River_Brewing_Company,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+energy_drinks,Bang,World,Bang Energy,r1_ds,Bang Energy,https://en.wikipedia.org/wiki/Bang_Energy,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+energy_drinks,Reign,World,Reign (energy drink),r1_ds,Reign (drink),https://en.wikipedia.org/wiki/Reign_(drink),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+energy_drinks,Ghost,World,Ghost energy drink brand,r1_ds,Ghost (company),https://en.wikipedia.org/wiki/Ghost_(company),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+energy_drinks,C4,World,Cellucor C4 energy drink,r1_ds,Cellucor,https://en.wikipedia.org/wiki/Cellucor,reject,page (Cellucor) does not name C4,wikipedia_summary
+energy_drinks,Alani Nu,World,Alani Nu energy drink,r1_ds,Celsius Holdings,https://en.wikipedia.org/wiki/Celsius_Holdings,reject,page (Celsius Holdings) does not name Alani Nu,wikipedia_summary
+soy_sauce,Higeta,World,Higeta Shoyu,r1_ds,Tamago kake gohan,https://www.theworldfolio.com/interviews/choshis-legacy-of-soy-sauce-craftsmanship/6794/,accept,Wikipedia had no usable page; accepted via web search result describing the brand in this category,websearch
+soy_sauce,Sempio,World,Sempio,r1_ds,Murder of Chiara Poggi,https://globalsempio.com/,accept,Wikipedia had no usable page; accepted via web search result describing the brand in this category,websearch
+soy_sauce,Ohsawa,World,Ohsawa soy sauce,r1_ds,Seitan,https://www.walmart.com/ip/Ohsawa-Nama-Shoyu-1x5-Oz/35531876,accept,Wikipedia had no usable page; accepted via web search result describing the brand in this category,websearch
+soy_sauce,Kishibori,World,Kishibori Shoyu,r1_ds,,https://mtckitchen.com/products/kishibori-shoyu-premium-pure-artisan-soy-sauce-unadulterated-no-preservatives-24-3-fl-oz-720ml-1,accept,Wikipedia had no usable page; accepted via web search result describing the brand in this category,websearch
+processed_meat,Niman Ranch,World,Niman Ranch,r1_ds,Niman Ranch,https://en.wikipedia.org/wiki/Niman_Ranch,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+processed_meat,Johnsonville,World,Johnsonville Foods,r1_ds,Johnsonville (company),https://en.wikipedia.org/wiki/Johnsonville_(company),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+processed_meat,Columbus,World,Columbus Craft Meats,r1_ds,Columbus Craft Meats,https://en.wikipedia.org/wiki/Columbus_Craft_Meats,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+processed_meat,Nathan's Famous,World,Nathan's Famous,r1_ds,Nathan's Famous,https://en.wikipedia.org/wiki/Nathan's_Famous,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+express_delivery,Blue Dart,World,Blue Dart Express,r1_ds,Blue Dart Express,https://en.wikipedia.org/wiki/Blue_Dart_Express,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+express_delivery,Yamato,World,Yamato Transport,r1_ds,Yamato Transport,https://en.wikipedia.org/wiki/Yamato_Transport,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+online_travel,Hotels.com,World,Hotels.com,r1_ds,Hotels.com,https://en.wikipedia.org/wiki/Hotels.com,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+online_travel,Orbitz,World,Orbitz,r1_ds,Orbitz,https://en.wikipedia.org/wiki/Orbitz,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+online_travel,Travelocity,World,Travelocity,r1_ds,Travelocity,https://en.wikipedia.org/wiki/Travelocity,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+hotel_chains,Accor,World,Accor,r1_ds,Accor,https://en.wikipedia.org/wiki/Accor,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+hotel_chains,Wyndham,World,Wyndham Hotels & Resorts,r1_ds,Wyndham Hotels & Resorts,https://en.wikipedia.org/wiki/Wyndham_Hotels_%26_Resorts,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+hotel_chains,Choice Hotels,World,Choice Hotels,r1_ds,Choice Hotels,https://en.wikipedia.org/wiki/Choice_Hotels,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+real_estate_agencies,Engel & Völkers,World,Engel & Völkers,r1_ds,Engel & Völkers,https://en.wikipedia.org/wiki/Engel_%26_V%C3%B6lkers,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+real_estate_agencies,Christie's International Real Estate,World,Christie's International Real Estate,r1_ds,Christie's International Real Estate,https://en.wikipedia.org/wiki/Christie's_International_Real_Estate,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+luxury_fashion,Saint Laurent,World,Yves Saint Laurent (brand),r1_ds,Yves Saint Laurent (fashion house),https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(fashion_house),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+luxury_fashion,Balenciaga,World,Balenciaga,r1_ds,Balenciaga,https://en.wikipedia.org/wiki/Balenciaga,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+luxury_fashion,Versace,World,Versace,r1_ds,Versace,https://en.wikipedia.org/wiki/Versace,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+sportswear,Alo Yoga,World,Alo Yoga,r1_ds,Alo Yoga,https://en.wikipedia.org/wiki/Alo_Yoga,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+sportswear,Gymshark,World,Gymshark,r1_ds,Gymshark,https://en.wikipedia.org/wiki/Gymshark,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+sportswear,Arc'teryx,World,Arc'teryx,r1_ds,Arc'teryx,https://en.wikipedia.org/wiki/Arc'teryx,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+sportswear,Outdoor Voices,World,Outdoor Voices,r1_ds,Outdoor Voices,https://en.wikipedia.org/wiki/Outdoor_Voices,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+jewelry,Van Cleef & Arpels,World,Van Cleef & Arpels,r1_ds,Van Cleef & Arpels,https://en.wikipedia.org/wiki/Van_Cleef_%26_Arpels,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+jewelry,Harry Winston,World,"Harry Winston, Inc.",r1_ds,"Harry Winston, Inc.",https://en.wikipedia.org/wiki/Harry_Winston%2C_Inc.,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+jewelry,Graff,World,Graff Diamonds,r1_ds,Graff (jewellers),https://en.wikipedia.org/wiki/Graff_(jewellers),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+jewelry,Buccellati,World,Buccellati,r1_ds,Buccellati,https://en.wikipedia.org/wiki/Buccellati,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+jewelry,David Yurman,World,David Yurman,r1_ds,David Yurman,https://en.wikipedia.org/wiki/David_Yurman,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+jewelry,Mikimoto,World,Mikimoto (company),r1_ds,Mikimoto (company),https://en.wikipedia.org/wiki/Mikimoto_(company),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+home_appliances,Sub-Zero,World,Sub-Zero (company),r1_ds,Sub-Zero (company),https://en.wikipedia.org/wiki/Sub-Zero_(company),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+home_appliances,Speed Queen,World,Speed Queen,r1_ds,Alliance Laundry Systems,https://en.wikipedia.org/wiki/Alliance_Laundry_Systems,accept,accepted; Alliance Laundry page names Speed Queen washers incl. consumer residences,wikipedia_summary
+home_appliances,KitchenAid,World,KitchenAid,r1_ds,KitchenAid,https://en.wikipedia.org/wiki/KitchenAid,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+home_appliances,Breville,World,Breville,r1_ds,Breville Group,https://en.wikipedia.org/wiki/Breville_Group,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+air_conditioners,Lennox,World,Lennox International,r1_ds,Lennox International,https://en.wikipedia.org/wiki/Lennox_International,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+air_conditioners,Fujitsu,World,Fujitsu General air conditioner,r1_ds,Fujitsu,https://en.wikipedia.org/wiki/Fujitsu,reject,Fujitsu page does not mention air conditioners,wikipedia_summary
+air_conditioners,American Standard,World,American Standard Companies,r1_ds,American Standard Companies,https://en.wikipedia.org/wiki/American_Standard_Companies,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+game_consoles,NEC,World,TurboGrafx-16,r1_ds,TurboGrafx-16,https://en.wikipedia.org/wiki/TurboGrafx-16,accept,accepted; historic console maker (TurboGrafx-16/PC Engine),wikipedia_summary
+game_consoles,SNK,World,Neo Geo (system),r1_ds,Neo Geo,https://en.wikipedia.org/wiki/Neo_Geo,accept,accepted; historic console maker (Neo Geo),wikipedia_summary
+game_consoles,Magnavox,World,Magnavox Odyssey,r1_ds,Magnavox Odyssey,https://en.wikipedia.org/wiki/Magnavox_Odyssey,accept,accepted; historic console maker (Odyssey),wikipedia_summary
+game_consoles,Panasonic,World,3DO Interactive Multiplayer,r1_ds,3DO,https://en.wikipedia.org/wiki/3DO,accept,accepted; made 3DO consoles (page: 3DO format),wikipedia_summary
+consumer_electronics,Microsoft,World,Microsoft Surface,r1_ds,Microsoft Surface,https://en.wikipedia.org/wiki/Microsoft_Surface,accept,accepted; Microsoft Surface page,wikipedia_summary
+consumer_electronics,Google,World,Google Pixel,r1_ds,Google Pixel,https://en.wikipedia.org/wiki/Google_Pixel,accept,accepted; Google Pixel page,wikipedia_summary
+consumer_electronics,Amazon,World,Amazon Echo,r1_ds,Amazon Echo,https://en.wikipedia.org/wiki/Amazon_Echo,accept,accepted; Amazon Echo page,wikipedia_summary
+consumer_electronics,Dyson,World,Dyson (company),r1_ds,Dyson (company),https://en.wikipedia.org/wiki/Dyson_(company),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+supermarkets,Target,World,Target Corporation,r1_ds,Target Corporation,https://en.wikipedia.org/wiki/Target_Corporation,reject,"page: discount department store chain, not clearly a supermarket chain",wikipedia_summary
+supermarkets,Whole Foods Market,World,Whole Foods Market,r1_ds,Whole Foods Market,https://en.wikipedia.org/wiki/Whole_Foods_Market,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+supermarkets,Ahold Delhaize,World,Ahold Delhaize,r1_ds,Ahold Delhaize,https://en.wikipedia.org/wiki/Ahold_Delhaize,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+furniture,CB2,World,CB2 furniture store,r1_ds,Fantastic Furniture,https://en.wikipedia.org/wiki/Fantastic_Furniture,reject,no page verifying CB2,wikipedia_summary
+furniture,Room & Board,World,Room & Board,r1_ds,Room & Board,https://en.wikipedia.org/wiki/Room_%26_Board,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+furniture,Joybird,World,Joybird,r1_ds,La-Z-Boy,https://en.wikipedia.org/wiki/La-Z-Boy,reject,search hit La-Z-Boy page does not name Joybird,wikipedia_summary
+furniture,Ethan Allen,World,Ethan Allen (company),r1_ds,Ethan Allen (company),https://en.wikipedia.org/wiki/Ethan_Allen_(company),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+furniture,Crate & Barrel,World,Crate & Barrel,r1_ds,Crate & Barrel,https://en.wikipedia.org/wiki/Crate_%26_Barrel,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+tcm,Tasly,China,Tasly,r1_ds,Tasly,https://en.wikipedia.org/wiki/Tasly,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+tcm,Jiuzhitang,China,Jiuzhitang,r1_ds,List of oldest companies,https://en.wikipedia.org/wiki/List_of_oldest_companies,reject,search hit is a generic list,wikipedia_summary
+tcm,Kangmei,China,Kangmei Pharmaceutical,r1_ds,Kangmei Pharmaceutical,https://en.wikipedia.org/wiki/Kangmei_Pharmaceutical,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+online_healthcare,Included Health,World,Included Health,r1_ds,Oxygen Not Included,https://en.wikipedia.org/wiki/Oxygen_Not_Included,reject,search hit unrelated,wikipedia_summary
+online_healthcare,Babylon Health,World,Babylon Health,r1_ds,Babylon Health,https://en.wikipedia.org/wiki/Babylon_Health,accept,accepted; defunct (2023) but was a real online healthcare brand,wikipedia_summary
+online_healthcare,Practo,World,Practo,r1_ds,List of commercially available insulins,https://en.wikipedia.org/wiki/List_of_commercially_available_insulins,reject,search hit unrelated,wikipedia_summary
+online_healthcare,Zocdoc,World,Zocdoc,r1_ds,Zocdoc,https://en.wikipedia.org/wiki/Zocdoc,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+online_healthcare,Hims & Hers,World,Hims & Hers Health,r1_ds,Hims & Hers Health,https://en.wikipedia.org/wiki/Hims_%26_Hers_Health,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+online_healthcare,BetterHelp,World,BetterHelp,r1_ds,BetterHelp,https://en.wikipedia.org/wiki/BetterHelp,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+online_healthcare,Carbon Health,World,Carbon Health,r1_ds,Carbon Health,https://en.wikipedia.org/wiki/Carbon_Health,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+news_apps,Feedly,World,Feedly,r1_ds,Feedly,https://en.wikipedia.org/wiki/Feedly,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+news_apps,Ground News,World,Ground News,r1_ds,Ground News,https://en.wikipedia.org/wiki/Ground_News,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+news_apps,Reuters,World,Reuters,r1_ds,Reuters,https://en.wikipedia.org/wiki/Reuters,accept,"accepted; news brand with app, consistent with BBC News/CNN in table",wikipedia_summary
+video_games,Rockstar Games,World,Rockstar Games,r1_ds,Rockstar Games,https://en.wikipedia.org/wiki/Rockstar_Games,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+video_games,Capcom,World,Capcom,r1_ds,Capcom,https://en.wikipedia.org/wiki/Capcom,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+video_games,FromSoftware,World,FromSoftware,r1_ds,FromSoftware,https://en.wikipedia.org/wiki/FromSoftware,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+video_games,Blizzard,World,Blizzard Entertainment,r1_ds,Blizzard Entertainment,https://en.wikipedia.org/wiki/Blizzard_Entertainment,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+video_games,Square Enix,World,Square Enix,r1_ds,Square Enix,https://en.wikipedia.org/wiki/Square_Enix,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+payment_networks,EFTPOS,World,eftpos Australia,r2_ds,EFTPOS,https://en.wikipedia.org/wiki/EFTPOS,reject,"page describes generic EFTPOS transactions, not a network brand",wikipedia_summary
+home_improvement,Do it Best,World,Do it Best,r2_ds,Do It Best,https://en.wikipedia.org/wiki/Do_It_Best,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+home_improvement,Home Hardware,World,Home Hardware,r2_ds,Home Hardware,https://en.wikipedia.org/wiki/Home_Hardware,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+property_developers,Longfor,China,Longfor Properties,r2_ds,Longfor Properties,https://en.wikipedia.org/wiki/Longfor_Properties,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+property_developers,Yanlord,China,Yanlord Land Group,r2_ds,,,reject,no page,wikipedia_summary
+cigarettes,Dunhill,World,Dunhill (cigarette),r2_ds,Dunhill (cigarette),https://en.wikipedia.org/wiki/Dunhill_(cigarette),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+cigarettes,Lucky Strike,World,Lucky Strike,r2_ds,Lucky Strike,https://en.wikipedia.org/wiki/Lucky_Strike,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+cigarettes,Parliament,World,Parliament (cigarette),r2_ds,Parliament (cigarette),https://en.wikipedia.org/wiki/Parliament_(cigarette),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+cigarettes,Bond Street,World,Bond Street (cigarette),r2_ds,Bond Street (cigarette),https://en.wikipedia.org/wiki/Bond_Street_(cigarette),accept,accepted; page verifies brand belongs to category,wikipedia_summary
+ai_chatbots,Character.AI,World,Character.ai,r2_ds,Character.ai,https://en.wikipedia.org/wiki/Character.ai,accept,accepted; page verifies brand belongs to category,wikipedia_summary
+ai_chatbots,Replika,World,Replika,r2_ds,Replika,https://en.wikipedia.org/wiki/Replika,accept,accepted; page verifies brand belongs to category,wikipedia_summary

@@ -1,0 +1,9 @@
+{
+  "run_id": "r2_ds",
+  "mode": "api",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-pro",
+  "temperature": 0.0,
+  "prompt_template": "What are the best brands for {category}? List 10 brands.",
+  "started_at": "2026-10-05T10:52:10.249908+00:00"
+}

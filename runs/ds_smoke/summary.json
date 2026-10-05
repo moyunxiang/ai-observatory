@@ -1,0 +1,12 @@
+{
+  "run_id": "ds_smoke",
+  "n_categories": 2,
+  "n_scored": 2,
+  "n_errors": 0,
+  "n_pass": 1,
+  "pass_threshold": 0.8,
+  "mean_recall": 0.6,
+  "failed_categories": [
+    "hot_pot"
+  ]
+}

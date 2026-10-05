@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from observatory.data import (  # noqa: E402
-    alias_maps, append_attempts, check_category_brands, check_seeds, load_attempts,
+    alias_maps, upsert_attempts, check_category_brands, check_seeds, load_attempts,
     load_categories, load_category_brands, load_seed_brands,
 )
 from observatory.llm import PROMPT_TEMPLATE, SUPPORTED_PROVIDERS, build_prompt, query_llm  # noqa: E402
@@ -34,6 +34,12 @@ from observatory.parse import parse_brand_list  # noqa: E402
 RUNS_DIR = Path(os.environ.get("OBSERVATORY_RUNS_DIR", ROOT / "runs"))  # override only for smoke tests
 OUTPUTS_DIR = ROOT / "outputs"
 MIN_PARSED_WARN = 5
+
+
+def run_started(run_id: str) -> str:
+    """Run start time from meta.json (API: started_at, manual: imported_at); used to order attempts."""
+    meta = json.loads((RUNS_DIR / run_id / "meta.json").read_text())
+    return meta.get("started_at") or meta.get("imported_at") or ""
 
 
 def _select(categories: list[dict], only: list[str] | None) -> list[dict]:
@@ -125,7 +131,7 @@ def cmd_query(args) -> int:
             prompt = build_prompt(cat["category_name"])
             record = {"category_id": cat["category_id"], "category_name": cat["category_name"], "prompt": prompt}
             try:
-                record["response"] = query_llm(prompt, args.provider, args.model, args.temperature)
+                record["response"], record["response_meta"] = query_llm(prompt, args.provider, args.model, args.temperature)
             except Exception as e:  # keep going; failed categories are recorded, not dropped
                 record["error"] = repr(e)
             record["timestamp"] = datetime.now(timezone.utc).isoformat()
@@ -188,21 +194,20 @@ def cmd_score(args) -> int:
     }
     (run_dir / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
 
-    # Record attempts (idempotent per category + run_id, so re-scoring does not duplicate).
-    attempts = load_attempts()
-    done = {(a["category_id"], a["run_id"]) for a in attempts}
+    # Record attempts: one row per (category, run); re-scoring a run replaces its rows.
+    # attempt = 1 + number of runs for that category that started earlier.
+    this_start = run_started(run_dir.name)
+    earlier = [a for a in load_attempts() if a["run_id"] != run_dir.name and run_started(a["run_id"]) < this_start]
     new = []
     for r in scored:
-        if (r["category_id"], run_dir.name) in done:
-            continue
-        n_prev = sum(a["category_id"] == r["category_id"] for a in attempts)
+        n_prev = sum(a["category_id"] == r["category_id"] for a in earlier)
         new.append({
             "category_id": r["category_id"], "attempt": n_prev + 1, "category_name": r["category_name"],
             "run_id": run_dir.name, "recall": r["recall"], "recall_pre_additions": r["recall_pre_additions"],
             "result": r["result"],
         })
-    if new and not args.no_record:
-        append_attempts(new)
+    if not args.no_record:
+        upsert_attempts(run_dir.name, new)
 
     for r in rows:
         print(f"{r['result']:5}  {r['recall']:>4}  {r['category_name']}")
@@ -213,7 +218,7 @@ def cmd_score(args) -> int:
 
 def cmd_master(args) -> int:
     latest: dict[str, dict] = {}
-    for a in load_attempts():  # file order = chronological
+    for a in sorted(load_attempts(), key=lambda a: run_started(a["run_id"])):  # chronological by run start
         latest[a["category_id"]] = a
     brand_table = load_category_brands()
     OUTPUTS_DIR.mkdir(exist_ok=True)

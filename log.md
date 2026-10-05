@@ -73,3 +73,47 @@
 **Results**: `runs/r1/manual_sheet.txt` with 60 sections. No answers yet; no results.
 
 **Next**: User fills sheet → `import runs/r1` → `score runs/r1`.
+
+#### 2026-10-05 20:05 HKT — Switch Task 3 to API: OpenRouter + DeepSeek
+
+**Context**: User: use OpenRouter (key in `.env`, gitignored), DeepSeek is enough. Manual sheet `runs/r1/` kept but not used.
+
+**Actions**:
+- `curl https://openrouter.ai/api/v1/models` -> chose `deepseek/deepseek-v4-pro` (latest non-dated general DeepSeek; $0.21/M in, $0.42/M out).
+- Implemented `openrouter` provider in `src/observatory/llm.py` (stdlib urllib; key from env or .env; retries on 408/429/5xx with backoff; single user message, no system prompt; records served_model/provider/usage in `response_meta`).
+- Smoke: `query --provider openrouter --model deepseek/deepseek-v4-pro --temperature 0 --run-id ds_smoke --only hot_pot health_insurance`; `score runs/ds_smoke --no-record`.
+- Full run started: `python3 -u scripts/validate.py query --provider openrouter --model deepseek/deepseek-v4-pro --temperature 0 --run-id r1_ds` (background).
+
+**Results (smoke, real DeepSeek output)**: health_insurance 0.8 Pass; hot_pot 0.4 Fail. Parser handled "Little Sheep (Xiabu Xiabu's sister brand)", "Aetna (a CVS Health company)" correctly. ~$0.0003/call.
+- hot_pot misses: "CouCou Hot Pot" vs table alias "Coucou Hotpot" (alias gap); Happy Lamb, Dong Lai Shun, Dolar Shop, Boiling Point, Tanyoto not in table (table gap).
+
+**Decisions / Assumptions**: temperature 0, 1 sample/category. Alias fixes found after seeing answers will be logged and applied by re-scoring the same raw responses.
+
+**Next**: Score r1_ds; failure analysis.
+
+> 2026-10-05 起按更新后的全局规则：`log.md` / `plan.md` 说明性内容使用中文；`state.md` 合并进 `plan.md`。以上旧条目保持原样（不改写历史）。
+
+#### 2026-10-05 21:40 HKT — 第一轮 DeepSeek 全量结果 r1_ds 及失败分析
+
+**背景**：Task 1/2 已完成，第一轮 Task 3 用 `deepseek/deepseek-v4-pro`（OpenRouter，temperature 0，每类 1 次独立单轮请求）。
+**操作**：
+- `python3 -u scripts/validate.py query --provider openrouter --model deepseek/deepseek-v4-pro --temperature 0 --run-id r1_ds`（后台，约 45 分钟，60/60 无报错，总成本 $0.0617）
+- `python3 scripts/validate.py score runs/r1_ds`
+- 逐类检查 `results.csv` 的 parsed / extra。
+**结果（首次打分，旧解析器）**：23/60 Pass，mean recall 0.6283。
+**发现的问题（按原因分类）**：
+1. 解析器 bug：`**1. Amazon**`（编号包在加粗里）未剥离编号 → ecommerce/payment_networks/home_improvement/furniture 都是 0.0；嵌套子弹点 `- **Best for:**` 被当成品牌（sportswear、home_appliances）；结尾 `Disclaimer` 被收入（tcm）。
+2. 别名优先级 bug：全局别名的 canonical 自映射覆盖了类别别名（例：game_consoles 中 `Valve` 没映射到 Steam Deck）。
+3. 别名缺口（同一品牌不同写法）：Shoo Loong Kan=小龙坎、Costco Wholesale、Coldwell Banker Real Estate、Guangzhou Baiyunshan Pharmaceutical 等。
+4. 品牌表缺口：DeepSeek 返回的多为真实品牌但不在表中（美国市场偏向明显，如 Mountain Dew、Tidal、Van Cleef & Arpels、Capcom）。
+5. 类别名被误解：Real Estate Developers → 返回高端建材/家电品牌；Credit Card Networks → 混入发卡行（Chase、Capital One）；Home Improvement Stores → 后 5 个是工具/油漆品牌；AI Chatbots → 返回公司名（OpenAI、Anthropic）；Cigarettes → 拒答。
+**修复**：
+- `parse.py`：先剥离行首 `#`/`**`/`>`；有顶层编号时只取顶层编号行（缩进 >3 视为子项）；`A/B` 取前者；支持中文括号。新增 4 个测试（来自真实回答格式），旧测试 `test_numbered_markdown` 期望改为“编号优先”（有意的行为变化）。18/18 通过。
+- `data.alias_maps`：先全局再用类别别名覆盖；`normalize_brand` 跟随最多 3 步别名链。
+- `category_attempts.csv` 改为同一 run 重新打分时替换该 run 的行（`upsert_attempts`），避免旧解析器的结果残留。
+- 补充别名（看到回答后添加的纯写法变体，逐条见 git diff `data/brand_aliases.json`）。
+**决策 / 假设**：
+- 对同一批原始回答修解析器/别名后重新打分是合法的（不改变 AI 输出）；但所有“看到答案后”新增的别名都记录在案。
+- 品牌表缺口：只采纳有独立证据（Wikipedia 摘要）且明确属于该品类的品牌，标记 `added_post_validation`，并同时报告 `recall_pre_additions`。假设：这样可以区分“表不全”和“类别名有问题”；验证方式：报告中对比两种 recall。
+- 类别误解的 5 类改名后用新 run 重测：`r2_ds --only property_developers payment_networks home_improvement ai_chatbots cigarettes`（已后台启动）。
+**下一步**：Wikipedia 核实 124 个候选品牌（`scripts/verify_candidates.py`，遇 429 限流已加退避）→ 人工判定 → 加入品牌表 → 重打分 r1_ds；打分 r2_ds。

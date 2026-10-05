@@ -1,0 +1,10 @@
+{
+  "run_id": "r2_ds",
+  "n_categories": 5,
+  "n_scored": 5,
+  "n_errors": 0,
+  "n_pass": 5,
+  "pass_threshold": 0.8,
+  "mean_recall": 0.96,
+  "failed_categories": []
+}

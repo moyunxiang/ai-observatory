@@ -815,7 +815,7 @@ movie_studios,Disney,World,seed,https://en.wikipedia.org/wiki/Major_film_studios
 movie_studios,Warner Bros.,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
 movie_studios,Universal Pictures,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
 movie_studios,Sony Pictures,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
-movie_studios,Paramount Pictures,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Paramount Pictures,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
 movie_studios,Lionsgate,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
 movie_studios,A24,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
 movie_studios,Amazon MGM Studios,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
@@ -837,3 +837,122 @@ cigarettes,Chesterfield,World,expanded,https://brandfinance.com/press-releases/m
 cigarettes,Newport,World,expanded,https://brandfinance.com/press-releases/marlboro-keeps-its-spark-as-worlds-most-valuable-tobacco-brand,webfetch
 cigarettes,Gold Flake,World,expanded,https://brandfinance.com/press-releases/marlboro-keeps-its-spark-as-worlds-most-valuable-tobacco-brand,webfetch
 cigarettes,Sampoerna,World,expanded,https://brandfinance.com/press-releases/marlboro-keeps-its-spark-as-worlds-most-valuable-tobacco-brand,webfetch
+smartphones,Google Pixel,World,added_post_validation,https://en.wikipedia.org/wiki/Google_Pixel,wikipedia_summary
+smartphones,OnePlus,China,added_post_validation,https://en.wikipedia.org/wiki/OnePlus,wikipedia_summary
+smartphones,Sony,World,added_post_validation,https://en.wikipedia.org/wiki/Sony_Xperia,wikipedia_summary
+short_video,Moj,World,added_post_validation,https://en.wikipedia.org/wiki/Moj,wikipedia_summary
+short_video,Roposo,World,added_post_validation,https://en.wikipedia.org/wiki/Roposo,wikipedia_summary
+music_streaming,Tidal,World,added_post_validation,https://en.wikipedia.org/wiki/Tidal_(service),wikipedia_summary
+music_streaming,Pandora,World,added_post_validation,https://en.wikipedia.org/wiki/Pandora_(service),wikipedia_summary
+music_streaming,SoundCloud,World,added_post_validation,https://en.wikipedia.org/wiki/SoundCloud,wikipedia_summary
+music_streaming,iHeartRadio,World,added_post_validation,https://en.wikipedia.org/wiki/IHeartRadio,wikipedia_summary
+ecommerce,Etsy,World,added_post_validation,https://en.wikipedia.org/wiki/Etsy,wikipedia_summary
+ecommerce,Flipkart,World,added_post_validation,https://en.wikipedia.org/wiki/Flipkart,wikipedia_summary
+ecommerce,StockX,World,added_post_validation,https://en.wikipedia.org/wiki/StockX,wikipedia_summary
+ecommerce,Shein,China,added_post_validation,https://en.wikipedia.org/wiki/Shein,wikipedia_summary
+ecommerce,ASOS,World,added_post_validation,https://en.wikipedia.org/wiki/ASOS_plc,wikipedia_summary
+fast_food,In-N-Out Burger,World,added_post_validation,https://en.wikipedia.org/wiki/In-N-Out_Burger,wikipedia_summary
+fast_food,Shake Shack,World,added_post_validation,https://en.wikipedia.org/wiki/Shake_Shack,wikipedia_summary
+fast_food,Starbucks,World,added_post_validation,https://en.wikipedia.org/wiki/Starbucks,wikipedia_summary
+coffee_chains,McCafé,World,added_post_validation,https://en.wikipedia.org/wiki/McCaf%C3%A9,wikipedia_summary
+coffee_chains,Peet's Coffee,World,added_post_validation,https://en.wikipedia.org/wiki/Peet's_Coffee,wikipedia_summary
+coffee_chains,Dutch Bros,World,added_post_validation,https://en.wikipedia.org/wiki/Dutch_Bros_Coffee,wikipedia_summary
+bubble_tea,Happy Lemon,World,added_post_validation,https://en.wikipedia.org/wiki/Happy_Lemon,wikipedia_summary
+bubble_tea,Sharetea,World,added_post_validation,https://en.wikipedia.org/wiki/Sharetea,wikipedia_summary
+hot_pot,Happy Lamb,China,added_post_validation,https://happylambuk.com/,websearch
+hot_pot,Dong Lai Shun,China,added_post_validation,https://districtsixtyfive.com/dong-lai-shun-traditional-hot-pot-in-beijing/,websearch
+hot_pot,Dolar Shop,China,added_post_validation,https://www.prnewswire.com/news-releases/chinese-macanese-hotpot-brand-the-dolar-shop-opens-us-flagship-store-in-nyc-301186580.html,websearch
+soft_drinks,Mountain Dew,World,added_post_validation,https://en.wikipedia.org/wiki/Mountain_Dew,wikipedia_summary
+soft_drinks,Canada Dry,World,added_post_validation,https://en.wikipedia.org/wiki/Canada_Dry,wikipedia_summary
+soft_drinks,A&W,World,added_post_validation,https://en.wikipedia.org/wiki/A%26W_Root_Beer,wikipedia_summary
+bottled_water,Smartwater,World,added_post_validation,https://en.wikipedia.org/wiki/Glaceau_Smartwater,wikipedia_summary
+bottled_water,Mountain Valley,World,added_post_validation,https://en.wikipedia.org/wiki/Mountain_Valley_Spring_Water,wikipedia_summary
+bottled_water,Acqua Panna,World,added_post_validation,https://en.wikipedia.org/wiki/Acqua_Panna,wikipedia_summary
+dairy,Kerrygold,World,added_post_validation,https://en.wikipedia.org/wiki/Ornua,wikipedia_summary
+dairy,Tillamook,World,added_post_validation,https://en.wikipedia.org/wiki/Tillamook_County_Creamery_Association,wikipedia_summary
+beer,Westvleteren,World,added_post_validation,https://en.wikipedia.org/wiki/Westvleteren_Brewery,wikipedia_summary
+beer,Pilsner Urquell,World,added_post_validation,https://en.wikipedia.org/wiki/Pilsner_Urquell,wikipedia_summary
+beer,Sierra Nevada,World,added_post_validation,https://en.wikipedia.org/wiki/Sierra_Nevada_Brewing_Company,wikipedia_summary
+beer,Weihenstephaner,World,added_post_validation,https://en.wikipedia.org/wiki/Bayerische_Staatsbrauerei_Weihenstephan,wikipedia_summary
+beer,Duvel,World,added_post_validation,https://en.wikipedia.org/wiki/Duvel_Moortgat_Brewery,wikipedia_summary
+beer,The Alchemist,World,added_post_validation,https://en.wikipedia.org/wiki/Heady_Topper,wikipedia_summary
+beer,Orval,World,added_post_validation,https://en.wikipedia.org/wiki/Orval_Brewery,wikipedia_summary
+beer,Cantillon,World,added_post_validation,https://en.wikipedia.org/wiki/Cantillon_(brewery),wikipedia_summary
+beer,Russian River,World,added_post_validation,https://en.wikipedia.org/wiki/Russian_River_Brewing_Company,wikipedia_summary
+energy_drinks,Bang,World,added_post_validation,https://en.wikipedia.org/wiki/Bang_Energy,wikipedia_summary
+energy_drinks,Reign,World,added_post_validation,https://en.wikipedia.org/wiki/Reign_(drink),wikipedia_summary
+energy_drinks,Ghost,World,added_post_validation,https://en.wikipedia.org/wiki/Ghost_(company),wikipedia_summary
+soy_sauce,Higeta,World,added_post_validation,https://www.theworldfolio.com/interviews/choshis-legacy-of-soy-sauce-craftsmanship/6794/,websearch
+soy_sauce,Sempio,World,added_post_validation,https://globalsempio.com/,websearch
+soy_sauce,Ohsawa,World,added_post_validation,https://www.walmart.com/ip/Ohsawa-Nama-Shoyu-1x5-Oz/35531876,websearch
+soy_sauce,Kishibori,World,added_post_validation,https://mtckitchen.com/products/kishibori-shoyu-premium-pure-artisan-soy-sauce-unadulterated-no-preservatives-24-3-fl-oz-720ml-1,websearch
+processed_meat,Niman Ranch,World,added_post_validation,https://en.wikipedia.org/wiki/Niman_Ranch,wikipedia_summary
+processed_meat,Johnsonville,World,added_post_validation,https://en.wikipedia.org/wiki/Johnsonville_(company),wikipedia_summary
+processed_meat,Columbus,World,added_post_validation,https://en.wikipedia.org/wiki/Columbus_Craft_Meats,wikipedia_summary
+processed_meat,Nathan's Famous,World,added_post_validation,https://en.wikipedia.org/wiki/Nathan's_Famous,wikipedia_summary
+express_delivery,Blue Dart,World,added_post_validation,https://en.wikipedia.org/wiki/Blue_Dart_Express,wikipedia_summary
+express_delivery,Yamato,World,added_post_validation,https://en.wikipedia.org/wiki/Yamato_Transport,wikipedia_summary
+online_travel,Hotels.com,World,added_post_validation,https://en.wikipedia.org/wiki/Hotels.com,wikipedia_summary
+online_travel,Orbitz,World,added_post_validation,https://en.wikipedia.org/wiki/Orbitz,wikipedia_summary
+online_travel,Travelocity,World,added_post_validation,https://en.wikipedia.org/wiki/Travelocity,wikipedia_summary
+hotel_chains,Accor,World,added_post_validation,https://en.wikipedia.org/wiki/Accor,wikipedia_summary
+hotel_chains,Wyndham,World,added_post_validation,https://en.wikipedia.org/wiki/Wyndham_Hotels_%26_Resorts,wikipedia_summary
+hotel_chains,Choice Hotels,World,added_post_validation,https://en.wikipedia.org/wiki/Choice_Hotels,wikipedia_summary
+real_estate_agencies,Engel & Völkers,World,added_post_validation,https://en.wikipedia.org/wiki/Engel_%26_V%C3%B6lkers,wikipedia_summary
+real_estate_agencies,Christie's International Real Estate,World,added_post_validation,https://en.wikipedia.org/wiki/Christie's_International_Real_Estate,wikipedia_summary
+luxury_fashion,Saint Laurent,World,added_post_validation,https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(fashion_house),wikipedia_summary
+luxury_fashion,Balenciaga,World,added_post_validation,https://en.wikipedia.org/wiki/Balenciaga,wikipedia_summary
+luxury_fashion,Versace,World,added_post_validation,https://en.wikipedia.org/wiki/Versace,wikipedia_summary
+sportswear,Alo Yoga,World,added_post_validation,https://en.wikipedia.org/wiki/Alo_Yoga,wikipedia_summary
+sportswear,Gymshark,World,added_post_validation,https://en.wikipedia.org/wiki/Gymshark,wikipedia_summary
+sportswear,Arc'teryx,World,added_post_validation,https://en.wikipedia.org/wiki/Arc'teryx,wikipedia_summary
+sportswear,Outdoor Voices,World,added_post_validation,https://en.wikipedia.org/wiki/Outdoor_Voices,wikipedia_summary
+jewelry,Van Cleef & Arpels,World,added_post_validation,https://en.wikipedia.org/wiki/Van_Cleef_%26_Arpels,wikipedia_summary
+jewelry,Harry Winston,World,added_post_validation,https://en.wikipedia.org/wiki/Harry_Winston%2C_Inc.,wikipedia_summary
+jewelry,Graff,World,added_post_validation,https://en.wikipedia.org/wiki/Graff_(jewellers),wikipedia_summary
+jewelry,Buccellati,World,added_post_validation,https://en.wikipedia.org/wiki/Buccellati,wikipedia_summary
+jewelry,David Yurman,World,added_post_validation,https://en.wikipedia.org/wiki/David_Yurman,wikipedia_summary
+jewelry,Mikimoto,World,added_post_validation,https://en.wikipedia.org/wiki/Mikimoto_(company),wikipedia_summary
+home_appliances,Sub-Zero,World,added_post_validation,https://en.wikipedia.org/wiki/Sub-Zero_(company),wikipedia_summary
+home_appliances,Speed Queen,World,added_post_validation,https://en.wikipedia.org/wiki/Alliance_Laundry_Systems,wikipedia_summary
+home_appliances,KitchenAid,World,added_post_validation,https://en.wikipedia.org/wiki/KitchenAid,wikipedia_summary
+home_appliances,Breville,World,added_post_validation,https://en.wikipedia.org/wiki/Breville_Group,wikipedia_summary
+air_conditioners,Lennox,World,added_post_validation,https://en.wikipedia.org/wiki/Lennox_International,wikipedia_summary
+air_conditioners,American Standard,World,added_post_validation,https://en.wikipedia.org/wiki/American_Standard_Companies,wikipedia_summary
+game_consoles,NEC,World,added_post_validation,https://en.wikipedia.org/wiki/TurboGrafx-16,wikipedia_summary
+game_consoles,SNK,World,added_post_validation,https://en.wikipedia.org/wiki/Neo_Geo,wikipedia_summary
+game_consoles,Magnavox,World,added_post_validation,https://en.wikipedia.org/wiki/Magnavox_Odyssey,wikipedia_summary
+game_consoles,Panasonic,World,added_post_validation,https://en.wikipedia.org/wiki/3DO,wikipedia_summary
+consumer_electronics,Microsoft,World,added_post_validation,https://en.wikipedia.org/wiki/Microsoft_Surface,wikipedia_summary
+consumer_electronics,Google,World,added_post_validation,https://en.wikipedia.org/wiki/Google_Pixel,wikipedia_summary
+consumer_electronics,Amazon,World,added_post_validation,https://en.wikipedia.org/wiki/Amazon_Echo,wikipedia_summary
+consumer_electronics,Dyson,World,added_post_validation,https://en.wikipedia.org/wiki/Dyson_(company),wikipedia_summary
+supermarkets,Whole Foods Market,World,added_post_validation,https://en.wikipedia.org/wiki/Whole_Foods_Market,wikipedia_summary
+supermarkets,Ahold Delhaize,World,added_post_validation,https://en.wikipedia.org/wiki/Ahold_Delhaize,wikipedia_summary
+furniture,Room & Board,World,added_post_validation,https://en.wikipedia.org/wiki/Room_%26_Board,wikipedia_summary
+furniture,Ethan Allen,World,added_post_validation,https://en.wikipedia.org/wiki/Ethan_Allen_(company),wikipedia_summary
+furniture,Crate & Barrel,World,added_post_validation,https://en.wikipedia.org/wiki/Crate_%26_Barrel,wikipedia_summary
+tcm,Tasly,China,added_post_validation,https://en.wikipedia.org/wiki/Tasly,wikipedia_summary
+tcm,Kangmei,China,added_post_validation,https://en.wikipedia.org/wiki/Kangmei_Pharmaceutical,wikipedia_summary
+online_healthcare,Babylon Health,World,added_post_validation,https://en.wikipedia.org/wiki/Babylon_Health,wikipedia_summary
+online_healthcare,Zocdoc,World,added_post_validation,https://en.wikipedia.org/wiki/Zocdoc,wikipedia_summary
+online_healthcare,Hims & Hers,World,added_post_validation,https://en.wikipedia.org/wiki/Hims_%26_Hers_Health,wikipedia_summary
+online_healthcare,BetterHelp,World,added_post_validation,https://en.wikipedia.org/wiki/BetterHelp,wikipedia_summary
+online_healthcare,Carbon Health,World,added_post_validation,https://en.wikipedia.org/wiki/Carbon_Health,wikipedia_summary
+news_apps,Feedly,World,added_post_validation,https://en.wikipedia.org/wiki/Feedly,wikipedia_summary
+news_apps,Ground News,World,added_post_validation,https://en.wikipedia.org/wiki/Ground_News,wikipedia_summary
+news_apps,Reuters,World,added_post_validation,https://en.wikipedia.org/wiki/Reuters,wikipedia_summary
+video_games,Rockstar Games,World,added_post_validation,https://en.wikipedia.org/wiki/Rockstar_Games,wikipedia_summary
+video_games,Capcom,World,added_post_validation,https://en.wikipedia.org/wiki/Capcom,wikipedia_summary
+video_games,FromSoftware,World,added_post_validation,https://en.wikipedia.org/wiki/FromSoftware,wikipedia_summary
+video_games,Blizzard,World,added_post_validation,https://en.wikipedia.org/wiki/Blizzard_Entertainment,wikipedia_summary
+video_games,Square Enix,World,added_post_validation,https://en.wikipedia.org/wiki/Square_Enix,wikipedia_summary
+home_improvement,Do it Best,World,added_post_validation,https://en.wikipedia.org/wiki/Do_It_Best,wikipedia_summary
+home_improvement,Home Hardware,World,added_post_validation,https://en.wikipedia.org/wiki/Home_Hardware,wikipedia_summary
+property_developers,Longfor,China,added_post_validation,https://en.wikipedia.org/wiki/Longfor_Properties,wikipedia_summary
+cigarettes,Dunhill,World,added_post_validation,https://en.wikipedia.org/wiki/Dunhill_(cigarette),wikipedia_summary
+cigarettes,Lucky Strike,World,added_post_validation,https://en.wikipedia.org/wiki/Lucky_Strike,wikipedia_summary
+cigarettes,Parliament,World,added_post_validation,https://en.wikipedia.org/wiki/Parliament_(cigarette),wikipedia_summary
+cigarettes,Bond Street,World,added_post_validation,https://en.wikipedia.org/wiki/Bond_Street_(cigarette),wikipedia_summary
+ai_chatbots,Character.AI,World,added_post_validation,https://en.wikipedia.org/wiki/Character.ai,wikipedia_summary
+ai_chatbots,Replika,World,added_post_validation,https://en.wikipedia.org/wiki/Replika,wikipedia_summary

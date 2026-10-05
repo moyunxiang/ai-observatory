@@ -1,0 +1,3 @@
+category_id,category_name,result,recall,recall_pre_additions,n_predicted,hits,extra,parsed
+hot_pot,Hot Pot Restaurant Chains,Fail,0.4,0.4,10,haidilao; little sheep; xiabu xiabu; shu daxia,coucou hot pot; happy lamb; dong lai shun; dolar shop; boiling point; tanyoto,Haidilao; Little Sheep; Xiabu Xiabu; CouCou Hot Pot; Happy Lamb; Shu Daxia; Dong Lai Shun; The Dolar Shop; Boiling Point; Tanyoto
+health_insurance,Health Insurance,Pass,0.8,0.8,10,unitedhealthcare; blue cross blue shield; aetna; cigna; humana; kaiser permanente; anthem; centene,molina healthcare; oscar health,UnitedHealthcare; Blue Cross Blue Shield; Aetna; Cigna; Humana; Kaiser Permanente; Anthem; Molina Healthcare; Centene; Oscar Health

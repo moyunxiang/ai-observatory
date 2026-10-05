@@ -165,11 +165,13 @@
   "Xiabuxiabu"
  ],
  "Banu": [
-  "Banu Hot Pot"
+  "Banu Hot Pot",
+  "Banu Hotpot"
  ],
  "Coucou": [
   "Coucou Hotpot",
-  "Cou Cou"
+  "Cou Cou",
+  "CouCou Hot Pot"
  ],
  "Liuyishou": [
   "Liu Yi Shou",
@@ -189,7 +191,8 @@
   "De Zhuang"
  ],
  "Xiaolongkan": [
-  "Xiao Long Kan"
+  "Xiao Long Kan",
+  "Shoo Loong Kan"
  ],
  "Nongfu Spring": [
   "Nongfu"
@@ -290,12 +293,14 @@
   "BHHS"
  ],
  "Coldwell Banker": [
-  "Coldwell Banker Realty"
+  "Coldwell Banker Realty",
+  "Coldwell Banker Real Estate"
  ],
  "Poly": [
   "Poly Developments",
   "Poly Property",
-  "Poly Real Estate"
+  "Poly Real Estate",
+  "Poly Developments and Holdings"
  ],
  "Vanke": [
   "China Vanke"
@@ -312,7 +317,8 @@
   "Greentown China"
  ],
  "China Merchants Shekou": [
-  "CMSK"
+  "CMSK",
+  "China Merchants Shekou Industrial Zone Holdings"
  ],
  "C&D Real Estate": [
   "C&D"
@@ -423,7 +429,9 @@
   "LG Electronics"
  ],
  "GE Appliances": [
-  "GE"
+  "GE",
+  "GE Profile",
+  "GE Café"
  ],
  "Beko": [
   "Arcelik"
@@ -789,7 +797,8 @@
   "Marriott Bonvoy"
  ],
  "Hyatt": [
-  "Hyatt Hotels"
+  "Hyatt Hotels",
+  "Hyatt Hotels Corporation"
  ],
  "IHG": [
   "InterContinental",
@@ -993,7 +1002,8 @@
   "Tongrentang"
  ],
  "Pien Tze Huang": [
-  "Pianzaihuang"
+  "Pianzaihuang",
+  "Zhangzhou Pien Tze Huang Pharmaceutical"
  ],
  "Dong E E Jiao": [
   "Dong-E-E-Jiao",
@@ -1009,7 +1019,8 @@
   "Huqingyutang"
  ],
  "Baiyunshan": [
-  "Guangzhou Baiyunshan"
+  "Guangzhou Baiyunshan",
+  "Guangzhou Baiyunshan Pharmaceutical"
  ],
  "WeDoctor": [
   "Guahao"
@@ -1075,5 +1086,117 @@
  ],
  "V": [
   "V Energy"
+ ],
+ "Costco": [
+  "Costco Wholesale"
+ ],
+ "Mandarin Oriental": [
+  "Mandarin Oriental Hotel Group"
+ ],
+ "Royal Mail": [
+  "Royal Mail Special Delivery"
+ ],
+ "Poe": [
+  "Poe by Quora"
+ ],
+ "Wyndham": [
+  "Wyndham Hotels & Resorts"
+ ],
+ "Choice Hotels": [
+  "Choice Hotels International"
+ ],
+ "Breville": [
+  "Sage"
+ ],
+ "Fujitsu": [
+  "Fujitsu General"
+ ],
+ "Peet's Coffee": [
+  "Peet's"
+ ],
+ "Dutch Bros": [
+  "Dutch Bros Coffee"
+ ],
+ "Yi Fang": [
+  "Yi Fang Taiwan Fruit Tea"
+ ],
+ "Happy Lamb": [
+  "Happy Lamb Hot Pot"
+ ],
+ "A&W": [
+  "A&W Root Beer"
+ ],
+ "Core": [
+  "Core Hydration"
+ ],
+ "Mountain Valley": [
+  "Mountain Valley Spring Water"
+ ],
+ "Reign": [
+  "Reign Total Body Fuel"
+ ],
+ "Ghost": [
+  "Ghost Energy"
+ ],
+ "C4": [
+  "C4 Energy"
+ ],
+ "Bang": [
+  "Bang Energy"
+ ],
+ "Kishibori": [
+  "Kishibori Shoyu"
+ ],
+ "Columbus": [
+  "Columbus Craft Meats"
+ ],
+ "Blue Dart": [
+  "Blue Dart Express"
+ ],
+ "Yamato": [
+  "Yamato Transport"
+ ],
+ "Blizzard": [
+  "Blizzard Entertainment"
+ ],
+ "Hims & Hers": [
+  "Hims"
+ ],
+ "Kangmei": [
+  "Kangmei Pharmaceutical"
+ ],
+ "Jiuzhitang": [
+  "Jiu Zhi Tang"
+ ],
+ "Russian River": [
+  "Russian River Brewing"
+ ],
+ "Sierra Nevada": [
+  "Sierra Nevada Brewing"
+ ],
+ "Whole Foods Market": [
+  "Whole Foods"
+ ],
+ "Babylon Health": [
+  "Babylon"
+ ],
+ "Nathan's Famous": [
+  "Nathan's"
+ ],
+ "Pandora": [
+  "Pandora Radio",
+  "Pandora Music"
+ ],
+ "Google Pixel": [
+  "Pixel"
+ ],
+ "Diners Club": [
+  "Diners Club International"
+ ],
+ "Longfor": [
+  "Longfor Group"
+ ],
+ "Yanlord": [
+  "Yanlord Land"
  ]
 }

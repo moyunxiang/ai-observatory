@@ -1,0 +1,66 @@
+category_id,attempt,category_name,run_id,recall,recall_pre_additions,result
+smartphones,1,Smartphones,r1_ds,1.0,0.7,Pass
+search_engines,1,Search Engines,r1_ds,1.0,1.0,Pass
+social_media,1,Social Media Platforms,r1_ds,0.9,0.9,Pass
+short_video,1,Short Video Apps,r1_ds,0.9,0.7,Pass
+video_streaming,1,Video Streaming Services,r1_ds,1.0,1.0,Pass
+music_streaming,1,Music Streaming Services,r1_ds,1.0,0.6,Pass
+ecommerce,1,Online Shopping Platforms,r1_ds,0.9,0.4,Pass
+fast_food,1,Fast Food Chains,r1_ds,1.0,0.7,Pass
+coffee_chains,1,Coffee Chains,r1_ds,1.0,0.7,Pass
+bubble_tea,1,Bubble Tea Chains,r1_ds,0.9,0.7,Pass
+hot_pot,1,Hot Pot Restaurant Chains,r1_ds,1.0,0.7,Pass
+soft_drinks,1,Soft Drinks,r1_ds,1.0,0.7,Pass
+bottled_water,1,Bottled Water,r1_ds,0.8,0.5,Pass
+dairy,1,Dairy Products,r1_ds,0.9,0.7,Pass
+baijiu,1,Baijiu,r1_ds,0.9,0.9,Pass
+beer,1,Beer,r1_ds,1.0,0.1,Pass
+energy_drinks,1,Energy Drinks,r1_ds,0.8,0.5,Pass
+soy_sauce,1,Soy Sauce,r1_ds,1.0,0.6,Pass
+processed_meat,1,Processed Meat Products,r1_ds,1.0,0.6,Pass
+banks,1,Banks,r1_ds,1.0,1.0,Pass
+payment_networks,1,Credit Card Networks,r1_ds,0.4,0.4,Fail
+digital_payments,1,Digital Payment Services,r1_ds,0.9,0.9,Pass
+insurance,1,Insurance Companies,r1_ds,0.8,0.8,Pass
+health_insurance,1,Health Insurance,r1_ds,0.8,0.8,Pass
+mobile_carriers,1,Mobile Carriers,r1_ds,1.0,1.0,Pass
+isps,1,Internet Service Providers,r1_ds,0.8,0.8,Pass
+airlines,1,Airlines,r1_ds,0.9,0.9,Pass
+express_delivery,1,Express Delivery Services,r1_ds,1.0,0.8,Pass
+food_delivery,1,Food Delivery Platforms,r1_ds,0.8,0.8,Pass
+ride_hailing,1,Ride-Hailing Apps,r1_ds,0.9,0.9,Pass
+online_travel,1,Online Travel Agencies,r1_ds,1.0,0.7,Pass
+hotel_chains,1,Hotel Chains,r1_ds,1.0,0.7,Pass
+restaurant_reviews,1,Restaurant Review Platforms,r1_ds,0.9,0.9,Pass
+real_estate_agencies,1,Real Estate Agencies,r1_ds,0.9,0.7,Pass
+property_developers,1,Real Estate Developers,r1_ds,0.0,0.0,Fail
+electric_vehicles,1,Electric Vehicles,r1_ds,1.0,1.0,Pass
+cars,1,Cars,r1_ds,0.9,0.9,Pass
+luxury_fashion,1,Luxury Fashion,r1_ds,1.0,0.7,Pass
+sportswear,1,Sportswear,r1_ds,1.0,0.6,Pass
+fast_fashion,1,Fast Fashion,r1_ds,0.9,0.9,Pass
+cosmetics,1,Cosmetics,r1_ds,0.9,0.9,Pass
+jewelry,1,Jewelry,r1_ds,1.0,0.4,Pass
+home_appliances,1,Home Appliances,r1_ds,1.0,0.6,Pass
+air_conditioners,1,Air Conditioners,r1_ds,0.9,0.7,Pass
+televisions,1,TVs,r1_ds,0.8,0.8,Pass
+laptops,1,Laptops,r1_ds,0.8,0.8,Pass
+drones,1,Drones,r1_ds,0.8,0.8,Pass
+game_consoles,1,Video Game Consoles,r1_ds,1.0,0.6,Pass
+consumer_electronics,1,Consumer Electronics,r1_ds,1.0,0.6,Pass
+ai_chatbots,1,AI Chatbots,r1_ds,0.9,0.8,Pass
+supermarkets,1,Supermarket Chains,r1_ds,0.9,0.7,Pass
+home_improvement,1,Home Improvement Stores,r1_ds,0.5,0.5,Fail
+furniture,1,Furniture Stores,r1_ds,0.8,0.5,Pass
+tcm,1,Traditional Chinese Medicine,r1_ds,0.8,0.6,Pass
+online_healthcare,1,Online Healthcare Platforms,r1_ds,0.8,0.3,Pass
+job_platforms,1,Job Search Platforms,r1_ds,0.8,0.8,Pass
+news_apps,1,News Apps,r1_ds,1.0,0.7,Pass
+video_games,1,Video Game Companies,r1_ds,1.0,0.5,Pass
+movie_studios,1,Movie Studios,r1_ds,0.8,0.8,Pass
+cigarettes,1,Cigarettes,r1_ds,0.0,0.0,Fail
+payment_networks,2,Payment Card Networks,r2_ds,0.9,0.9,Pass
+property_developers,2,Chinese Real Estate Developers,r2_ds,0.9,0.8,Pass
+ai_chatbots,2,AI Chatbot Apps,r2_ds,1.0,0.8,Pass
+home_improvement,2,Home Improvement Retail Chains,r2_ds,1.0,0.8,Pass
+cigarettes,2,Cigarette Brands,r2_ds,1.0,0.6,Pass

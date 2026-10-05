@@ -21,12 +21,19 @@ class TestNormalize(unittest.TestCase):
         self.assertEqual(basic_normalize("The North Face"), "north face")
         self.assertEqual(basic_normalize("Procter & Gamble Co."), "procter and gamble")
 
+    def test_trailing_and_after_suffix(self):
+        self.assertEqual(basic_normalize("Poly Developments and Holdings"), "poly developments")
+
     def test_dotcom_suffix(self):
         self.assertEqual(basic_normalize("Booking.com"), basic_normalize("Booking"))
         self.assertEqual(basic_normalize("JD.com"), "jd")
 
     def test_suffix_not_stripped_when_only_token(self):
         self.assertEqual(basic_normalize("Group"), "group")
+
+    def test_alias_chain(self):
+        amap = {"sony playstation": "playstation", "playstation": "sony interactive entertainment"}
+        self.assertEqual(normalize_brand("Sony PlayStation", amap), "sony interactive entertainment")
 
     def test_alias(self):
         amap = build_alias_map({"Hewlett-Packard": ["HP", "HP Inc."]})
@@ -84,8 +91,11 @@ class TestManualSheet(unittest.TestCase):
 
 class TestParse(unittest.TestCase):
     def test_numbered_markdown(self):
-        text = "Here are 10 brands:\n\n1. **Brand A** - known for X\n2) Brand B: description\n3. Brand C (Germany)\n- Brand D — note"
-        self.assertEqual(parse_brand_list(text), ["Brand A", "Brand B", "Brand C", "Brand D"])
+        text = "Here are 10 brands:\n\n1. **Brand A** - known for X\n2) Brand B: description\n3. Brand C (Germany)\n- a note"
+        self.assertEqual(parse_brand_list(text), ["Brand A", "Brand B", "Brand C"])  # numbered items win
+
+    def test_bullets_when_no_numbers(self):
+        self.assertEqual(parse_brand_list("Top picks:\n- **Brand A** — note\n* Brand B: x\n• Brand C"), ["Brand A", "Brand B", "Brand C"])
 
     def test_hyphenated_name_kept(self):
         self.assertEqual(parse_brand_list("1. Coca-Cola\n2. Rolls-Royce"), ["Coca-Cola", "Rolls-Royce"])
@@ -97,6 +107,19 @@ class TestParse(unittest.TestCase):
                 "3. **Ecovacs (Deebot)**: Wide range.\n\n"
                 "Let me know if you want a comparison!")
         self.assertEqual(parse_brand_list(text), ["Roborock", "iRobot", "Ecovacs"])
+
+    def test_bold_wrapped_numbers_and_headings(self):
+        text = ("Intro:\n\n### Giants\n\n**1. Amazon**\nThe leader.\n\n**2. Alibaba (Taobao & Tmall)**\nAsia.\n\n"
+                "### 3. eBay\nAuctions.\n\n---\n*Note: depends on region.*")
+        self.assertEqual(parse_brand_list(text), ["Amazon", "Alibaba", "eBay"])
+
+    def test_nested_sub_bullets_ignored(self):
+        text = ("1.  **Nike**\n    - **Best for:** Innovation.\n    - **Why:** Leader.\n\n"
+                "2.  **Adidas**\n    - **Best for:** Heritage.\n\n**Disclaimer:** consult a doctor.")
+        self.assertEqual(parse_brand_list(text), ["Nike", "Adidas"])
+
+    def test_chinese_parenthesis(self):
+        self.assertEqual(parse_brand_list("1. **Tongrentang (同仁堂)**\n2. Yunnan Baiyao（云南白药）"), ["Tongrentang", "Yunnan Baiyao"])
 
     def test_comma_line(self):
         self.assertEqual(parse_brand_list("Brand A, Brand B, Brand C."), ["Brand A", "Brand B", "Brand C"])
