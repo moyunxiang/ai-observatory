@@ -1,0 +1,190 @@
+brand,world_china,raw_label,primary_category_id,source_list,kantar_category,notes
+Apple,World,Smartphones,smartphones,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,iPhone is the core product line; also laptops/tablets
+Google,World,Search Engines,search_engines,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,
+Microsoft,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope: revenue mainly cloud/enterprise software
+Amazon,World,E-commerce Marketplaces,ecommerce,Kantar BrandZ 2025 Global Top 100,Retail,
+NVIDIA,World,Semiconductors,semiconductors,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Facebook,World,Social Media Platforms,social_media,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,
+Instagram,World,Social Media Platforms,social_media,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,
+McDonald's,World,Fast Food Chains,fast_food,Kantar BrandZ 2025 Global Top 100,Fast Food,
+Oracle,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Visa,World,Payment Card Networks,payment_networks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+Tencent,China,Video Game Publishers,video_games,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Media and Entertainment,"Multi-business (WeChat, QQ, games); primary = games by revenue. Assumption, see log"
+Mastercard,World,Payment Card Networks,payment_networks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+IBM,World,IT Services & Consulting,it_services,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Coca-Cola,World,Soft Drinks,soft_drinks,Kantar BrandZ 2025 Global Top 100,Food and Beverages,
+Walmart,World,Hypermarkets,supermarkets,Kantar BrandZ 2025 Global Top 100,Retail,
+Netflix,World,Video Streaming Services,video_streaming,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,
+Louis Vuitton,World,Luxury Fashion,luxury_fashion,Kantar BrandZ 2025 Global Top 100,Luxury,
+Hermès,World,Luxury Fashion,luxury_fashion,Kantar BrandZ 2025 Global Top 100,Luxury,
+T-Mobile,World,Mobile Network Operators,mobile_carriers,Kantar BrandZ 2025 Global Top 100,Telecom Providers,Kantar label: Telekom/T-Mobile
+Accenture,World,IT Services & Consulting,it_services,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Costco,World,Warehouse Clubs,supermarkets,Kantar BrandZ 2025 Global Top 100,Retail,
+Aramco,World,Oil & Gas,oil_gas,Kantar BrandZ 2025 Global Top 100,Energy,Out of B2C scope
+SAP,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Verizon,World,Mobile Network Operators,mobile_carriers,Kantar BrandZ 2025 Global Top 100,Telecom Providers,
+The Home Depot,World,Home Improvement Stores,home_improvement,Kantar BrandZ 2025 Global Top 100,Retail,
+YouTube,World,Video Streaming Services,video_streaming,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,
+AT&T,World,Mobile Network Operators,mobile_carriers,Kantar BrandZ 2025 Global Top 100,Telecom Providers,
+Tesla,World,Electric Vehicles,electric_vehicles,Kantar BrandZ 2025 Global Top 100,Automotive,
+Alibaba,China,E-commerce Marketplaces,ecommerce,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Retail,"Kantar value includes Taobao, Tmall, AliExpress"
+Adobe,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+LinkedIn,World,Professional Networking,social_media,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,Merged into social media (see category_merges.csv)
+TikTok,China,Short Video Apps,short_video,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,Market of origin per Kantar: China
+Moutai,China,Baijiu,baijiu,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Alcohol,
+Starbucks,World,Coffee Chains,coffee_chains,Kantar BrandZ 2025 Global Top 100,Fast Food,
+Salesforce,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Cisco,World,Networking Equipment,it_hardware,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+American Express,World,Payment Card Networks,payment_networks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+Snapdragon,World,Semiconductors,semiconductors,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope (Qualcomm)
+Huawei,China,Smartphones,smartphones,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Marlboro,World,Cigarettes,cigarettes,Kantar BrandZ 2025 Global Top 100,Tobacco,
+ServiceNow,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Chanel,World,Luxury Fashion,luxury_fashion,Kantar BrandZ 2025 Global Top 100,Luxury,
+Texas Instruments,World,Semiconductors,semiconductors,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Intuit,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Tata Consultancy Services,World,IT Services & Consulting,it_services,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+ADP,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+AMD,World,Semiconductors,semiconductors,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+UPS,World,Express Delivery,express_delivery,Kantar BrandZ 2025 Global Top 100,Logistics,
+J.P. Morgan,World,Investment Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+Mercado Libre,World,E-commerce Marketplaces,ecommerce,Kantar BrandZ 2025 Global Top 100,Retail,
+Nike,World,Sportswear,sportswear,Kantar BrandZ 2025 Global Top 100,Apparel,
+Disney,World,Movie Studios,movie_studios,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,
+Chase,World,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+Haier,China,Home Appliances,home_appliances,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,IoT Ecosystem,
+VMware,World,Enterprise Software & Cloud,enterprise_software,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+HDFC Bank,World,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+Uber,World,Ride-Hailing,ride_hailing,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,
+Wells Fargo,World,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+RBC,World,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+ChatGPT,World,AI Chatbots,ai_chatbots,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,
+Xbox,World,Video Game Consoles,game_consoles,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,
+China Mobile,China,Mobile Network Operators,mobile_carriers,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Telecom Providers,
+Spectrum,World,Internet Service Providers,isps,Kantar BrandZ 2025 Global Top 100,Telecom Providers,
+Intel,World,Semiconductors,semiconductors,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Zara,World,Fast Fashion,fast_fashion,Kantar BrandZ 2025 Global Top 100,Apparel,
+Airtel,World,Mobile Network Operators,mobile_carriers,Kantar BrandZ 2025 Global Top 100,Telecom Providers,
+Siemens,World,Industrial Conglomerates,industrial,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+Xfinity,World,Internet Service Providers,isps,Kantar BrandZ 2025 Global Top 100,Telecom Providers,
+Dell,World,Laptops & PCs,laptops,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Kantar label: Dell Technologies
+UnitedHealthcare,World,Health Insurance,health_insurance,Kantar BrandZ 2025 Global Top 100,Financial Services,
+L'Oréal Paris,World,Cosmetics,cosmetics,Kantar BrandZ 2025 Global Top 100,Personal Care,
+ICBC,China,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Financial Services,
+Infosys,World,IT Services & Consulting,it_services,Kantar BrandZ 2025 Global Top 100,Business Technology and Services Platforms,Out of B2C scope
+CommBank,World,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+Lowe's,World,Home Improvement Stores,home_improvement,Kantar BrandZ 2025 Global Top 100,Retail,
+Spotify,World,Music Streaming Services,music_streaming,Kantar BrandZ 2025 Global Top 100,Media and Entertainment,
+Toyota,World,Car Brands,cars,Kantar BrandZ 2025 Global Top 100,Automotive,
+Samsung,World,Smartphones,smartphones,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,
+BCA,World,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+Meituan,China,Food Delivery Platforms,food_delivery,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Bank of America,World,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+PayPal,World,Digital Payment Services,digital_payments,Kantar BrandZ 2025 Global Top 100,Financial Services,
+KFC,World,Fast Food Chains,fast_food,Kantar BrandZ 2025 Global Top 100,Fast Food,
+Ping An,China,Insurance,insurance,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Financial Services,
+Stripe,World,Online Payment Processing,digital_payments,Kantar BrandZ 2025 Global Top 100,Financial Services,Merged into digital payments
+Chipotle,World,Fast Casual Restaurants,fast_food,Kantar BrandZ 2025 Global Top 100,Fast Food,Merged into fast food
+IKEA,World,Furniture Retailers,furniture,Kantar BrandZ 2025 Global Top 100,Retail,
+ExxonMobil,World,Oil & Gas,oil_gas,Kantar BrandZ 2025 Global Top 100,Energy,Out of B2C scope
+Booking.com,World,Online Travel Agencies,online_travel,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,
+Morgan Stanley,World,Investment Banks,banks,Kantar BrandZ 2025 Global Top 100,Financial Services,
+FedEx,World,Express Delivery,express_delivery,Kantar BrandZ 2025 Global Top 100,Logistics,
+Sony,World,Consumer Electronics,consumer_electronics,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,
+Agricultural Bank of China,China,Retail Banks,banks,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Financial Services,
+Aldi,World,Discount Supermarkets,supermarkets,Kantar BrandZ 2025 Global Top 100,Retail,
+Hilton,World,Hotel Chains,hotel_chains,Kantar BrandZ 2025 Global Top 100,Travel Services,
+Xiaomi,China,Smartphones,smartphones,Kantar BrandZ 2025 Global Top 100; Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Uniqlo,World,Fast Fashion,fast_fashion,Kantar BrandZ 2025 Global Top 100,Apparel,
+Adidas,World,Sportswear,sportswear,Kantar BrandZ 2025 Global Top 100,Apparel,
+DoorDash,World,Food Delivery Platforms,food_delivery,Kantar BrandZ 2025 Global Top 100,Consumer Technology and Services Platforms,
+Mercedes-Benz,World,Car Brands,cars,Kantar BrandZ 2025 Global Top 100,Automotive,
+Douyin,China,Short Video Apps,short_video,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+China Construction Bank,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+China Life,China,Insurance,insurance,Kantar BrandZ 2025 China Top 100,Financial Services,
+JD,China,E-commerce Marketplaces,ecommerce,Kantar BrandZ 2025 China Top 100,Retail,JD.com
+Pinduoduo,China,E-commerce Marketplaces,ecommerce,Kantar BrandZ 2025 China Top 100,Retail,
+Bank of China,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+BYD,China,Electric Vehicles,electric_vehicles,Kantar BrandZ 2025 China Top 100,Automotive,
+Nongfu Spring,China,Bottled Water,bottled_water,Kantar BrandZ 2025 China Top 100,Food and Beverages,
+China Merchants Bank,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+China Telecom,China,Mobile Network Operators,mobile_carriers,Kantar BrandZ 2025 China Top 100,Telecom Providers,
+Shein,China,Fast Fashion,fast_fashion,Kantar BrandZ 2025 China Top 100,Apparel,Online-only fast fashion
+Sinopec,China,Oil & Gas,oil_gas,Kantar BrandZ 2025 China Top 100,Energy,Out of B2C scope
+Yili,China,Dairy Products,dairy,Kantar BrandZ 2025 China Top 100,Food and Beverages,
+NetEase,China,Video Game Publishers,video_games,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+CNPC,China,Oil & Gas,oil_gas,Kantar BrandZ 2025 China Top 100,Energy,Out of B2C scope
+Baidu,China,Search Engines,search_engines,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+Kuaishou,China,Short Video Apps,short_video,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+Wuliangye,China,Baijiu,baijiu,Kantar BrandZ 2025 China Top 100,Alcohol,Kantar label: Wu Liang Ye
+SF Express,China,Express Delivery,express_delivery,Kantar BrandZ 2025 China Top 100,Logistics,
+Xiaohongshu,China,Social Media Platforms,social_media,Kantar BrandZ 2025 China Top 100,Media and Entertainment,Also known as RedNote
+Midea,China,Home Appliances,home_appliances,Kantar BrandZ 2025 China Top 100,Home Appliances,
+Toutiao,China,News Apps,news_apps,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+vivo,China,Smartphones,smartphones,Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Haday,China,Soy Sauce,soy_sauce,Kantar BrandZ 2025 China Top 100,Food and Beverages,
+Ctrip,China,Online Travel Agencies,online_travel,Kantar BrandZ 2025 China Top 100,Travel Services,Trip.com group
+CPIC,China,Insurance,insurance,Kantar BrandZ 2025 China Top 100,Financial Services,
+Air China,China,Airlines,airlines,Kantar BrandZ 2025 China Top 100,Travel Services,
+Bank of Communications,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+National Cellar 1573,China,Baijiu,baijiu,Kantar BrandZ 2025 China Top 100,Alcohol,Premium line of Luzhou Laojiao; ranked separately by Kantar
+Mengniu,China,Dairy Products,dairy,Kantar BrandZ 2025 China Top 100,Food and Beverages,
+iFlytek,China,AI Speech Technology,it_services,Kantar BrandZ 2025 China Top 100,Business Technology and Services Platforms,Out of B2C scope: mainly B2B/B2G speech AI
+Lenovo,China,Laptops & PCs,laptops,Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Eastroc Beverage,China,Energy Drinks,energy_drinks,Kantar BrandZ 2025 China Top 100,Food and Beverages,
+China Southern Airlines,China,Airlines,airlines,Kantar BrandZ 2025 China Top 100,Travel Services,
+Ele.me,China,Food Delivery Platforms,food_delivery,Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Chow Tai Fook,China,Jewelry,jewelry,Kantar BrandZ 2025 China Top 100,Retail,
+Dianping,China,Restaurant Review Platforms,restaurant_reviews,Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Didi,China,Ride-Hailing,ride_hailing,Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,Kantar label: Didi Chuxing
+Gree,China,Air Conditioners,air_conditioners,Kantar BrandZ 2025 China Top 100,Home Appliances,
+Mixue Bingcheng,China,Tea Drink & Ice Cream Chains,bubble_tea,Kantar BrandZ 2025 China Top 100,Fast Food,Merged into bubble tea
+Haidilao,China,Hot Pot Restaurants,hot_pot,Kantar BrandZ 2025 China Top 100,Casual Dining,
+China Everbright Bank,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+China Eastern Airlines,China,Airlines,airlines,Kantar BrandZ 2025 China Top 100,Travel Services,
+Anta,China,Sportswear,sportswear,Kantar BrandZ 2025 China Top 100,Apparel,
+PICC,China,Insurance,insurance,Kantar BrandZ 2025 China Top 100,Financial Services,
+KE,China,Real Estate Agencies,real_estate_agencies,Kantar BrandZ 2025 China Top 100,Real Estate Agents,Beike (KE Holdings)
+ZTO Express,China,Express Delivery,express_delivery,Kantar BrandZ 2025 China Top 100,Logistics,
+Xinghuacun,China,Baijiu,baijiu,Kantar BrandZ 2025 China Top 100,Alcohol,Fenjiu producer; Kantar label: Xing Hua Cun
+Luckin Coffee,China,Coffee Chains,coffee_chains,Kantar BrandZ 2025 China Top 100,Fast Food,
+Freshippo,China,New-Retail Supermarkets,supermarkets,Kantar BrandZ 2025 China Top 100,Retail,Hema; merged into supermarkets
+Bilibili,China,Online Video Community,video_streaming,Kantar BrandZ 2025 China Top 100,Media and Entertainment,Merged into video streaming
+Heytea,China,Tea Drink Chains,bubble_tea,Kantar BrandZ 2025 China Top 100,Fast Food,
+Shuanghui,China,Processed Meat,processed_meat,Kantar BrandZ 2025 China Top 100,Food and Beverages,
+Taikang,China,Insurance,insurance,Kantar BrandZ 2025 China Top 100,Financial Services,
+Vanke,China,Real Estate Developers,property_developers,Kantar BrandZ 2025 China Top 100,Real Estate,
+DJI,China,Drones,drones,Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+China Unicom,China,Mobile Network Operators,mobile_carriers,Kantar BrandZ 2025 China Top 100,Telecom Providers,
+Yunnan Baiyao,China,Traditional Chinese Medicine,tcm,Kantar BrandZ 2025 China Top 100,Health Care,
+Youku,China,Video Streaming Services,video_streaming,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+China CITIC Bank,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+Lianjia,China,Real Estate Agencies,real_estate_agencies,Kantar BrandZ 2025 China Top 100,Real Estate Agents,
+Li Auto,China,Electric Vehicles,electric_vehicles,Kantar BrandZ 2025 China Top 100,Automotive,
+Luzhou Laojiao,China,Baijiu,baijiu,Kantar BrandZ 2025 China Top 100,Alcohol,
+Poly,China,Real Estate Developers,property_developers,Kantar BrandZ 2025 China Top 100,Real Estate,Poly Developments
+TCL,China,TVs,televisions,Kantar BrandZ 2025 China Top 100,Business Technology and Services Platforms,Kantar labels TCL as business tech; consumer brand primarily TVs. Assumption
+BOE,China,Display Panels,semiconductors,Kantar BrandZ 2025 China Top 100,Business Technology and Services Platforms,Out of B2C scope: B2B display panels
+Qunar,China,Online Travel Agencies,online_travel,Kantar BrandZ 2025 China Top 100,Travel Services,Kantar label: Qunar.com
+Mango TV,China,Video Streaming Services,video_streaming,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+Xpeng,China,Electric Vehicles,electric_vehicles,Kantar BrandZ 2025 China Top 100,Automotive,
+Tsingtao,China,Beer,beer,Kantar BrandZ 2025 China Top 100,Alcohol,
+Snow,China,Beer,beer,Kantar BrandZ 2025 China Top 100,Alcohol,Snow Beer (CR Beer)
+Boss Zhipin,China,Online Job Platforms,job_platforms,Kantar BrandZ 2025 China Top 100,Consumer Technology and Services Platforms,
+Gujing Gong Jiu,China,Baijiu,baijiu,Kantar BrandZ 2025 China Top 100,Alcohol,
+Fliggy,China,Online Travel Agencies,online_travel,Kantar BrandZ 2025 China Top 100,Travel Services,
+Tong Ren Tang,China,Traditional Chinese Medicine,tcm,Kantar BrandZ 2025 China Top 100,Health Care,
+CR Land,China,Real Estate Developers,property_developers,Kantar BrandZ 2025 China Top 100,Real Estate,
+Chagee,China,Tea Drink Chains,bubble_tea,Kantar BrandZ 2025 China Top 100,Fast Food,
+Bank of Ningbo,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+China Minsheng Bank,China,Retail Banks,banks,Kantar BrandZ 2025 China Top 100,Financial Services,
+Genki Forest,China,Sugar-free Soft Drinks,soft_drinks,Kantar BrandZ 2025 China Top 100,Food and Beverages,Merged into soft drinks
+WeDoctor,China,Online Healthcare Platforms,online_healthcare,Kantar BrandZ 2025 China Top 100,Health Care,
+NCI,China,Insurance,insurance,Kantar BrandZ 2025 China Top 100,Financial Services,New China Life Insurance
+NIO,China,Electric Vehicles,electric_vehicles,Kantar BrandZ 2025 China Top 100,Automotive,
+Kugou,China,Music Streaming Services,music_streaming,Kantar BrandZ 2025 China Top 100,Media and Entertainment,
+Guoyuan,China,Baijiu,baijiu,Kantar BrandZ 2025 China Top 100,Alcohol,Jinshiyuan Guoyuan; Kantar label: Guo Yuan
+Yanghe,China,Baijiu,baijiu,Kantar BrandZ 2025 China Top 100,Alcohol,
+Dong E E Jiao,China,Traditional Chinese Medicine,tcm,Kantar BrandZ 2025 China Top 100,Health Care,E-jiao (donkey-hide gelatin) tonics
+YTO Express,China,Express Delivery,express_delivery,Kantar BrandZ 2025 China Top 100,Logistics,
+CR Sanjiu,China,Traditional Chinese Medicine,tcm,Kantar BrandZ 2025 China Top 100,Health Care,OTC TCM medicines

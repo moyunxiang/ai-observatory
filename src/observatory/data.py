@@ -1,7 +1,7 @@
 """Load and sanity-check the input tables in data/.
 
     seed_brands.csv       Task 1: brand, world_china, primary_category_id, source_list, notes
-    categories.csv        Task 1: category_id, category_name (current name under test)
+    categories.csv        Task 1: category_id, category_name (current name under test), scope (B2C/out_of_scope)
     category_merges.csv   Task 1: raw_label, merged_into_category_id, reason
     category_brands.csv   Task 2: category_id, brand, world_china, origin, source_url
     category_attempts.csv Task 3: one row per (category, run) validation attempt
@@ -28,8 +28,10 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def load_categories() -> list[dict]:
-    return read_csv(DATA_DIR / "categories.csv")
+def load_categories(b2c_only: bool = False) -> list[dict]:
+    """b2c_only=True returns only categories that go through Task 2/3."""
+    cats = read_csv(DATA_DIR / "categories.csv")
+    return [c for c in cats if c["scope"] == "B2C"] if b2c_only else cats
 
 
 def load_seed_brands() -> list[dict]:

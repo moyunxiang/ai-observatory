@@ -54,11 +54,12 @@ def _new_run_dir(run_id: str | None) -> Path:
 
 def cmd_check(args) -> int:
     categories = load_categories()
+    b2c = load_categories(b2c_only=True)
     seeds = load_seed_brands()
     alias_map = build_alias_map(load_aliases())
     problems = check_seeds(seeds, categories)
-    problems += check_category_brands([c["category_id"] for c in categories], load_category_brands(), seeds, alias_map)
-    print(f"{len(seeds)} seed brands, {len(categories)} categories.")
+    problems += check_category_brands([c["category_id"] for c in b2c], load_category_brands(), seeds, alias_map)
+    print(f"{len(seeds)} seed brands, {len(categories)} categories ({len(b2c)} B2C in Task 2/3 scope).")
     if problems:
         print(f"NOT ready ({len(problems)} problems):")
         for p in problems:
@@ -69,7 +70,7 @@ def cmd_check(args) -> int:
 
 
 def cmd_export(args) -> int:
-    categories = _select(load_categories(), args.only)
+    categories = _select(load_categories(b2c_only=True), args.only)
     run_dir = _new_run_dir(args.run_id)
     items = [
         {"category_id": c["category_id"], "category_name": c["category_name"], "prompt": build_prompt(c["category_name"])}
@@ -112,7 +113,7 @@ def cmd_query(args) -> int:
     if args.provider not in SUPPORTED_PROVIDERS:
         print(f"Provider '{args.provider}' is not implemented yet (supported: {sorted(SUPPORTED_PROVIDERS) or 'none'}).")
         return 1
-    categories = _select(load_categories(), args.only)
+    categories = _select(load_categories(b2c_only=True), args.only)
     run_dir = _new_run_dir(args.run_id)
     (run_dir / "meta.json").write_text(json.dumps({
         "run_id": run_dir.name, "mode": "api", "provider": args.provider, "model": args.model,

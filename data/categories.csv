@@ -1,21 +1,67 @@
-category_id,category_name
-running_shoes,Running Shoes
-smartphones,Smartphones
-laptops,Laptops
-wireless_earbuds,Wireless Earbuds
-power_banks,Power Banks
-action_cameras,Action Cameras
-vacuum_cleaners,Vacuum Cleaners
-air_purifiers,Air Purifiers
-coffee_machines,Coffee Machines
-electric_toothbrushes,Electric Toothbrushes
-skincare,Skincare
-sunscreen,Sunscreen
-sportswear,Sportswear
-outdoor_jackets,Outdoor Jackets
-luggage,Luggage
-coffee_chains,Coffee Chains
-fast_food_chains,Fast Food Chains
-hotel_chains,Hotel Chains
-food_delivery_platforms,Food Delivery Platforms
-ride_hailing_services,Ride-Hailing Services
+category_id,category_name,scope
+smartphones,Smartphones,B2C
+search_engines,Search Engines,B2C
+social_media,Social Media Platforms,B2C
+short_video,Short Video Apps,B2C
+video_streaming,Video Streaming Services,B2C
+music_streaming,Music Streaming Services,B2C
+ecommerce,Online Shopping Platforms,B2C
+fast_food,Fast Food Chains,B2C
+coffee_chains,Coffee Chains,B2C
+bubble_tea,Bubble Tea Chains,B2C
+hot_pot,Hot Pot Restaurant Chains,B2C
+soft_drinks,Soft Drinks,B2C
+bottled_water,Bottled Water,B2C
+dairy,Dairy Products,B2C
+baijiu,Baijiu,B2C
+beer,Beer,B2C
+energy_drinks,Energy Drinks,B2C
+soy_sauce,Soy Sauce,B2C
+processed_meat,Processed Meat Products,B2C
+banks,Banks,B2C
+payment_networks,Credit Card Networks,B2C
+digital_payments,Digital Payment Services,B2C
+insurance,Insurance Companies,B2C
+health_insurance,Health Insurance,B2C
+mobile_carriers,Mobile Carriers,B2C
+isps,Internet Service Providers,B2C
+airlines,Airlines,B2C
+express_delivery,Express Delivery Services,B2C
+food_delivery,Food Delivery Platforms,B2C
+ride_hailing,Ride-Hailing Apps,B2C
+online_travel,Online Travel Agencies,B2C
+hotel_chains,Hotel Chains,B2C
+restaurant_reviews,Restaurant Review Platforms,B2C
+real_estate_agencies,Real Estate Agencies,B2C
+property_developers,Real Estate Developers,B2C
+electric_vehicles,Electric Vehicles,B2C
+cars,Cars,B2C
+luxury_fashion,Luxury Fashion,B2C
+sportswear,Sportswear,B2C
+fast_fashion,Fast Fashion,B2C
+cosmetics,Cosmetics,B2C
+jewelry,Jewelry,B2C
+home_appliances,Home Appliances,B2C
+air_conditioners,Air Conditioners,B2C
+televisions,TVs,B2C
+laptops,Laptops,B2C
+drones,Drones,B2C
+game_consoles,Video Game Consoles,B2C
+consumer_electronics,Consumer Electronics,B2C
+ai_chatbots,AI Chatbots,B2C
+supermarkets,Supermarket Chains,B2C
+home_improvement,Home Improvement Stores,B2C
+furniture,Furniture Stores,B2C
+tcm,Traditional Chinese Medicine,B2C
+online_healthcare,Online Healthcare Platforms,B2C
+job_platforms,Job Search Platforms,B2C
+news_apps,News Apps,B2C
+video_games,Video Game Companies,B2C
+movie_studios,Movie Studios,B2C
+cigarettes,Cigarettes,B2C
+enterprise_software,Enterprise Software,out_of_scope
+semiconductors,Semiconductors,out_of_scope
+it_services,IT Services,out_of_scope
+it_hardware,Networking Equipment,out_of_scope
+oil_gas,Oil & Gas,out_of_scope
+industrial,Industrial Conglomerates,out_of_scope
