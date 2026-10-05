@@ -1,34 +1,42 @@
 # Plan
 
 ## Goal
-Run a reproducible 20-category Recall@10 validation pilot with saved raw LLM output.
+Deliver to Jia Liu: sample results (~60 categories through Task 1→2→3, incl. rename cases) + a clear
+description of how they were derived, as `outputs/master_table.csv` + `docs/methodology_report_{zh,en}.md`.
 
 ## Non-Goals
-Scaling to 1,000 categories; multiple models; fancy fuzzy matching; dashboards.
+≥1000 categories; API automation (until key available); multiple AI models; B2B categories.
 
 ## Milestones
-### Phase 0 — Skeleton (done 2026-10-05)
-Structure, inputs, normalization, Recall@10, parser, CLI, tests, README.
-### Phase 1 — Inputs + provider (blocked on user)
-Fill reference brands + source; implement `query_llm` for chosen provider; `check` exits 0.
-### Phase 2 — First real run
-Smoke test on 1–2 categories, inspect parsing; then full run; `score` → results.csv / summary.json.
-### Phase 3 — Failure analysis
-For failed categories: check misses (alias? ambiguity? naming?), refine names/aliases, rerun as a new run_id.
+### Phase 1 — Code (DONE 2026-10-05)
+Task-spec metric/prompt, manual sheet export/import, master table, per-category aliases. Tests pass.
+### Phase 2 — Task 1 (DONE 2026-10-05)
+189 seeds → 66 categories; unclassified = 0.
+### Phase 3 — Task 2 (DONE 2026-10-05)
+838 brand rows, ≥10 per category, evidence-linked.
+### Phase 4 — Task 3 round 1 (WAITING ON USER)
+User runs `runs/r1/manual_sheet.txt` in ChatGPT → import → score.
+### Phase 5 — Rename loop
+Per failed category: inspect `extra`/hits; (a) alias gap → add alias, re-score r1 (log it); (b) real brand missing from
+table → add only with independent source, origin=added_post_validation, report both recalls; (c) AI misread the
+category → rename in `categories.csv`, export r2 `--only <ids>`. Repeat ≤3 rounds; document unresolved ones.
+### Phase 6 — Deliverables
+`master`; methodology report (zh/en, first-order stats with column definitions); short note on scaling to 1000.
 
 ## Acceptance Criteria
-- Unit tests pass; `check` exits 0 before any query.
-- Each run dir has meta.json + responses.jsonl (raw) + results.csv + summary.json.
-- Every pass/fail traceable to raw response + parsed list + hits/misses.
+- `check` passes; every brand row has source_url.
+- Every Pass/Fail traceable: raw answer → parsed list → hits/extra → recall.
+- Master table contains only Pass categories, no synonym duplicates.
+- Report numbers come from `summary.json` / `category_attempts.csv`; anything not computed says `not computed`.
 
 ## Risks
-- Parser mis-reads unusual LLM formats → inspect `parsed` column on smoke test.
-- Alias gaps produce false misses → review `missed`/`extra` before concluding category is ambiguous.
-- Reference set built with the same LLM → circular validation.
-- Nondeterminism → record temperature; consider repeated samples.
+- Manual copy-paste errors → `import` refuses empty answers, warns <5 parsed.
+- Brand table tuned to GPT answers (overfitting) → post-validation additions flagged + dual recall reported.
+- Region ambiguity (US vs China vs global) in categories like Health Insurance, ISPs, Real Estate Developers → expected failures; handled by renaming (e.g. add region) and documented.
+- websearch-method evidence weaker → spot-check.
 
 ## Rollback
-All changes are new files; runs are append-only in `runs/`. Revert code via git once initialized.
+Git history per phase (1e004de skeleton, 303f31d code, 29daba6 Task 1, 1f4854e Task 2). `runs/` append-only; attempts are rows, never rewritten.
 
 ## Deliverables
-Code + `runs/<run_id>/` artifacts + short report (zh/en) after Phase 2.
+`outputs/master_table.csv`, `outputs/category_status.csv`, `docs/methodology_report_zh.md`, `docs/methodology_report_en.md`.

@@ -63,3 +63,13 @@
 - Parent/brand aliasing kept minimal (exceptions: Aetna<->CVS Health, Claro/Telcel<->América Móvil, Movistar<->Telefónica).
 
 **Next**: Export full manual sheet (run r1) for user to run in ChatGPT; then import/score; rename failed categories.
+
+#### 2026-10-05 19:35 HKT — Export Task 3 round-1 sheet; docs refresh
+
+**Context**: Task 1/2 checks pass. Validation AI = user's ChatGPT, manual.
+
+**Actions**: `python3 scripts/validate.py export --run-id r1` (60 prompts). Rewrote README for the task-spec procedure; updated state.md and plan.md.
+
+**Results**: `runs/r1/manual_sheet.txt` with 60 sections. No answers yet; no results.
+
+**Next**: User fills sheet → `import runs/r1` → `score runs/r1`.

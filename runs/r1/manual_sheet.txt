@@ -1,0 +1,370 @@
+# Instructions
+# 1. Fill in the 4 header fields below.
+# 2. For EACH category: open a NEW ChatGPT Temporary Chat, paste the PROMPT line
+#    (text after "PROMPT: ") exactly, copy the full answer, paste it under the marker.
+# 3. Do not edit the === ... === / CATEGORY / PROMPT lines.
+
+MODEL: 
+DATE: 
+WEB_SEARCH: 
+TEMPORARY_CHAT: 
+
+=== smartphones ===
+CATEGORY: Smartphones
+PROMPT: What are the best brands for Smartphones? List 10 brands.
+--- paste answer below ---
+
+
+=== search_engines ===
+CATEGORY: Search Engines
+PROMPT: What are the best brands for Search Engines? List 10 brands.
+--- paste answer below ---
+
+
+=== social_media ===
+CATEGORY: Social Media Platforms
+PROMPT: What are the best brands for Social Media Platforms? List 10 brands.
+--- paste answer below ---
+
+
+=== short_video ===
+CATEGORY: Short Video Apps
+PROMPT: What are the best brands for Short Video Apps? List 10 brands.
+--- paste answer below ---
+
+
+=== video_streaming ===
+CATEGORY: Video Streaming Services
+PROMPT: What are the best brands for Video Streaming Services? List 10 brands.
+--- paste answer below ---
+
+
+=== music_streaming ===
+CATEGORY: Music Streaming Services
+PROMPT: What are the best brands for Music Streaming Services? List 10 brands.
+--- paste answer below ---
+
+
+=== ecommerce ===
+CATEGORY: Online Shopping Platforms
+PROMPT: What are the best brands for Online Shopping Platforms? List 10 brands.
+--- paste answer below ---
+
+
+=== fast_food ===
+CATEGORY: Fast Food Chains
+PROMPT: What are the best brands for Fast Food Chains? List 10 brands.
+--- paste answer below ---
+
+
+=== coffee_chains ===
+CATEGORY: Coffee Chains
+PROMPT: What are the best brands for Coffee Chains? List 10 brands.
+--- paste answer below ---
+
+
+=== bubble_tea ===
+CATEGORY: Bubble Tea Chains
+PROMPT: What are the best brands for Bubble Tea Chains? List 10 brands.
+--- paste answer below ---
+
+
+=== hot_pot ===
+CATEGORY: Hot Pot Restaurant Chains
+PROMPT: What are the best brands for Hot Pot Restaurant Chains? List 10 brands.
+--- paste answer below ---
+
+
+=== soft_drinks ===
+CATEGORY: Soft Drinks
+PROMPT: What are the best brands for Soft Drinks? List 10 brands.
+--- paste answer below ---
+
+
+=== bottled_water ===
+CATEGORY: Bottled Water
+PROMPT: What are the best brands for Bottled Water? List 10 brands.
+--- paste answer below ---
+
+
+=== dairy ===
+CATEGORY: Dairy Products
+PROMPT: What are the best brands for Dairy Products? List 10 brands.
+--- paste answer below ---
+
+
+=== baijiu ===
+CATEGORY: Baijiu
+PROMPT: What are the best brands for Baijiu? List 10 brands.
+--- paste answer below ---
+
+
+=== beer ===
+CATEGORY: Beer
+PROMPT: What are the best brands for Beer? List 10 brands.
+--- paste answer below ---
+
+
+=== energy_drinks ===
+CATEGORY: Energy Drinks
+PROMPT: What are the best brands for Energy Drinks? List 10 brands.
+--- paste answer below ---
+
+
+=== soy_sauce ===
+CATEGORY: Soy Sauce
+PROMPT: What are the best brands for Soy Sauce? List 10 brands.
+--- paste answer below ---
+
+
+=== processed_meat ===
+CATEGORY: Processed Meat Products
+PROMPT: What are the best brands for Processed Meat Products? List 10 brands.
+--- paste answer below ---
+
+
+=== banks ===
+CATEGORY: Banks
+PROMPT: What are the best brands for Banks? List 10 brands.
+--- paste answer below ---
+
+
+=== payment_networks ===
+CATEGORY: Credit Card Networks
+PROMPT: What are the best brands for Credit Card Networks? List 10 brands.
+--- paste answer below ---
+
+
+=== digital_payments ===
+CATEGORY: Digital Payment Services
+PROMPT: What are the best brands for Digital Payment Services? List 10 brands.
+--- paste answer below ---
+
+
+=== insurance ===
+CATEGORY: Insurance Companies
+PROMPT: What are the best brands for Insurance Companies? List 10 brands.
+--- paste answer below ---
+
+
+=== health_insurance ===
+CATEGORY: Health Insurance
+PROMPT: What are the best brands for Health Insurance? List 10 brands.
+--- paste answer below ---
+
+
+=== mobile_carriers ===
+CATEGORY: Mobile Carriers
+PROMPT: What are the best brands for Mobile Carriers? List 10 brands.
+--- paste answer below ---
+
+
+=== isps ===
+CATEGORY: Internet Service Providers
+PROMPT: What are the best brands for Internet Service Providers? List 10 brands.
+--- paste answer below ---
+
+
+=== airlines ===
+CATEGORY: Airlines
+PROMPT: What are the best brands for Airlines? List 10 brands.
+--- paste answer below ---
+
+
+=== express_delivery ===
+CATEGORY: Express Delivery Services
+PROMPT: What are the best brands for Express Delivery Services? List 10 brands.
+--- paste answer below ---
+
+
+=== food_delivery ===
+CATEGORY: Food Delivery Platforms
+PROMPT: What are the best brands for Food Delivery Platforms? List 10 brands.
+--- paste answer below ---
+
+
+=== ride_hailing ===
+CATEGORY: Ride-Hailing Apps
+PROMPT: What are the best brands for Ride-Hailing Apps? List 10 brands.
+--- paste answer below ---
+
+
+=== online_travel ===
+CATEGORY: Online Travel Agencies
+PROMPT: What are the best brands for Online Travel Agencies? List 10 brands.
+--- paste answer below ---
+
+
+=== hotel_chains ===
+CATEGORY: Hotel Chains
+PROMPT: What are the best brands for Hotel Chains? List 10 brands.
+--- paste answer below ---
+
+
+=== restaurant_reviews ===
+CATEGORY: Restaurant Review Platforms
+PROMPT: What are the best brands for Restaurant Review Platforms? List 10 brands.
+--- paste answer below ---
+
+
+=== real_estate_agencies ===
+CATEGORY: Real Estate Agencies
+PROMPT: What are the best brands for Real Estate Agencies? List 10 brands.
+--- paste answer below ---
+
+
+=== property_developers ===
+CATEGORY: Real Estate Developers
+PROMPT: What are the best brands for Real Estate Developers? List 10 brands.
+--- paste answer below ---
+
+
+=== electric_vehicles ===
+CATEGORY: Electric Vehicles
+PROMPT: What are the best brands for Electric Vehicles? List 10 brands.
+--- paste answer below ---
+
+
+=== cars ===
+CATEGORY: Cars
+PROMPT: What are the best brands for Cars? List 10 brands.
+--- paste answer below ---
+
+
+=== luxury_fashion ===
+CATEGORY: Luxury Fashion
+PROMPT: What are the best brands for Luxury Fashion? List 10 brands.
+--- paste answer below ---
+
+
+=== sportswear ===
+CATEGORY: Sportswear
+PROMPT: What are the best brands for Sportswear? List 10 brands.
+--- paste answer below ---
+
+
+=== fast_fashion ===
+CATEGORY: Fast Fashion
+PROMPT: What are the best brands for Fast Fashion? List 10 brands.
+--- paste answer below ---
+
+
+=== cosmetics ===
+CATEGORY: Cosmetics
+PROMPT: What are the best brands for Cosmetics? List 10 brands.
+--- paste answer below ---
+
+
+=== jewelry ===
+CATEGORY: Jewelry
+PROMPT: What are the best brands for Jewelry? List 10 brands.
+--- paste answer below ---
+
+
+=== home_appliances ===
+CATEGORY: Home Appliances
+PROMPT: What are the best brands for Home Appliances? List 10 brands.
+--- paste answer below ---
+
+
+=== air_conditioners ===
+CATEGORY: Air Conditioners
+PROMPT: What are the best brands for Air Conditioners? List 10 brands.
+--- paste answer below ---
+
+
+=== televisions ===
+CATEGORY: TVs
+PROMPT: What are the best brands for TVs? List 10 brands.
+--- paste answer below ---
+
+
+=== laptops ===
+CATEGORY: Laptops
+PROMPT: What are the best brands for Laptops? List 10 brands.
+--- paste answer below ---
+
+
+=== drones ===
+CATEGORY: Drones
+PROMPT: What are the best brands for Drones? List 10 brands.
+--- paste answer below ---
+
+
+=== game_consoles ===
+CATEGORY: Video Game Consoles
+PROMPT: What are the best brands for Video Game Consoles? List 10 brands.
+--- paste answer below ---
+
+
+=== consumer_electronics ===
+CATEGORY: Consumer Electronics
+PROMPT: What are the best brands for Consumer Electronics? List 10 brands.
+--- paste answer below ---
+
+
+=== ai_chatbots ===
+CATEGORY: AI Chatbots
+PROMPT: What are the best brands for AI Chatbots? List 10 brands.
+--- paste answer below ---
+
+
+=== supermarkets ===
+CATEGORY: Supermarket Chains
+PROMPT: What are the best brands for Supermarket Chains? List 10 brands.
+--- paste answer below ---
+
+
+=== home_improvement ===
+CATEGORY: Home Improvement Stores
+PROMPT: What are the best brands for Home Improvement Stores? List 10 brands.
+--- paste answer below ---
+
+
+=== furniture ===
+CATEGORY: Furniture Stores
+PROMPT: What are the best brands for Furniture Stores? List 10 brands.
+--- paste answer below ---
+
+
+=== tcm ===
+CATEGORY: Traditional Chinese Medicine
+PROMPT: What are the best brands for Traditional Chinese Medicine? List 10 brands.
+--- paste answer below ---
+
+
+=== online_healthcare ===
+CATEGORY: Online Healthcare Platforms
+PROMPT: What are the best brands for Online Healthcare Platforms? List 10 brands.
+--- paste answer below ---
+
+
+=== job_platforms ===
+CATEGORY: Job Search Platforms
+PROMPT: What are the best brands for Job Search Platforms? List 10 brands.
+--- paste answer below ---
+
+
+=== news_apps ===
+CATEGORY: News Apps
+PROMPT: What are the best brands for News Apps? List 10 brands.
+--- paste answer below ---
+
+
+=== video_games ===
+CATEGORY: Video Game Companies
+PROMPT: What are the best brands for Video Game Companies? List 10 brands.
+--- paste answer below ---
+
+
+=== movie_studios ===
+CATEGORY: Movie Studios
+PROMPT: What are the best brands for Movie Studios? List 10 brands.
+--- paste answer below ---
+
+
+=== cigarettes ===
+CATEGORY: Cigarettes
+PROMPT: What are the best brands for Cigarettes? List 10 brands.
+--- paste answer below ---
+
