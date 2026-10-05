@@ -38,7 +38,7 @@ scripts/
   build_category_brands.py curated selection -> category_brands.csv with provenance
   validate.py              check / export / import / query / score / master
 runs/<run_id>/             manual_sheet.txt + responses.jsonl (raw AI answers), meta.json, results.csv, summary.json
-outputs/                   master_table.csv, category_status.csv
+outputs/                   master_table.csv, category_status.csv, category_results.csv, report_*.pdf
 ```
 
 ## How to run
@@ -66,12 +66,22 @@ python3 scripts/validate.py score runs/r1_ds
 python3 scripts/verify_candidates.py           # Wikipedia summaries for data/raw/task2/post_validation_candidates.csv
 #   manual decisions -> data/raw/task2/post_validation_decisions.csv; then rebuild the table
 
-# Report numbers
-python3 scripts/report_stats.py r1_ds r2_ds r3_ds_holdout > outputs/report_stats.json
-python3 scripts/report_tables.py > outputs/report_table.md
+# Independent checks with the frozen table (not recorded as attempts)
+python3 -u scripts/validate.py query --provider openrouter --model qwen/qwen3.7-plus --temperature 0 --run-id r4_qwen_crossmodel
+python3 scripts/validate.py score runs/r4_qwen_crossmodel --no-record
+
+# Report numbers and PDFs (needs pandoc + Google Chrome)
+python3 scripts/report_stats.py r1_ds r2_ds r3_ds_holdout r4_qwen_crossmodel > outputs/report_stats.json
+python3 scripts/report_tables.py > outputs/report_table.md   # also writes category_results.csv, report_appendix.md
+sh scripts/report_pdf.sh                                      # docs/report_{en,zh}.md -> outputs/report_{en,zh}.pdf
 ```
 
 ## Status
 
-Sample stage done: 60/60 categories pass (latest attempt); hold-out 44/60 with the frozen table.
-Write-up: `docs/methodology_report_zh.md`, `docs/methodology_report_en.md`. Project state and next steps: `plan.md`.
+Sample stage done: 60/60 categories pass (latest attempt, DeepSeek V4 Pro). With the brand table frozen:
+DeepSeek hold-out (temperature 1.0) 44/60, Qwen 3.7 Plus cross-model 32/60; 28 categories pass both.
+
+- Short report (for sharing): `outputs/report_en.pdf`, `outputs/report_zh.pdf` (source `docs/report_{en,zh}.md`)
+- Detailed methodology: `docs/methodology_report_{en,zh}.md`
+- Results: `outputs/master_table.csv` (deliverable), `outputs/category_results.csv` (per-category scores of every run)
+- Project state and next steps: `plan.md`

@@ -1,0 +1,9 @@
+{
+  "run_id": "r4_qwen_crossmodel",
+  "mode": "api",
+  "provider": "openrouter",
+  "model": "qwen/qwen3.7-plus",
+  "temperature": 0.0,
+  "prompt_template": "What are the best brands for {category}? List 10 brands.",
+  "started_at": "2026-10-05T15:05:45.090863+00:00"
+}

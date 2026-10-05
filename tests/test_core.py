@@ -121,6 +121,10 @@ class TestParse(unittest.TestCase):
     def test_chinese_parenthesis(self):
         self.assertEqual(parse_brand_list("1. **Tongrentang (同仁堂)**\n2. Yunnan Baiyao（云南白药）"), ["Tongrentang", "Yunnan Baiyao"])
 
+    def test_slash_takes_first_brand_but_keeps_caps_names(self):
+        self.assertEqual(parse_brand_list("1. Sub-Zero/Wolf\n**2. RE/MAX**\n3. Haier / GE Appliances"),
+                         ["Sub-Zero", "RE/MAX", "Haier"])
+
     def test_comma_line(self):
         self.assertEqual(parse_brand_list("Brand A, Brand B, Brand C."), ["Brand A", "Brand B", "Brand C"])
 

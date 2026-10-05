@@ -1,6 +1,6 @@
 # 品牌 Category 发现与 AI 验证 —— Sample 阶段方法与结果报告（中文）
 
-> 生成时间：2026-10-06（HKT）。数据快照：git commit 见文末。所有数字来自 `outputs/report_stats.json`（`python3 scripts/report_stats.py r1_ds r2_ds r3_ds_holdout`）与 `outputs/category_status.csv`。
+> 生成时间：2026-10-06（HKT）。数据快照：git commit 见文末。所有数字来自 `outputs/report_stats.json`（`python3 scripts/report_stats.py r1_ds r2_ds r3_ds_holdout r4_qwen_crossmodel`）与 `outputs/category_status.csv`。
 
 ## 1. 任务与范围
 
@@ -54,13 +54,15 @@
 | 轮次 | 模型 / temperature | 类别数 | 口径 | Pass | Pass rate | Mean | Median | Std | Min | Max | 成本 USD |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | r1_ds 首次打分（初版解析器与别名） | deepseek-v4-pro / 0 | 60 | 初始品牌表 | 23 | 0.383 | 0.6283 | not computed | not computed | not computed | not computed | 0.0617 |
-| r1_ds（修复解析器/别名后） | deepseek-v4-pro / 0 | 60 | 补表前 | 25 | 0.4167 | 0.6883 | 0.7 | 0.2222 | 0.0 | 1.0 | 同上 |
-| r1_ds（修复后） | deepseek-v4-pro / 0 | 60 | 补表后 | 56 | 0.9333 | 0.8733 | 0.9 | 0.1991 | 0.0 | 1.0 | 同上 |
+| r1_ds（修复解析器/别名后） | deepseek-v4-pro / 0 | 60 | 补表前 | 26 | 0.4333 | 0.69 | 0.7 | 0.2226 | 0.0 | 1.0 | 同上 |
+| r1_ds（修复后） | deepseek-v4-pro / 0 | 60 | 补表后 | 56 | 0.9333 | 0.875 | 0.9 | 0.1997 | 0.0 | 1.0 | 同上 |
 | r2_ds（5 个改名类） | deepseek-v4-pro / 0 | 5 | 补表前 | 4 | 0.8 | 0.78 | 0.8 | 0.098 | 0.6 | 0.9 | 0.0085 |
 | r2_ds（5 个改名类） | deepseek-v4-pro / 0 | 5 | 补表后 | 5 | 1.0 | 0.96 | 1.0 | 0.049 | 0.9 | 1.0 | 同上 |
 | 最终（每类最近一次尝试） | — | 60 | 补表后 | 60 | 1.0 | — | — | — | — | — | — |
-| r3_ds_holdout（留出集） | deepseek-v4-pro / 1.0 | 60 | 补表前 | 28 | 0.4667 | 0.69 | 0.7 | 0.2461 | 0.0 | 1.0 | 0.043 |
-| r3_ds_holdout（留出集） | deepseek-v4-pro / 1.0 | 60 | 补表后（冻结表） | 44 | 0.7333 | 0.7983 | 0.9 | 0.2149 | 0.0 | 1.0 | 同上 |
+| r3_ds_holdout（留出集） | deepseek-v4-pro / 1.0 | 60 | 补表前 | 29 | 0.4833 | 0.6917 | 0.7 | 0.2465 | 0.0 | 1.0 | 0.043 |
+| r3_ds_holdout（留出集） | deepseek-v4-pro / 1.0 | 60 | 补表后（冻结表） | 44 | 0.7333 | 0.8 | 0.9 | 0.2153 | 0.0 | 1.0 | 同上 |
+| r4_qwen_crossmodel（跨模型） | qwen3.7-plus / 0 | 60 | 补表前 | 20 | 0.3333 | 0.6233 | 0.6 | 0.2298 | 0.0 | 1.0 | 0.2214 |
+| r4_qwen_crossmodel（跨模型） | qwen3.7-plus / 0 | 60 | 补表后（冻结表） | 32 | 0.5333 | 0.7217 | 0.8 | 0.205 | 0.0 | 1.0 | 同上 |
 
 #### Column Definitions
 - **轮次**：run_id，对应 `runs/<run_id>/`。
@@ -91,68 +93,68 @@
 
 ### 3.4 逐类结果（60 类）
 
-| # | category_id | r1 name | final name | brands (added) | r1 pre | r1 with | r2 pre | r2 with | final | holdout pre | holdout with |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | smartphones | Smartphones | Smartphones | 14 (3) | 0.7 | 1.0 | – | – | Pass | 0.6 | 0.8 |
-| 2 | search_engines | Search Engines | Search Engines | 12 (0) | 1.0 | 1.0 | – | – | Pass | 0.9 | 0.9 |
-| 3 | social_media | Social Media Platforms | Social Media Platforms | 17 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 |
-| 4 | short_video | Short Video Apps | Short Video Apps | 15 (2) | 0.7 | 0.9 | – | – | Pass | 0.8 | 0.9 |
-| 5 | video_streaming | Video Streaming Services | Video Streaming Services | 16 (0) | 1.0 | 1.0 | – | – | Pass | 1.0 | 1.0 |
-| 6 | music_streaming | Music Streaming Services | Music Streaming Services | 14 (4) | 0.6 | 1.0 | – | – | Pass | 0.6 | 1.0 |
-| 7 | ecommerce | Online Shopping Platforms | Online Shopping Platforms | 16 (5) | 0.4 | 0.9 | – | – | Pass | 0.7 | 0.8 |
-| 8 | fast_food | Fast Food Chains | Fast Food Chains | 18 (3) | 0.7 | 1.0 | – | – | Pass | 0.9 | 1.0 |
-| 9 | coffee_chains | Coffee Chains | Coffee Chains | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.6 | 0.9 |
-| 10 | bubble_tea | Bubble Tea Chains | Bubble Tea Chains | 18 (2) | 0.7 | 0.9 | – | – | Pass | 0.8 | 0.9 |
-| 11 | hot_pot | Hot Pot Restaurant Chains | Hot Pot Restaurant Chains | 13 (3) | 0.7 | 1.0 | – | – | Pass | 0.6 | 0.7 |
-| 12 | soft_drinks | Soft Drinks | Soft Drinks | 14 (3) | 0.7 | 1.0 | – | – | Pass | 0.7 | 0.9 |
-| 13 | bottled_water | Bottled Water | Bottled Water | 20 (3) | 0.5 | 0.8 | – | – | Pass | 0.7 | 0.9 |
-| 14 | dairy | Dairy Products | Dairy Products | 15 (2) | 0.7 | 0.9 | – | – | Pass | 0.0 | 0.2 |
-| 15 | baijiu | Baijiu | Baijiu | 17 (0) | 0.9 | 0.9 | – | – | Pass | 0.9 | 0.9 |
-| 16 | beer | Beer | Beer | 23 (9) | 0.1 | 1.0 | – | – | Pass | 0.2 | 0.6 |
-| 17 | energy_drinks | Energy Drinks | Energy Drinks | 18 (3) | 0.5 | 0.8 | – | – | Pass | 0.4 | 0.7 |
-| 18 | soy_sauce | Soy Sauce | Soy Sauce | 17 (4) | 0.6 | 1.0 | – | – | Pass | 0.1 | 0.2 |
-| 19 | processed_meat | Processed Meat Products | Processed Meat Products | 16 (4) | 0.6 | 1.0 | – | – | Pass | 0.2 | 0.3 |
-| 20 | banks | Banks | Banks | 29 (0) | 1.0 | 1.0 | – | – | Pass | 1.0 | 1.0 |
-| 21 | payment_networks | Credit Card Networks | Payment Card Networks | 11 (0) | 0.4 | 0.4 | 0.9 | 0.9 | Pass | 0.9 | 0.9 |
-| 22 | digital_payments | Digital Payment Services | Digital Payment Services | 12 (0) | 0.9 | 0.9 | – | – | Pass | 0.9 | 0.9 |
-| 23 | insurance | Insurance Companies | Insurance Companies | 21 (0) | 0.8 | 0.8 | – | – | Pass | 0.7 | 0.7 |
-| 24 | health_insurance | Health Insurance | Health Insurance | 11 (0) | 0.8 | 0.8 | – | – | Pass | 0.8 | 0.8 |
-| 25 | mobile_carriers | Mobile Carriers | Mobile Carriers | 21 (0) | 1.0 | 1.0 | – | – | Pass | 0.9 | 0.9 |
-| 26 | isps | Internet Service Providers | Internet Service Providers | 12 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 |
-| 27 | airlines | Airlines | Airlines | 24 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 |
-| 28 | express_delivery | Express Delivery Services | Express Delivery Services | 17 (2) | 0.8 | 1.0 | – | – | Pass | 0.6 | 0.7 |
-| 29 | food_delivery | Food Delivery Platforms | Food Delivery Platforms | 14 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 |
-| 30 | ride_hailing | Ride-Hailing Apps | Ride-Hailing Apps | 10 (0) | 0.9 | 0.9 | – | – | Pass | 0.9 | 0.9 |
-| 31 | online_travel | Online Travel Agencies | Online Travel Agencies | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.8 | 0.9 |
-| 32 | hotel_chains | Hotel Chains | Hotel Chains | 22 (3) | 0.7 | 1.0 | – | – | Pass | 0.5 | 0.5 |
-| 33 | restaurant_reviews | Restaurant Review Platforms | Restaurant Review Platforms | 12 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 |
-| 34 | real_estate_agencies | Real Estate Agencies | Real Estate Agencies | 15 (2) | 0.7 | 0.9 | – | – | Pass | 0.7 | 0.8 |
-| 35 | property_developers | Real Estate Developers | Chinese Real Estate Developers | 12 (1) | 0.0 | 0.0 | 0.8 | 0.9 | Pass | 0.7 | 0.8 |
-| 36 | electric_vehicles | Electric Vehicles | Electric Vehicles | 19 (0) | 1.0 | 1.0 | – | – | Pass | 0.9 | 0.9 |
-| 37 | cars | Cars | Cars | 16 (0) | 0.9 | 0.9 | – | – | Pass | 0.8 | 0.8 |
-| 38 | luxury_fashion | Luxury Fashion | Luxury Fashion | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.7 | 1.0 |
-| 39 | sportswear | Sportswear | Sportswear | 14 (4) | 0.6 | 1.0 | – | – | Pass | 0.7 | 0.8 |
-| 40 | fast_fashion | Fast Fashion | Fast Fashion | 13 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 |
-| 41 | cosmetics | Cosmetics | Cosmetics | 18 (0) | 0.9 | 0.9 | – | – | Pass | 0.5 | 0.5 |
-| 42 | jewelry | Jewelry | Jewelry | 19 (6) | 0.4 | 1.0 | – | – | Pass | 0.4 | 1.0 |
-| 43 | home_appliances | Home Appliances | Home Appliances | 19 (4) | 0.6 | 1.0 | – | – | Pass | 0.5 | 0.8 |
-| 44 | air_conditioners | Air Conditioners | Air Conditioners | 13 (2) | 0.7 | 0.9 | – | – | Pass | 0.6 | 0.7 |
-| 45 | televisions | TVs | TVs | 10 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 |
-| 46 | laptops | Laptops | Laptops | 11 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 |
-| 47 | drones | Drones | Drones | 12 (0) | 0.8 | 0.8 | – | – | Pass | 0.5 | 0.5 |
-| 48 | game_consoles | Video Game Consoles | Video Game Consoles | 16 (4) | 0.6 | 1.0 | – | – | Pass | 0.6 | 1.0 |
-| 49 | consumer_electronics | Consumer Electronics | Consumer Electronics | 15 (4) | 0.6 | 1.0 | – | – | Pass | 0.7 | 0.8 |
-| 50 | ai_chatbots | AI Chatbots | AI Chatbot Apps | 15 (2) | 0.8 | 0.9 | 0.8 | 1.0 | Pass | 0.8 | 0.9 |
-| 51 | supermarkets | Supermarket Chains | Supermarket Chains | 16 (2) | 0.7 | 0.9 | – | – | Pass | 0.7 | 0.7 |
-| 52 | home_improvement | Home Improvement Stores | Home Improvement Retail Chains | 15 (2) | 0.5 | 0.5 | 0.8 | 1.0 | Pass | 0.9 | 1.0 |
-| 53 | furniture | Furniture Stores | Furniture Stores | 13 (3) | 0.5 | 0.8 | – | – | Pass | 0.7 | 1.0 |
-| 54 | tcm | Traditional Chinese Medicine | Traditional Chinese Medicine | 12 (2) | 0.6 | 0.8 | – | – | Pass | 0.5 | 0.6 |
-| 55 | online_healthcare | Online Healthcare Platforms | Online Healthcare Platforms | 18 (5) | 0.3 | 0.8 | – | – | Pass | 0.5 | 0.6 |
-| 56 | job_platforms | Job Search Platforms | Job Search Platforms | 15 (0) | 0.8 | 0.8 | – | – | Pass | 0.8 | 0.8 |
-| 57 | news_apps | News Apps | News Apps | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.8 | 0.9 |
-| 58 | video_games | Video Game Companies | Video Game Companies | 24 (5) | 0.5 | 1.0 | – | – | Pass | 0.3 | 0.8 |
-| 59 | movie_studios | Movie Studios | Movie Studios | 16 (0) | 0.8 | 0.8 | – | – | Pass | 0.8 | 0.8 |
-| 60 | cigarettes | Cigarettes | Cigarette Brands | 14 (4) | 0.0 | 0.0 | 0.6 | 1.0 | Pass | 0.0 | 0.0 |
+| # | category_id | r1 name | final name | brands (added) | r1 pre | r1 with | r2 pre | r2 with | final | holdout pre | holdout with | qwen pre | qwen with |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | smartphones | Smartphones | Smartphones | 14 (3) | 0.7 | 1.0 | – | – | Pass | 0.6 | 0.8 | 0.7 | 0.9 |
+| 2 | search_engines | Search Engines | Search Engines | 12 (0) | 1.0 | 1.0 | – | – | Pass | 0.9 | 0.9 | 0.9 | 0.9 |
+| 3 | social_media | Social Media Platforms | Social Media Platforms | 17 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 | 0.8 | 0.8 |
+| 4 | short_video | Short Video Apps | Short Video Apps | 15 (2) | 0.7 | 0.9 | – | – | Pass | 0.8 | 0.9 | 0.9 | 1.0 |
+| 5 | video_streaming | Video Streaming Services | Video Streaming Services | 16 (0) | 1.0 | 1.0 | – | – | Pass | 1.0 | 1.0 | 0.9 | 0.9 |
+| 6 | music_streaming | Music Streaming Services | Music Streaming Services | 14 (4) | 0.6 | 1.0 | – | – | Pass | 0.6 | 1.0 | 0.6 | 0.9 |
+| 7 | ecommerce | Online Shopping Platforms | Online Shopping Platforms | 16 (5) | 0.4 | 0.9 | – | – | Pass | 0.7 | 0.8 | 0.0 | 0.0 |
+| 8 | fast_food | Fast Food Chains | Fast Food Chains | 18 (3) | 0.7 | 1.0 | – | – | Pass | 0.9 | 1.0 | 0.8 | 0.9 |
+| 9 | coffee_chains | Coffee Chains | Coffee Chains | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.6 | 0.9 | 0.6 | 0.7 |
+| 10 | bubble_tea | Bubble Tea Chains | Bubble Tea Chains | 18 (2) | 0.7 | 0.9 | – | – | Pass | 0.8 | 0.9 | 0.7 | 0.7 |
+| 11 | hot_pot | Hot Pot Restaurant Chains | Hot Pot Restaurant Chains | 13 (3) | 0.7 | 1.0 | – | – | Pass | 0.6 | 0.7 | 0.4 | 0.5 |
+| 12 | soft_drinks | Soft Drinks | Soft Drinks | 14 (3) | 0.7 | 1.0 | – | – | Pass | 0.7 | 0.9 | 0.6 | 0.9 |
+| 13 | bottled_water | Bottled Water | Bottled Water | 20 (3) | 0.5 | 0.8 | – | – | Pass | 0.7 | 0.9 | 0.5 | 0.7 |
+| 14 | dairy | Dairy Products | Dairy Products | 15 (2) | 0.7 | 0.9 | – | – | Pass | 0.0 | 0.2 | 0.1 | 0.3 |
+| 15 | baijiu | Baijiu | Baijiu | 17 (0) | 0.9 | 0.9 | – | – | Pass | 0.9 | 0.9 | 0.9 | 0.9 |
+| 16 | beer | Beer | Beer | 23 (9) | 0.1 | 1.0 | – | – | Pass | 0.2 | 0.6 | 0.1 | 0.6 |
+| 17 | energy_drinks | Energy Drinks | Energy Drinks | 18 (3) | 0.5 | 0.8 | – | – | Pass | 0.4 | 0.7 | 0.3 | 0.5 |
+| 18 | soy_sauce | Soy Sauce | Soy Sauce | 17 (4) | 0.6 | 1.0 | – | – | Pass | 0.1 | 0.2 | 0.5 | 0.9 |
+| 19 | processed_meat | Processed Meat Products | Processed Meat Products | 16 (4) | 0.6 | 1.0 | – | – | Pass | 0.2 | 0.3 | 0.4 | 0.6 |
+| 20 | banks | Banks | Banks | 29 (0) | 1.0 | 1.0 | – | – | Pass | 1.0 | 1.0 | 0.4 | 0.4 |
+| 21 | payment_networks | Credit Card Networks | Payment Card Networks | 11 (0) | 0.4 | 0.4 | 0.9 | 0.9 | Pass | 0.9 | 0.9 | 0.9 | 0.9 |
+| 22 | digital_payments | Digital Payment Services | Digital Payment Services | 12 (0) | 0.9 | 0.9 | – | – | Pass | 0.9 | 0.9 | 0.6 | 0.6 |
+| 23 | insurance | Insurance Companies | Insurance Companies | 21 (0) | 0.8 | 0.8 | – | – | Pass | 0.7 | 0.7 | 0.4 | 0.4 |
+| 24 | health_insurance | Health Insurance | Health Insurance | 11 (0) | 0.8 | 0.8 | – | – | Pass | 0.8 | 0.8 | 0.8 | 0.8 |
+| 25 | mobile_carriers | Mobile Carriers | Mobile Carriers | 21 (0) | 1.0 | 1.0 | – | – | Pass | 0.9 | 0.9 | 0.3 | 0.3 |
+| 26 | isps | Internet Service Providers | Internet Service Providers | 12 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 | 1.0 | 1.0 |
+| 27 | airlines | Airlines | Airlines | 24 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 | 0.9 | 0.9 |
+| 28 | express_delivery | Express Delivery Services | Express Delivery Services | 17 (2) | 0.8 | 1.0 | – | – | Pass | 0.6 | 0.7 | 0.7 | 0.9 |
+| 29 | food_delivery | Food Delivery Platforms | Food Delivery Platforms | 14 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 | 0.8 | 0.8 |
+| 30 | ride_hailing | Ride-Hailing Apps | Ride-Hailing Apps | 10 (0) | 0.9 | 0.9 | – | – | Pass | 0.9 | 0.9 | 0.8 | 0.8 |
+| 31 | online_travel | Online Travel Agencies | Online Travel Agencies | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.8 | 0.9 | 0.7 | 0.7 |
+| 32 | hotel_chains | Hotel Chains | Hotel Chains | 22 (3) | 0.7 | 1.0 | – | – | Pass | 0.5 | 0.5 | 0.4 | 0.4 |
+| 33 | restaurant_reviews | Restaurant Review Platforms | Restaurant Review Platforms | 12 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 | 0.8 | 0.8 |
+| 34 | real_estate_agencies | Real Estate Agencies | Real Estate Agencies | 15 (2) | 0.8 | 1.0 | – | – | Pass | 0.8 | 0.9 | 0.7 | 0.8 |
+| 35 | property_developers | Real Estate Developers | Chinese Real Estate Developers | 12 (1) | 0.0 | 0.0 | 0.8 | 0.9 | Pass | 0.7 | 0.8 | 0.6 | 0.7 |
+| 36 | electric_vehicles | Electric Vehicles | Electric Vehicles | 19 (0) | 1.0 | 1.0 | – | – | Pass | 0.9 | 0.9 | 0.9 | 0.9 |
+| 37 | cars | Cars | Cars | 16 (0) | 0.9 | 0.9 | – | – | Pass | 0.8 | 0.8 | 0.7 | 0.7 |
+| 38 | luxury_fashion | Luxury Fashion | Luxury Fashion | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.7 | 1.0 | 0.6 | 0.7 |
+| 39 | sportswear | Sportswear | Sportswear | 14 (4) | 0.6 | 1.0 | – | – | Pass | 0.7 | 0.8 | 0.6 | 0.8 |
+| 40 | fast_fashion | Fast Fashion | Fast Fashion | 13 (0) | 0.9 | 0.9 | – | – | Pass | 1.0 | 1.0 | 0.8 | 0.8 |
+| 41 | cosmetics | Cosmetics | Cosmetics | 18 (0) | 0.9 | 0.9 | – | – | Pass | 0.5 | 0.5 | 0.6 | 0.6 |
+| 42 | jewelry | Jewelry | Jewelry | 19 (6) | 0.4 | 1.0 | – | – | Pass | 0.4 | 1.0 | 0.4 | 0.8 |
+| 43 | home_appliances | Home Appliances | Home Appliances | 19 (4) | 0.6 | 1.0 | – | – | Pass | 0.5 | 0.8 | 0.6 | 0.7 |
+| 44 | air_conditioners | Air Conditioners | Air Conditioners | 13 (2) | 0.7 | 0.9 | – | – | Pass | 0.6 | 0.7 | 0.7 | 0.8 |
+| 45 | televisions | TVs | TVs | 10 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 | 0.8 | 0.8 |
+| 46 | laptops | Laptops | Laptops | 11 (0) | 0.8 | 0.8 | – | – | Pass | 0.9 | 0.9 | 0.9 | 0.9 |
+| 47 | drones | Drones | Drones | 12 (0) | 0.8 | 0.8 | – | – | Pass | 0.5 | 0.5 | 0.7 | 0.7 |
+| 48 | game_consoles | Video Game Consoles | Video Game Consoles | 16 (4) | 0.6 | 1.0 | – | – | Pass | 0.6 | 1.0 | 0.6 | 0.8 |
+| 49 | consumer_electronics | Consumer Electronics | Consumer Electronics | 15 (4) | 0.6 | 1.0 | – | – | Pass | 0.7 | 0.8 | 0.5 | 0.7 |
+| 50 | ai_chatbots | AI Chatbots | AI Chatbot Apps | 15 (2) | 0.8 | 0.9 | 0.8 | 1.0 | Pass | 0.8 | 0.9 | 0.3 | 0.5 |
+| 51 | supermarkets | Supermarket Chains | Supermarket Chains | 16 (2) | 0.7 | 0.9 | – | – | Pass | 0.7 | 0.7 | 0.6 | 0.7 |
+| 52 | home_improvement | Home Improvement Stores | Home Improvement Retail Chains | 15 (2) | 0.5 | 0.5 | 0.8 | 1.0 | Pass | 0.9 | 1.0 | 0.7 | 0.7 |
+| 53 | furniture | Furniture Stores | Furniture Stores | 13 (3) | 0.5 | 0.8 | – | – | Pass | 0.7 | 1.0 | 0.6 | 0.8 |
+| 54 | tcm | Traditional Chinese Medicine | Traditional Chinese Medicine | 12 (2) | 0.6 | 0.8 | – | – | Pass | 0.5 | 0.6 | 0.2 | 0.2 |
+| 55 | online_healthcare | Online Healthcare Platforms | Online Healthcare Platforms | 18 (5) | 0.3 | 0.8 | – | – | Pass | 0.5 | 0.6 | 0.4 | 0.6 |
+| 56 | job_platforms | Job Search Platforms | Job Search Platforms | 15 (0) | 0.8 | 0.8 | – | – | Pass | 0.8 | 0.8 | 0.9 | 0.9 |
+| 57 | news_apps | News Apps | News Apps | 17 (3) | 0.7 | 1.0 | – | – | Pass | 0.8 | 0.9 | 0.4 | 0.6 |
+| 58 | video_games | Video Game Companies | Video Game Companies | 24 (5) | 0.5 | 1.0 | – | – | Pass | 0.3 | 0.8 | 0.9 | 1.0 |
+| 59 | movie_studios | Movie Studios | Movie Studios | 16 (0) | 0.8 | 0.8 | – | – | Pass | 0.8 | 0.8 | 0.9 | 0.9 |
+| 60 | cigarettes | Cigarettes | Cigarette Brands | 14 (4) | 0.0 | 0.0 | 0.6 | 1.0 | Pass | 0.0 | 0.0 | 0.6 | 0.9 |
 
 #### Column Definitions
 - **#**：序号。**category_id**：类别主键。
@@ -162,6 +164,7 @@
 - **r2 pre / r2 with**：r2_ds（仅改名类），“–”表示该类未参加 r2。
 - **final**：每类最近一次尝试（按 run 启动时间）的结果，进入主表的依据。
 - **holdout pre / holdout with**：r3_ds_holdout（temperature 1.0，品牌表冻结）的 Recall@10。
+- **qwen pre / qwen with**：r4_qwen_crossmodel（`qwen/qwen3.7-plus`，temperature 0，品牌表冻结）的 Recall@10。
 - Computation：`scripts/report_stats.py` → `scripts/report_tables.py`。单次采样，无 CI（not computed）。
 
 ### 3.5 留出集失败类别（16 个，补表后 Recall < 0.8）
@@ -190,15 +193,17 @@ hot_pot 0.7、dairy 0.2、beer 0.6、energy_drinks 0.7、soy_sauce 0.2、process
 
 ## 4. Key Findings（二级结论，已标注性质）
 
-- **Candidate finding**：第一轮失败的主要原因不是类别名，而是品牌表覆盖不足与匹配问题（修复解析器/别名后补表前仅 25/60，补表后 56/60；真正需要改名的只有 5 类）。
-- **Candidate finding**：补表在留出集上同样有效（留出集补表前 28/60 → 补表后 44/60），说明补进的品牌不只是迎合 r1 的单次回答；但留出集通过率（44/60）明显低于 r1（56/60），说明 r1 上的通过率偏乐观。
+- **Candidate finding**：第一轮失败的主要原因不是类别名，而是品牌表覆盖不足与匹配问题（修复解析器/别名后补表前仅 26/60，补表后 56/60；真正需要改名的只有 5 类）。
+- **Candidate finding**：补表在留出集上同样有效（留出集补表前 29/60 → 补表后 44/60），说明补进的品牌不只是迎合 r1 的单次回答；但留出集通过率（44/60）明显低于 r1（56/60），说明 r1 上的通过率偏乐观。
+- **Candidate finding**：跨模型（Qwen 3.7 Plus，冻结表）补表后 32/60、补表前 20/60；另有 12 类为 0.7。与 DeepSeek 留出集对照：两者都通过 28 类、都不通过 12 类、仅 DeepSeek 通过 16 类、仅 Qwen 通过 4 类（soy_sauce、express_delivery、air_conditioners、cigarettes）。
+- **Observation**：Qwen 把 "Online Shopping Platforms" 理解为电商建站软件（Shopify、WooCommerce，Recall 0.0），把 "AI Chatbot Apps" 部分理解为企业客服机器人工具（Intercom、ManyChat，0.5）——单模型未暴露的命名歧义。
 - **Interpretation**：泛化型食品类（Dairy Products、Soy Sauce、Processed Meat Products）在留出集上 Recall 只有 0.2–0.3，可能是类别名过宽，AI 每次采样会给出不同的长尾/手工品牌；这类类别可能需要更窄的命名（例如按子品类或地区）。需进一步验证。
 - **Interpretation**：DeepSeek 的回答明显偏美国市场（Health Insurance、Supermarkets、Furniture 等），对“World/China”平衡有影响。
 - **Observation**：Cigarettes 类在 temperature 0 改名后可回答，但 temperature 1.0 下再次拒答，结果不稳定。
 
 ## 5. 局限
 
-- 单一模型（DeepSeek）、每类单次采样；r1/r3 差异未分离温度与随机性。
+- 主验证只用 DeepSeek，Qwen 仅作为一次冻结表的交叉检验；每类单次采样；r1/r3 差异未分离温度与随机性。
 - 补表候选来自同一模型的回答（虽有独立证据门槛），存在偏向该模型的风险；已用“补表前”口径与留出集对照。
 - 448 行证据来自搜索结果摘要（websearch），强度低于直接读页；部分核实搜索在查询中包含候选品牌名。
 - “看到答案后”添加了别名（均为同一品牌的写法变体，另有 ai_chatbots 公司→产品的判断性别名），可能使 recall 偏高。
@@ -206,7 +211,7 @@ hot_pot 0.7、dairy 0.2、beer 0.6、energy_drinks 0.7、soy_sauce 0.2、process
 
 ## 6. Follow-up Analysis Needed
 
-- 多模型交叉验证（如 GPT、Qwen、Claude）与每类多次采样，给出方差/CI。
+- 已完成 Qwen 交叉验证；后续可加 GPT/Claude，并每类多次采样以给出方差/CI。
 - 对留出集失败的 16 类：区分“写法变体”与“真正缺失品牌”，或改为更窄的类别名后再测（新 run，不回改冻结表）。
 - 扩展到 1000 类：扩大种子池（Kantar 各行业榜、Brand Finance 行业榜、电商类目树），Task 2 自动化候选生成 + 人工抽检。
 
@@ -218,6 +223,7 @@ python3 scripts/build_category_brands.py && python3 scripts/validate.py check
 python3 scripts/validate.py score runs/r1_ds && python3 scripts/validate.py score runs/r2_ds
 python3 scripts/validate.py score runs/r3_ds_holdout --no-record
 python3 scripts/validate.py master
-python3 scripts/report_stats.py r1_ds r2_ds r3_ds_holdout > outputs/report_stats.json
+python3 scripts/validate.py score runs/r4_qwen_crossmodel --no-record
+python3 scripts/report_stats.py r1_ds r2_ds r3_ds_holdout r4_qwen_crossmodel > outputs/report_stats.json
 python3 scripts/report_tables.py > outputs/report_table.md
 ```

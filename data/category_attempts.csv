@@ -32,7 +32,7 @@ ride_hailing,1,Ride-Hailing Apps,r1_ds,0.9,0.9,Pass
 online_travel,1,Online Travel Agencies,r1_ds,1.0,0.7,Pass
 hotel_chains,1,Hotel Chains,r1_ds,1.0,0.7,Pass
 restaurant_reviews,1,Restaurant Review Platforms,r1_ds,0.9,0.9,Pass
-real_estate_agencies,1,Real Estate Agencies,r1_ds,0.9,0.7,Pass
+real_estate_agencies,1,Real Estate Agencies,r1_ds,1.0,0.8,Pass
 property_developers,1,Real Estate Developers,r1_ds,0.0,0.0,Fail
 electric_vehicles,1,Electric Vehicles,r1_ds,1.0,1.0,Pass
 cars,1,Cars,r1_ds,0.9,0.9,Pass

@@ -1,6 +1,6 @@
 # 项目计划
 
-> 最后更新：2026-10-06 00:40 HKT
+> 最后更新：2026-10-06 00:06 HKT
 > 本文件是新 Claude session 的首要上下文（原 `state.md` 已合并进来）。说明性内容使用中文。
 
 ## 1. 最大目标
@@ -20,8 +20,11 @@
 - Task 2 完成：`data/category_brands.csv` 957 行（838 初始 + 119 验证后补充），每类 ≥10，均有来源。
 - Task 3：OpenRouter `deepseek/deepseek-v4-pro`，temperature 0。
   - r1_ds（60 类）→ 修解析器/别名/补表后 56/60；r2_ds（5 个改名类）5/5；主表 60/60 Pass（`outputs/master_table.csv`）。
-  - 留出集 r3_ds_holdout（temperature 1.0，品牌表冻结于 commit 84efd4f）：补表后 44/60（mean 0.7983），补表前 28/60（mean 0.69）。
-- 方法报告已完成：`docs/methodology_report_zh.md` / `_en.md`（数字来自 `outputs/report_stats.json`）。
+  - 留出集 r3_ds_holdout（temperature 1.0，品牌表冻结于 commit 84efd4f）：补表后 44/60（mean 0.80），补表前 29/60（mean 0.6917）。
+  - 跨模型 r4_qwen_crossmodel（`qwen/qwen3.7-plus`，temperature 0，冻结表，$0.2214）：补表后 32/60（mean 0.7217），补表前 20/60；另 12 类为 0.7。与留出集都通过 28 类、都不通过 12 类。
+- 解析器修复（2026-10-06）：`RE/MAX` 这类全大写斜杠名不再被切成 `RE`；只影响 real_estate_agencies（r1 补表前 25→26/60，留出集补表前 28→29/60，补表后通过数不变）。
+- 交付材料：精简报告 `outputs/report_{en,zh}.pdf`（源 `docs/report_{en,zh}.md`，署名 Yunxiang Mo，`sh scripts/report_pdf.sh` 生成）；详细方法报告 `docs/methodology_report_{zh,en}.md`；逐类结果 `outputs/category_results.csv`；主表 `outputs/master_table.csv`。
+- 仓库已推送至 https://github.com/moyunxiang/ai-observatory（public）。
 
 ## 3. 当前阶段目标
 
@@ -32,7 +35,8 @@
 ### P0
 - [x] 打分留出集（完成：44/60）
 - [x] 中英文方法报告（完成）
-- [ ] 用户审阅报告 → 发给 Jia Liu（附 `outputs/master_table.csv` + 报告）
+- [x] Qwen 跨模型验证（完成：32/60）
+- [ ] 用户审阅精简报告 PDF → 发给 Jia Liu（附 `outputs/master_table.csv`、`outputs/category_results.csv`、repo 链接）
   - 服务于最大目标：本阶段交付物就是方法说明 + 样例结果，决定是否进入 1000 类阶段。
 ### P1
 - [ ] 留出集失败的 16 类：区分写法变体 vs 真缺失，或换更窄名称新 run 重测（不得改冻结表后再拿 r3 当留出集）
@@ -51,15 +55,17 @@
 - F2：改名对 4/5 个“误解型”失败有效（payment_networks、property_developers、home_improvement、cigarettes）；ai_chatbots 改名无效，靠公司→产品别名解决。
 - F3：Cigarettes 原名被 DeepSeek 拒答，改为 Cigarette Brands 后正常回答。
 - F4：DeepSeek 回答明显偏美国市场（如 Health Insurance、Supermarkets、Furniture）。
-- F5：留出集补表前 28/60 → 补表后 44/60：补表在新采样上仍有效，但 r1 的 56/60 偏乐观。
+- F5：留出集补表前 29/60 → 补表后 44/60：补表在新采样上仍有效，但 r1 的 56/60 偏乐观。
 - F6：Dairy / Soy Sauce / Processed Meat 留出集仅 0.2–0.3；Cigarette Brands 在 temperature 1.0 再次拒答。
+- F7：Qwen 把 "Online Shopping Platforms" 理解为电商建站软件（Shopify 等，0.0），"AI Chatbot Apps" 部分理解为企业客服机器人工具（0.5）——单模型未暴露的命名歧义。
+- F8：两模型都不通过的 12 类：hot_pot、dairy、beer、energy_drinks、processed_meat、insurance、hotel_chains、cosmetics、drones、supermarkets、tcm、online_healthcare（多为宽泛品类，AI 给出表外长尾品牌）。
 
 ## 7. 未解决问题 / 阻塞项
 
 - Q1：B2C-only 范围是否被接受（B2B 种子已归类但不验证）？
 - Q2：World/China 规则（大陆/港澳=China，台湾=World）是否可接受？
 - Q3：补表是否算“迎合 AI”？由留出集结果回答。
-- Q4：单模型、单次采样；是否需要多模型（如 GPT/Qwen）交叉验证？
+- Q4：已做 Qwen 交叉检验；是否把“≥2 个模型通过”作为正式通过标准？（会显著降低通过数）
 
 ## 8. 关键文件
 
@@ -70,6 +76,7 @@
 - `scripts/verify_candidates.py`：补表候选的 Wikipedia 核实
 - `scripts/validate.py`：check / export / import / query / score / master
 - `src/observatory/`：normalize / metrics / parse / manual / data / llm（openrouter）
+- `scripts/report_stats.py` → `scripts/report_tables.py` → `scripts/report_pdf.sh`：报告数字、逐类表/CSV、PDF
 
 ## 9. 运行与验证
 
@@ -92,7 +99,7 @@ API key：`.env` 中 `OPENROUTER_API_KEY`（已 gitignore，勿打印/提交）�
 
 ## 11. 非目标 / 边界
 
-- 本阶段不扩到 1000 类；不做 B2B 类别；不做多模型（除非另行决定）。
+- 本阶段不扩到 1000 类；不做 B2B 类别；Qwen 只作为冻结表检验，不回改品牌表。
 
 ## 12. 废弃路线 / 不要回退
 
@@ -120,14 +127,16 @@ API key：`.env` 中 `OPENROUTER_API_KEY`（已 gitignore，勿打印/提交）�
 
 ## 16. 回滚策略
 
-- git 历史：1e004de 骨架 → 303f31d 代码 → 29daba6 Task 1 → 1f4854e Task 2 → ed733c9 手动表 → 84efd4f Task 3。`runs/` 只追加。
+- git 历史：1e004de 骨架 → 303f31d 代码 → 29daba6 Task 1 → 1f4854e Task 2 → ed733c9 手动表 → 84efd4f Task 3 → d67688a 留出集与报告 → （本次）Qwen 跨模型与精简报告。`runs/` 只追加。
 
 ## 17. 输出物
 
 - `outputs/master_table.csv`（Category | Brand | World/China | Category验证结果）
 - `outputs/category_status.csv`
-- `docs/methodology_report_zh.md`、`docs/methodology_report_en.md`（完成）、`outputs/report_stats.json`、`outputs/report_table.md`
+- `outputs/report_en.pdf`、`outputs/report_zh.pdf`（精简报告，对外）
+- `outputs/category_results.csv`（逐类各轮分数）
+- `docs/methodology_report_zh.md`、`docs/methodology_report_en.md`（详细）、`outputs/report_stats.json`、`outputs/report_table.md`
 
 ## 18. 交接说明
 
-当前 P0：用户审阅报告后发给 Jia Liu。不要伪造任何 AI 回答或结果；r3_ds_holdout 已被看过，若后续用它的 extra 改表，就必须另跑新的留出集。
+当前 P0：用户审阅精简报告 PDF 后发给 Jia Liu。不要伪造任何 AI 回答或结果；r3_ds_holdout 和 r4_qwen_crossmodel 都已被看过，若后续用它们的 extra 改表或改名，必须另跑新的留出/跨模型检验。

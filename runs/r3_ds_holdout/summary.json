@@ -5,7 +5,7 @@
   "n_errors": 0,
   "n_pass": 44,
   "pass_threshold": 0.8,
-  "mean_recall": 0.7983,
+  "mean_recall": 0.8,
   "failed_categories": [
     "hot_pot",
     "dairy",

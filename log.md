@@ -149,3 +149,23 @@
 **结果**：留出集补表后 44/60（mean 0.7983，median 0.9，std 0.2149），补表前 28/60（mean 0.69）。失败 16 类：hot_pot、dairy、beer、energy_drinks、soy_sauce、processed_meat、insurance、express_delivery、hotel_chains、cosmetics、air_conditioners、drones、supermarkets、tcm、online_healthcare、cigarettes（temperature 1.0 再次拒答）。
 **决策 / 假设**：留出集结果不回改品牌表、不进主表（保持其作为评估集的意义）。
 **下一步**：用户审阅报告 → 发给 Jia Liu。
+
+#### 2026-10-06 00:06 HKT — Qwen 跨模型验证、解析器 RE/MAX 修复、精简报告 PDF
+
+**背景**：用户要求用 Qwen（“别太贵也别太弱”）做跨模型检验，并要一份精简、像正式 report、带本人署名、不含本地化引用（如 `JIA_LIU_TASK.md`）的 PDF，外加结果 CSV 和 repo 链接。服务于最大目标：用第二个模型在冻结品牌表上检验 Category 名称是否真的被 AI 正确理解。
+**操作**：
+- 选模型：OpenRouter 上 `qwen/qwen3.7-plus`（$0.32/$1.28 每百万 token，Plus 档；Max 档贵 4–5 倍，Flash 档偏弱）。
+- 冒烟测试（scratchpad，`OBSERVATORY_RUNS_DIR`）：2 类正常；发现 `score --no-record` 仍会读其他 run 的 meta.json 而报错 → 改为 `--no-record` 时完全跳过 attempts 计算（`scripts/validate.py`）。
+- `python3 -u scripts/validate.py query --provider openrouter --model qwen/qwen3.7-plus --temperature 0 --run-id r4_qwen_crossmodel`（60/60 无报错，约 50 秒/类，$0.2214）
+- `python3 scripts/validate.py score runs/r4_qwen_crossmodel --no-record` → 首次 31/60。逐条检查失败类的 parsed/extra：发现 real_estate_agencies 中 `RE/MAX` 被“A/B 取前者”规则切成 `RE`（解析器 bug，品牌表本有 RE/MAX）。
+- 修复 `src/observatory/parse.py`：全大写 `X/Y`（`[A-Z0-9]+/[A-Z0-9]+`）不拆分；新增测试 `test_slash_takes_first_brand_but_keeps_caps_names`；21 个测试全过。
+- 重算全部：`score runs/r1_ds`、`score runs/r2_ds`、`score runs/r3_ds_holdout --no-record`、`score runs/r4_qwen_crossmodel --no-record`、`master`、`report_stats.py r1_ds r2_ds r3_ds_holdout r4_qwen_crossmodel`、`report_tables.py`。
+- `scripts/report_tables.py` 新增输出 `outputs/category_results.csv`（逐类各轮分数，含 World/China 计数）与 `outputs/report_appendix.md`（精简报告附录表）。
+- 新写精简报告 `docs/report_en.md`、`docs/report_zh.md`（署名 Yunxiang Mo），`scripts/report_pdf.sh`（pandoc → HTML → headless Chrome）生成 `outputs/report_{en,zh}.pdf`（各 5 页）；详细方法报告同步新数字并加 Qwen 行。
+**结果**：
+- 修复只影响 real_estate_agencies：r1 补表前 25→26/60（mean 0.6883→0.69），补表后仍 56/60（mean 0.875）；留出集补表前 28→29/60，补表后仍 44/60（mean 0.80）；主表仍 60/60、957 行。
+- Qwen：补表后 32/60（mean 0.7217，median 0.8），补表前 20/60（mean 0.6233）；12 类得 0.7。与 DeepSeek 留出集：都通过 28、都不通过 12、仅 DeepSeek 16、仅 Qwen 4。
+- Qwen 把 Online Shopping Platforms 理解为电商建站软件（0.0），AI Chatbot Apps 部分理解为企业客服工具（0.5）。
+**决策 / 假设**：Qwen 结果只作检验，不回改品牌表、不进 attempts；未为 Qwen 的写法变体（如 Chongqing Xiaolongkan）补别名，避免拟合检验集。署名用 “Yunxiang Mo”（由 git 用户名 moyunxiang 推断，假设；待用户确认）。
+**下一步**：提交并推送到 https://github.com/moyunxiang/ai-observatory；用户审阅 PDF 后发给 Jia Liu。
+**更正**：上一条标为 “2026-10-06 00:40 HKT” 的日志时间戳有误（Qwen 运行开始于 2026-10-05 23:05 HKT，该条实际写于此之前）；原条目保留不改。

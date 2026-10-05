@@ -640,19 +640,19 @@
     "n": 60,
     "n_pass": 56,
     "pass_rate": 0.9333,
-    "mean": 0.8733,
+    "mean": 0.875,
     "median": 0.9,
-    "std": 0.1991,
+    "std": 0.1997,
     "min": 0.0,
     "max": 1.0
    },
    "pre_additions": {
     "n": 60,
-    "n_pass": 25,
-    "pass_rate": 0.4167,
-    "mean": 0.6883,
+    "n_pass": 26,
+    "pass_rate": 0.4333,
+    "mean": 0.69,
     "median": 0.7,
-    "std": 0.2222,
+    "std": 0.2226,
     "min": 0.0,
     "max": 1.0
    },
@@ -857,8 +857,8 @@
     },
     "real_estate_agencies": {
      "category_name": "Real Estate Agencies",
-     "recall": 0.9,
-     "recall_pre_additions": 0.7,
+     "recall": 1.0,
+     "recall_pre_additions": 0.8,
      "n_parsed": 10
     },
     "property_developers": {
@@ -1090,19 +1090,19 @@
     "n": 60,
     "n_pass": 44,
     "pass_rate": 0.7333,
-    "mean": 0.7983,
+    "mean": 0.8,
     "median": 0.9,
-    "std": 0.2149,
+    "std": 0.2153,
     "min": 0.0,
     "max": 1.0
    },
    "pre_additions": {
     "n": 60,
-    "n_pass": 28,
-    "pass_rate": 0.4667,
-    "mean": 0.69,
+    "n_pass": 29,
+    "pass_rate": 0.4833,
+    "mean": 0.6917,
     "median": 0.7,
-    "std": 0.2461,
+    "std": 0.2465,
     "min": 0.0,
     "max": 1.0
    },
@@ -1307,8 +1307,8 @@
     },
     "real_estate_agencies": {
      "category_name": "Real Estate Agencies",
-     "recall": 0.8,
-     "recall_pre_additions": 0.7,
+     "recall": 0.9,
+     "recall_pre_additions": 0.8,
      "n_parsed": 10
     },
     "property_developers": {
@@ -1466,6 +1466,396 @@
      "recall": 0.0,
      "recall_pre_additions": 0.0,
      "n_parsed": 3
+    }
+   }
+  },
+  "r4_qwen_crossmodel": {
+   "run_id": "r4_qwen_crossmodel",
+   "model": "qwen/qwen3.7-plus",
+   "temperature": 0.0,
+   "n_requests": 60,
+   "n_errors": 0,
+   "cost_usd": 0.2214,
+   "with_additions": {
+    "n": 60,
+    "n_pass": 32,
+    "pass_rate": 0.5333,
+    "mean": 0.7217,
+    "median": 0.8,
+    "std": 0.205,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "pre_additions": {
+    "n": 60,
+    "n_pass": 20,
+    "pass_rate": 0.3333,
+    "mean": 0.6233,
+    "median": 0.6,
+    "std": 0.2298,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "per_category": {
+    "smartphones": {
+     "category_name": "Smartphones",
+     "recall": 0.9,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "search_engines": {
+     "category_name": "Search Engines",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "social_media": {
+     "category_name": "Social Media Platforms",
+     "recall": 0.8,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 10
+    },
+    "short_video": {
+     "category_name": "Short Video Apps",
+     "recall": 1.0,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "video_streaming": {
+     "category_name": "Video Streaming Services",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "music_streaming": {
+     "category_name": "Music Streaming Services",
+     "recall": 0.9,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "ecommerce": {
+     "category_name": "Online Shopping Platforms",
+     "recall": 0.0,
+     "recall_pre_additions": 0.0,
+     "n_parsed": 10
+    },
+    "fast_food": {
+     "category_name": "Fast Food Chains",
+     "recall": 0.9,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 10
+    },
+    "coffee_chains": {
+     "category_name": "Coffee Chains",
+     "recall": 0.7,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "bubble_tea": {
+     "category_name": "Bubble Tea Chains",
+     "recall": 0.7,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "hot_pot": {
+     "category_name": "Hot Pot Restaurant Chains",
+     "recall": 0.5,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "soft_drinks": {
+     "category_name": "Soft Drinks",
+     "recall": 0.9,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "bottled_water": {
+     "category_name": "Bottled Water",
+     "recall": 0.7,
+     "recall_pre_additions": 0.5,
+     "n_parsed": 10
+    },
+    "dairy": {
+     "category_name": "Dairy Products",
+     "recall": 0.3,
+     "recall_pre_additions": 0.1,
+     "n_parsed": 10
+    },
+    "baijiu": {
+     "category_name": "Baijiu",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "beer": {
+     "category_name": "Beer",
+     "recall": 0.6,
+     "recall_pre_additions": 0.1,
+     "n_parsed": 10
+    },
+    "energy_drinks": {
+     "category_name": "Energy Drinks",
+     "recall": 0.5,
+     "recall_pre_additions": 0.3,
+     "n_parsed": 10
+    },
+    "soy_sauce": {
+     "category_name": "Soy Sauce",
+     "recall": 0.9,
+     "recall_pre_additions": 0.5,
+     "n_parsed": 10
+    },
+    "processed_meat": {
+     "category_name": "Processed Meat Products",
+     "recall": 0.6,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "banks": {
+     "category_name": "Banks",
+     "recall": 0.4,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "payment_networks": {
+     "category_name": "Payment Card Networks",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "digital_payments": {
+     "category_name": "Digital Payment Services",
+     "recall": 0.6,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "insurance": {
+     "category_name": "Insurance Companies",
+     "recall": 0.4,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "health_insurance": {
+     "category_name": "Health Insurance",
+     "recall": 0.8,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 14
+    },
+    "mobile_carriers": {
+     "category_name": "Mobile Carriers",
+     "recall": 0.3,
+     "recall_pre_additions": 0.3,
+     "n_parsed": 10
+    },
+    "isps": {
+     "category_name": "Internet Service Providers",
+     "recall": 1.0,
+     "recall_pre_additions": 1.0,
+     "n_parsed": 13
+    },
+    "airlines": {
+     "category_name": "Airlines",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "express_delivery": {
+     "category_name": "Express Delivery Services",
+     "recall": 0.9,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "food_delivery": {
+     "category_name": "Food Delivery Platforms",
+     "recall": 0.8,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 10
+    },
+    "ride_hailing": {
+     "category_name": "Ride-Hailing Apps",
+     "recall": 0.8,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 10
+    },
+    "online_travel": {
+     "category_name": "Online Travel Agencies",
+     "recall": 0.7,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "hotel_chains": {
+     "category_name": "Hotel Chains",
+     "recall": 0.4,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "restaurant_reviews": {
+     "category_name": "Restaurant Review Platforms",
+     "recall": 0.8,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 10
+    },
+    "real_estate_agencies": {
+     "category_name": "Real Estate Agencies",
+     "recall": 0.8,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "property_developers": {
+     "category_name": "Chinese Real Estate Developers",
+     "recall": 0.7,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "electric_vehicles": {
+     "category_name": "Electric Vehicles",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "cars": {
+     "category_name": "Cars",
+     "recall": 0.7,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "luxury_fashion": {
+     "category_name": "Luxury Fashion",
+     "recall": 0.7,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "sportswear": {
+     "category_name": "Sportswear",
+     "recall": 0.8,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "fast_fashion": {
+     "category_name": "Fast Fashion",
+     "recall": 0.8,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 10
+    },
+    "cosmetics": {
+     "category_name": "Cosmetics",
+     "recall": 0.6,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "jewelry": {
+     "category_name": "Jewelry",
+     "recall": 0.8,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "home_appliances": {
+     "category_name": "Home Appliances",
+     "recall": 0.7,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "air_conditioners": {
+     "category_name": "Air Conditioners",
+     "recall": 0.8,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "televisions": {
+     "category_name": "TVs",
+     "recall": 0.8,
+     "recall_pre_additions": 0.8,
+     "n_parsed": 10
+    },
+    "laptops": {
+     "category_name": "Laptops",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "drones": {
+     "category_name": "Drones",
+     "recall": 0.7,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "game_consoles": {
+     "category_name": "Video Game Consoles",
+     "recall": 0.8,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "consumer_electronics": {
+     "category_name": "Consumer Electronics",
+     "recall": 0.7,
+     "recall_pre_additions": 0.5,
+     "n_parsed": 10
+    },
+    "ai_chatbots": {
+     "category_name": "AI Chatbot Apps",
+     "recall": 0.5,
+     "recall_pre_additions": 0.3,
+     "n_parsed": 10
+    },
+    "supermarkets": {
+     "category_name": "Supermarket Chains",
+     "recall": 0.7,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "home_improvement": {
+     "category_name": "Home Improvement Retail Chains",
+     "recall": 0.7,
+     "recall_pre_additions": 0.7,
+     "n_parsed": 10
+    },
+    "furniture": {
+     "category_name": "Furniture Stores",
+     "recall": 0.8,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
+    },
+    "tcm": {
+     "category_name": "Traditional Chinese Medicine",
+     "recall": 0.2,
+     "recall_pre_additions": 0.2,
+     "n_parsed": 14
+    },
+    "online_healthcare": {
+     "category_name": "Online Healthcare Platforms",
+     "recall": 0.6,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "job_platforms": {
+     "category_name": "Job Search Platforms",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "news_apps": {
+     "category_name": "News Apps",
+     "recall": 0.6,
+     "recall_pre_additions": 0.4,
+     "n_parsed": 10
+    },
+    "video_games": {
+     "category_name": "Video Game Companies",
+     "recall": 1.0,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "movie_studios": {
+     "category_name": "Movie Studios",
+     "recall": 0.9,
+     "recall_pre_additions": 0.9,
+     "n_parsed": 10
+    },
+    "cigarettes": {
+     "category_name": "Cigarette Brands",
+     "recall": 0.9,
+     "recall_pre_additions": 0.6,
+     "n_parsed": 10
     }
    }
   }

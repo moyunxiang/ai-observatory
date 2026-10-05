@@ -196,23 +196,24 @@ def cmd_score(args) -> int:
 
     # Record attempts: one row per (category, run); re-scoring a run replaces its rows.
     # attempt = 1 + number of runs for that category that started earlier.
-    this_start = run_started(run_dir.name)
-    earlier = [a for a in load_attempts() if a["run_id"] != run_dir.name and run_started(a["run_id"]) < this_start]
+    # --no-record (hold-out / cross-model checks) leaves category_attempts.csv untouched.
     new = []
-    for r in scored:
-        n_prev = sum(a["category_id"] == r["category_id"] for a in earlier)
-        new.append({
-            "category_id": r["category_id"], "attempt": n_prev + 1, "category_name": r["category_name"],
-            "run_id": run_dir.name, "recall": r["recall"], "recall_pre_additions": r["recall_pre_additions"],
-            "result": r["result"],
-        })
     if not args.no_record:
+        this_start = run_started(run_dir.name)
+        earlier = [a for a in load_attempts() if a["run_id"] != run_dir.name and run_started(a["run_id"]) < this_start]
+        for r in scored:
+            n_prev = sum(a["category_id"] == r["category_id"] for a in earlier)
+            new.append({
+                "category_id": r["category_id"], "attempt": n_prev + 1, "category_name": r["category_name"],
+                "run_id": run_dir.name, "recall": r["recall"], "recall_pre_additions": r["recall_pre_additions"],
+                "result": r["result"],
+            })
         upsert_attempts(run_dir.name, new)
 
     for r in rows:
         print(f"{r['result']:5}  {r['recall']:>4}  {r['category_name']}")
     print(f"\n{summary['n_pass']}/{summary['n_scored']} passed (threshold {PASS_THRESHOLD}). "
-          f"{0 if args.no_record else len(new)} new attempt rows recorded.")
+          f"{len(new)} new attempt rows recorded.")
     return 0
 
 

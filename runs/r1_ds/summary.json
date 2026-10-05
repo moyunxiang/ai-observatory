@@ -5,7 +5,7 @@
   "n_errors": 0,
   "n_pass": 56,
   "pass_threshold": 0.8,
-  "mean_recall": 0.8733,
+  "mean_recall": 0.875,
   "failed_categories": [
     "payment_networks",
     "property_developers",

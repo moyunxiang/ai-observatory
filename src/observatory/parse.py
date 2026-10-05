@@ -22,6 +22,9 @@ def _indent(line: str) -> int:
     return len(line) - len(line.lstrip(" \t"))
 
 
+_CAPS_SLASH_RE = re.compile(r"[A-Z0-9]+/[A-Z0-9]+")
+
+
 def _strip_md(line: str) -> str:
     return _MD_LEAD_RE.sub("", line.strip())
 
@@ -31,7 +34,8 @@ def _clean_item(text: str) -> str:
     s = _BULLET_RE.sub("", s, count=1)
     s = s.replace("**", "").replace("__", "").strip()
     s = _DESC_SPLIT_RE.split(s, maxsplit=1)[0]  # drop " - description", ": ...", "(...)"
-    s = s.split("/", 1)[0]  # "Sub-Zero/Wolf", "Haier / GE Appliances" -> first brand
+    if not _CAPS_SLASH_RE.fullmatch(s.strip()):  # keep "RE/MAX"-style names whole
+        s = s.split("/", 1)[0]  # "Sub-Zero/Wolf", "Haier / GE Appliances" -> first brand
     return s.strip(" .,;*:")
 
 
