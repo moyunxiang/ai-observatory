@@ -56,11 +56,22 @@ python3 scripts/validate.py import runs/r1     # -> responses.jsonl (warns if <5
 python3 scripts/validate.py score runs/r1      # -> results.csv, summary.json, appends category_attempts.csv
 python3 scripts/validate.py master             # -> outputs/master_table.csv
 
-# Rename loop: edit category_name in data/categories.csv, then export a new run with --only <ids>
-```
+# Rename loop: edit category_name in data/categories.csv, then run a new query/export with --only <ids>
 
-API mode (`validate.py query`) exists but no provider is implemented yet (`src/observatory/llm.py`).
+# Task 3, API mode (used for the reported results): OpenRouter, key OPENROUTER_API_KEY in .env (gitignored)
+python3 -u scripts/validate.py query --provider openrouter --model deepseek/deepseek-v4-pro --temperature 0 --run-id r1_ds
+python3 scripts/validate.py score runs/r1_ds
+
+# Post-validation brand additions (independent evidence)
+python3 scripts/verify_candidates.py           # Wikipedia summaries for data/raw/task2/post_validation_candidates.csv
+#   manual decisions -> data/raw/task2/post_validation_decisions.csv; then rebuild the table
+
+# Report numbers
+python3 scripts/report_stats.py r1_ds r2_ds r3_ds_holdout > outputs/report_stats.json
+python3 scripts/report_tables.py > outputs/report_table.md
+```
 
 ## Status
 
-See `state.md`. No Task 3 validation results exist yet.
+Sample stage done: 60/60 categories pass (latest attempt); hold-out 44/60 with the frozen table.
+Write-up: `docs/methodology_report_zh.md`, `docs/methodology_report_en.md`. Project state and next steps: `plan.md`.

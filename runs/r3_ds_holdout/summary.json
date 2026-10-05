@@ -1,0 +1,27 @@
+{
+  "run_id": "r3_ds_holdout",
+  "n_categories": 60,
+  "n_scored": 60,
+  "n_errors": 0,
+  "n_pass": 44,
+  "pass_threshold": 0.8,
+  "mean_recall": 0.7983,
+  "failed_categories": [
+    "hot_pot",
+    "dairy",
+    "beer",
+    "energy_drinks",
+    "soy_sauce",
+    "processed_meat",
+    "insurance",
+    "express_delivery",
+    "hotel_chains",
+    "cosmetics",
+    "air_conditioners",
+    "drones",
+    "supermarkets",
+    "tcm",
+    "online_healthcare",
+    "cigarettes"
+  ]
+}

@@ -117,3 +117,35 @@
 - 品牌表缺口：只采纳有独立证据（Wikipedia 摘要）且明确属于该品类的品牌，标记 `added_post_validation`，并同时报告 `recall_pre_additions`。假设：这样可以区分“表不全”和“类别名有问题”；验证方式：报告中对比两种 recall。
 - 类别误解的 5 类改名后用新 run 重测：`r2_ds --only property_developers payment_networks home_improvement ai_chatbots cigarettes`（已后台启动）。
 **下一步**：Wikipedia 核实 124 个候选品牌（`scripts/verify_candidates.py`，遇 429 限流已加退避）→ 人工判定 → 加入品牌表 → 重打分 r1_ds；打分 r2_ds。
+
+#### 2026-10-05 23:30 HKT — 改名重测 r2_ds、补表（post-validation）、打分与主表 bug 修复
+
+**背景**：r1_ds 解析器修复后 23/60；需要区分“表不全”“别名缺口”“类别名问题”。
+**操作**：
+1. 改名（`data/categories.csv`，category_id 不变）：Credit Card Networks→Payment Card Networks；Real Estate Developers→Chinese Real Estate Developers；Home Improvement Stores→Home Improvement Retail Chains；AI Chatbots→AI Chatbot Apps；Cigarettes→Cigarette Brands。
+   `python3 -u scripts/validate.py query --provider openrouter --model deepseek/deepseek-v4-pro --temperature 0 --run-id r2_ds --only property_developers payment_networks home_improvement ai_chatbots cigarettes`
+2. 补表候选：从 r1_ds/r2_ds 的 extra 中挑出“看起来是真实同品类品牌”的 135 个 → `data/raw/task2/post_validation_candidates.csv`；`python3 scripts/verify_candidates.py` 拉取 Wikipedia REST 摘要（遇 429 限流，加退避；404 时用 search API 兜底，兜底命中常错，全部人工审）→ `data/raw/task2/wiki_verification.jsonl`（原始，追加）。
+3. 人工判定 → `data/raw/task2/post_validation_decisions.csv`：严格规则=摘要必须直接说明该品牌属于该品类。最终采纳 119（其中 7 个 Wikipedia 无页面、经 WebSearch 结果确认：Happy Lamb、Dolar Shop、Dong Lai Shun、Higeta、Sempio、Ohsawa、Kishibori），拒绝 16（如 Josh 已转型、Target 非超市、C4/Alani Nu/Joybird/Essentia 等页面未提及品牌）。
+4. `build_category_brands.py` 读取采纳项，origin=`added_post_validation`，source 为 Wikipedia/搜索页面 → 957 行。
+5. AI Chatbot Apps 改名后仍返回公司名（0.2）→ 加类别别名 OpenAI→ChatGPT、Anthropic→Claude、Google→Gemini、Microsoft→Microsoft Copilot、Meta→Meta AI、xAI→Grok（判断：该品类公司品牌与产品一一对应；报告中标注）。
+6. 规范化：去掉 suffix 后残留的结尾 "and"（"Poly Developments and Holdings"）。测试 19/19。
+7. Bug 修复：(a) 同一 run 重新打分会把行移到文件末尾，`master` 按文件顺序取“最新”导致 r1_ds 覆盖 r2_ds；改为按 `meta.json` 的 started_at 排序。(b) attempt 编号改为只数“更早启动”的 run。
+**结果**：r1_ds 56/60（含补表）；r2_ds 5/5；`master`：60/60 Pass，957 行 → `outputs/master_table.csv`。
+   commit 84efd4f 冻结此时的品牌表。
+**决策 / 假设**：
+- 假设：补表来自同一模型的答案，会使通过率偏乐观。验证方式：留出集 r3_ds_holdout（temperature 1.0，全部 60 个最终名称，品牌表冻结，结果 `--no-record` 不进入主表），同时报告 `recall_pre_additions`。
+**下一步**：打分 r3_ds_holdout；写中英文方法报告。
+
+#### 2026-10-06 00:40 HKT — 留出集 r3_ds_holdout 与中英文方法报告
+
+**背景**：主表 60/60 Pass，但补表来自同一模型答案，需要独立评估。
+**操作**：
+- `python3 -u scripts/validate.py query --provider openrouter --model deepseek/deepseek-v4-pro --temperature 1.0 --run-id r3_ds_holdout`（品牌表冻结于 84efd4f；60/60 无报错，$0.043）
+- `python3 scripts/validate.py score runs/r3_ds_holdout --no-record`
+- 新增 `scripts/report_stats.py`（用当前代码从原始回答重算所有一级统计）与 `scripts/report_tables.py`（逐类表）；输出 `outputs/report_stats.json`、`outputs/report_table.md`。
+- 复算“初版解析器”口径：用 `git show ed733c9:src/observatory/parse.py` + 当前别名，r1_ds 补表前 26/60、mean 0.6533（log 中当时记录的 23/60 使用的是初版别名，现代码不再产生该数）。
+- 写 `docs/methodology_report_zh.md`、`docs/methodology_report_en.md`；写作中发现两处手填数字与统计不符（property_developers r2 补表前应为 0.8、payment_networks r2 应为 0.9/0.9），已按 `report_stats.json` 改正。
+- 删除 `state.md`（内容已合并进中文 `plan.md`，遵循新全局规则）；更新 README。
+**结果**：留出集补表后 44/60（mean 0.7983，median 0.9，std 0.2149），补表前 28/60（mean 0.69）。失败 16 类：hot_pot、dairy、beer、energy_drinks、soy_sauce、processed_meat、insurance、express_delivery、hotel_chains、cosmetics、air_conditioners、drones、supermarkets、tcm、online_healthcare、cigarettes（temperature 1.0 再次拒答）。
+**决策 / 假设**：留出集结果不回改品牌表、不进主表（保持其作为评估集的意义）。
+**下一步**：用户审阅报告 → 发给 Jia Liu。
