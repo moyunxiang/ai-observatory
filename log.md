@@ -169,3 +169,10 @@
 **决策 / 假设**：Qwen 结果只作检验，不回改品牌表、不进 attempts；未为 Qwen 的写法变体（如 Chongqing Xiaolongkan）补别名，避免拟合检验集。署名用 “Yunxiang Mo”（由 git 用户名 moyunxiang 推断，假设；待用户确认）。
 **下一步**：提交并推送到 https://github.com/moyunxiang/ai-observatory；用户审阅 PDF 后发给 Jia Liu。
 **更正**：上一条标为 “2026-10-06 00:40 HKT” 的日志时间戳有误（Qwen 运行开始于 2026-10-05 23:05 HKT，该条实际写于此之前）；原条目保留不改。
+
+#### 2026-10-06 00:07 HKT — 推送到 GitHub
+
+**背景**：用户给出 repo 地址 https://github.com/moyunxiang/ai-observatory（public，原为空仓库）。
+**操作**：`git remote add origin https://github.com/moyunxiang/ai-observatory.git`；HTTPS 推送经环境代理报 `Proxy CONNECT aborted`，SSH 无 key（`Permission denied (publickey)`）；最终 `gh auth setup-git` 后去掉代理环境变量推送：`env -u HTTPS_PROXY -u HTTP_PROXY -u ALL_PROXY ... git push -u origin master`。
+**结果**：远端 master = a969607，作者均为 moyunxiang <2556377578@qq.com>；推送前核对历史中无 `sk-or-v1`/key，`.env` 未被跟踪。
+**下一步**：用户审阅 `outputs/report_en.pdf` / `report_zh.pdf` 后发给 Jia Liu。
