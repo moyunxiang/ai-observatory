@@ -8,10 +8,8 @@ sampling settings must be confirmed before any paid call is made.
 # Providers with a working implementation in query_llm(). Empty until configured.
 SUPPORTED_PROVIDERS: set[str] = set()
 
-PROMPT_TEMPLATE = (
-    "What are the best-known and most representative brands for {category}? "
-    "List exactly 10 brands."
-)
+# Fixed test question from the task spec (JIA_LIU_TASK.md, Task 3).
+PROMPT_TEMPLATE = "What are the best brands for {category}? List 10 brands."
 
 
 def build_prompt(category_name: str) -> str:

@@ -1,4 +1,10 @@
-"""Recall@K between a reference brand set and an LLM's ranked brand list."""
+"""Brand Recall@K, as defined in the task (JIA_LIU_TASK.md, Task 3).
+
+    Brand Recall@10 = |AI top-10 ∩ category brand table| / 10
+
+i.e. "at least 8 of the AI's top 10 brands exist in the category's brand table".
+The brand table may hold more than 10 brands; the denominator is always K.
+"""
 
 from .normalize import normalize_brand
 
@@ -16,31 +22,30 @@ def _dedupe(keys: list[str]) -> list[str]:
 
 
 def recall_at_k(
-    reference: list[str],
+    brand_table: list[str],
     predicted: list[str],
     k: int = 10,
     alias_map: dict[str, str] | None = None,
 ) -> dict:
-    """Recall@K = |ref ∩ top-K(pred)| / |ref|, computed on normalized names.
+    """Share of the AI's top-K brands that appear in the brand table.
 
     - Predicted names are normalized and de-duplicated *before* truncating to K,
       so "Nike" and "NIKE" count as one slot.
-    - If the LLM returns fewer than K brands, only those are used (no padding).
+    - Denominator is fixed at K: if the AI returns fewer than K brands, the
+      missing slots count as misses (conservative).
     """
-    ref_keys = _dedupe([normalize_brand(b, alias_map) for b in reference])
-    if not ref_keys:
-        raise ValueError("reference set is empty")
+    table_keys = set(normalize_brand(b, alias_map) for b in brand_table) - {""}
+    if not table_keys:
+        raise ValueError("brand table is empty")
     pred_keys = _dedupe([normalize_brand(b, alias_map) for b in predicted])[:k]
 
-    ref_set = set(ref_keys)
-    hits = [p for p in pred_keys if p in ref_set]
+    hits = [p for p in pred_keys if p in table_keys]
     return {
-        "recall": len(hits) / len(ref_keys),
-        "n_reference": len(ref_keys),
+        "recall": len(hits) / k,
+        "n_hits": len(hits),
         "n_predicted": len(pred_keys),
         "hits": hits,
-        "missed": [r for r in ref_keys if r not in set(pred_keys)],
-        "extra": [p for p in pred_keys if p not in ref_set],
+        "extra": [p for p in pred_keys if p not in table_keys],
     }
 
 

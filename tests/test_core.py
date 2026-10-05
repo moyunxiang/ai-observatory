@@ -4,6 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
+from observatory.manual import parse_sheet, render_sheet  # noqa: E402
 from observatory.metrics import passes, recall_at_k  # noqa: E402
 from observatory.normalize import basic_normalize, build_alias_map, normalize_brand  # noqa: E402
 from observatory.parse import parse_brand_list  # noqa: E402
@@ -30,26 +31,51 @@ class TestNormalize(unittest.TestCase):
 
 
 class TestRecall(unittest.TestCase):
-    def test_perfect(self):
-        self.assertEqual(recall_at_k(REF, list(reversed(REF)))["recall"], 1.0)
+    TABLE = REF + ["Brand K", "Brand L"]  # brand table may hold > 10 brands
 
-    def test_partial_and_threshold(self):
-        pred = REF[:8] + ["Other 1", "Other 2"]
-        r = recall_at_k(REF, pred)
-        self.assertAlmostEqual(r["recall"], 0.8)
+    def test_perfect(self):
+        r = recall_at_k(self.TABLE, list(reversed(REF)))
+        self.assertEqual(r["recall"], 1.0)
+
+    def test_denominator_is_k_not_table_size(self):
+        pred = ["Brand K", "Brand L"] + REF[:6] + ["Other 1", "Other 2"]
+        r = recall_at_k(self.TABLE, pred)
+        self.assertAlmostEqual(r["recall"], 0.8)  # 8 of AI's 10 in a 12-brand table
         self.assertTrue(passes(r["recall"]))
         self.assertFalse(passes(0.7))
-        self.assertEqual(r["missed"], ["brand i", "brand j"])
+        self.assertEqual(r["extra"], ["other 1", "other 2"])
+
+    def test_fewer_than_k_counts_as_miss(self):
+        r = recall_at_k(self.TABLE, REF[:7])
+        self.assertAlmostEqual(r["recall"], 0.7)
+        self.assertEqual(r["n_predicted"], 7)
 
     def test_truncates_to_k_after_dedupe(self):
         pred = ["Brand A", "BRAND A"] + [f"Other {i}" for i in range(9)] + ["Brand B"]
-        r = recall_at_k(REF, pred)
+        r = recall_at_k(self.TABLE, pred)
         self.assertEqual(r["n_predicted"], 10)
         self.assertAlmostEqual(r["recall"], 0.1)  # Brand B is 11th unique -> cut
 
-    def test_empty_reference_raises(self):
+    def test_empty_table_raises(self):
         with self.assertRaises(ValueError):
             recall_at_k([], ["x"])
+
+
+class TestManualSheet(unittest.TestCase):
+    def test_roundtrip(self):
+        items = [
+            {"category_id": "a", "category_name": "Cat A", "prompt": "What are the best brands for Cat A? List 10 brands."},
+            {"category_id": "b", "category_name": "Cat B", "prompt": "P2"},
+        ]
+        sheet = render_sheet(items)
+        sheet = sheet.replace("MODEL: ", "MODEL: GPT-test", 1)
+        sheet = sheet.replace("--- paste answer below ---\n", "--- paste answer below ---\n1. **Brand A**\n2. Brand B\n\n=== not a header\n", 1)
+        meta, recs = parse_sheet(sheet)
+        self.assertEqual(meta["model"], "GPT-test")
+        self.assertEqual([r["category_id"] for r in recs], ["a", "b"])
+        self.assertEqual(recs[0]["category_name"], "Cat A")
+        self.assertEqual(parse_brand_list(recs[0]["response"])[:2], ["Brand A", "Brand B"])
+        self.assertEqual(recs[1]["response"], "")
 
 
 class TestParse(unittest.TestCase):
@@ -59,6 +85,14 @@ class TestParse(unittest.TestCase):
 
     def test_hyphenated_name_kept(self):
         self.assertEqual(parse_brand_list("1. Coca-Cola\n2. Rolls-Royce"), ["Coca-Cola", "Rolls-Royce"])
+
+    def test_gpt_style_with_intro_and_outro(self):
+        text = ("Here are 10 of the best brands for robot vacuums:\n\n"
+                "1. **Roborock** – Known for strong suction.\n"
+                "2. **iRobot (Roomba)** – Pioneer of the category.\n"
+                "3. **Ecovacs (Deebot)**: Wide range.\n\n"
+                "Let me know if you want a comparison!")
+        self.assertEqual(parse_brand_list(text), ["Roborock", "iRobot", "Ecovacs"])
 
     def test_comma_line(self):
         self.assertEqual(parse_brand_list("Brand A, Brand B, Brand C."), ["Brand A", "Brand B", "Brand C"])
