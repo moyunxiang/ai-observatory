@@ -1,0 +1,839 @@
+category_id,brand,world_china,origin,source_url,source_method
+smartphones,Apple,World,seed,https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/,webfetch
+smartphones,Samsung,World,seed,https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/,webfetch
+smartphones,Xiaomi,China,seed,https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/,webfetch
+smartphones,vivo,China,seed,https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/,webfetch
+smartphones,Huawei,China,seed,https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/,webfetch
+smartphones,OPPO,China,expanded,https://www.statista.com/statistics/271492/global-market-share-held-by-leading-smartphone-vendors/,webfetch
+smartphones,Honor,China,expanded,https://my.idc.com/getdoc.jsp?containerId=prUS53868725,websearch
+smartphones,realme,China,expanded,https://my.idc.com/getdoc.jsp?containerId=prUS53868725,websearch
+smartphones,Tecno,China,expanded,https://my.idc.com/getdoc.jsp?containerId=prUS53868725,websearch
+smartphones,Infinix,China,expanded,https://my.idc.com/getdoc.jsp?containerId=prUS53868725,websearch
+smartphones,Motorola,World,expanded,https://my.idc.com/getdoc.jsp?containerId=prUS53868725,websearch
+search_engines,Google,World,seed,https://statista.com/statistics/1381664,websearch
+search_engines,Bing,World,expanded,https://statista.com/statistics/1381664,websearch
+search_engines,Baidu,China,seed,https://statista.com/statistics/1381664,websearch
+search_engines,Yandex,World,expanded,https://statista.com/statistics/1381664,websearch
+search_engines,Yahoo,World,expanded,https://statista.com/statistics/1381664,websearch
+search_engines,DuckDuckGo,World,expanded,https://statista.com/statistics/1381664,websearch
+search_engines,Ecosia,World,expanded,https://en.wikipedia.org/wiki/List_of_search_engines,webfetch
+search_engines,Brave Search,World,expanded,https://en.wikipedia.org/wiki/List_of_search_engines,webfetch
+search_engines,Sogou,China,expanded,https://en.wikipedia.org/wiki/List_of_search_engines,webfetch
+search_engines,Qwant,World,expanded,https://en.wikipedia.org/wiki/List_of_search_engines,webfetch
+search_engines,Startpage,World,expanded,https://en.wikipedia.org/wiki/List_of_search_engines,webfetch
+search_engines,Petal Search,China,expanded,https://en.wikipedia.org/wiki/List_of_search_engines,webfetch
+social_media,Facebook,World,seed,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Instagram,World,seed,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,WhatsApp,World,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,YouTube,World,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,TikTok,China,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,WeChat,China,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Telegram,World,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Facebook Messenger,World,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Snapchat,World,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Douyin,China,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Kuaishou,China,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Reddit,World,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,Weibo,China,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,X,World,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,QQ,China,expanded,https://www.dreamgrow.com/top-15-most-popular-social-networking-sites/,webfetch
+social_media,LinkedIn,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+social_media,Xiaohongshu,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+short_video,TikTok,China,seed,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Douyin,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+short_video,Kuaishou,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+short_video,Instagram Reels,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,YouTube Shorts,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Snapchat Spotlight,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Facebook Reels,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Clapper,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Lemon8,China,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Triller,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Likee,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Xiaohongshu,China,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+short_video,Skylight,World,expanded,https://www.soundstripe.com/blogs/best-tiktok-alternatives,webfetch
+video_streaming,Netflix,World,seed,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,YouTube,World,seed,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,Prime Video,World,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,Disney+,World,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,Hulu,World,expanded,https://en.wikipedia.org/wiki/List_of_streaming_media_services,webfetch
+video_streaming,HBO Max,World,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,Apple TV,World,expanded,https://en.wikipedia.org/wiki/List_of_streaming_media_services,webfetch
+video_streaming,Paramount+,World,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,Peacock,World,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,JioHotstar,World,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,Tencent Video,China,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,iQIYI,China,expanded,https://straitsresearch.com/statistic/top-subscription-video-on-demand-svod-platforms-in-2025,websearch
+video_streaming,Youku,China,seed,https://en.wikipedia.org/wiki/List_of_streaming_media_services,webfetch
+video_streaming,Mango TV,China,seed,https://en.wikipedia.org/wiki/List_of_streaming_media_services,webfetch
+video_streaming,Bilibili,China,seed,https://en.wikipedia.org/wiki/List_of_streaming_media_services,webfetch
+video_streaming,Crunchyroll,World,expanded,https://en.wikipedia.org/wiki/List_of_streaming_media_services,webfetch
+music_streaming,Spotify,World,seed,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,Apple Music,World,expanded,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,Amazon Music,World,expanded,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,YouTube Music,World,expanded,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,Tencent Music,China,expanded,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,NetEase Cloud Music,China,expanded,https://routenote.com/blog/which-streaming-services-have-the-most-paying-subscribers/,websearch
+music_streaming,Yandex Music,World,expanded,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,Deezer,World,expanded,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,Qobuz,World,expanded,https://explodingtopics.com/blog/music-streaming-stats,webfetch
+music_streaming,Kugou,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+ecommerce,Amazon,World,seed,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,Alibaba,China,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+ecommerce,JD,China,seed,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,Pinduoduo,China,seed,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,Mercado Libre,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+ecommerce,Taobao,China,expanded,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,Tmall,China,expanded,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,eBay,World,expanded,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,Shopee,World,expanded,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,Temu,China,expanded,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+ecommerce,Walmart,World,expanded,https://www.marketplacepulse.com/articles/top-10-e-commerce-marketplaces-in-2026,websearch
+fast_food,McDonald's,World,seed,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,KFC,World,seed,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Chipotle,World,seed,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Burger King,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Subway,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Taco Bell,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Pizza Hut,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Domino's,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Wendy's,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Chick-fil-A,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Popeyes,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Tim Hortons,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Dairy Queen,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Papa John's,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+fast_food,Jack in the Box,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,webfetch
+coffee_chains,Starbucks,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+coffee_chains,Luckin Coffee,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+coffee_chains,Costa Coffee,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Cotti Coffee,China,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Caffè Nero,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Caribou Coffee,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,The Coffee Bean & Tea Leaf,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Café Amazon,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Café Coffee Day,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Blue Bottle Coffee,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,% Arabica,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Compose Coffee,World,expanded,https://en.wikipedia.org/wiki/List_of_coffeehouse_chains,webfetch
+coffee_chains,Tim Hortons,World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,cross_category:webfetch
+coffee_chains,Dunkin',World,expanded,https://en.wikipedia.org/wiki/List_of_the_largest_fast_food_restaurant_chains,cross_category:webfetch
+bubble_tea,Mixue Bingcheng,China,seed,https://www.hurun.net/en-us/info/detail?num=XMVE25N9FQ9S,websearch
+bubble_tea,Heytea,China,seed,https://www.hurun.net/en-us/info/detail?num=XMVE25N9FQ9S,websearch
+bubble_tea,Chagee,China,seed,https://www.hurun.net/en-us/info/detail?num=XMVE25N9FQ9S,websearch
+bubble_tea,Good Me,China,expanded,https://www.hurun.net/en-us/info/detail?num=XMVE25N9FQ9S,websearch
+bubble_tea,Auntea Jenny,China,expanded,https://www.hurun.net/en-us/info/detail?num=XMVE25N9FQ9S,websearch
+bubble_tea,Baicha Baidao,China,expanded,https://www.caixinglobal.com/2026-08-31/chart-of-the-day-chinas-tea-chains-serve-up-a-mixed-brew-102480087.html,websearch
+bubble_tea,Nayuki,China,expanded,https://www.caixinglobal.com/2026-08-31/chart-of-the-day-chinas-tea-chains-serve-up-a-mixed-brew-102480087.html,websearch
+bubble_tea,Chatime,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,CoCo Fresh Tea & Juice,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,Gong Cha,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,Yi Dian Dian,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,Tiger Sugar,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,Xing Fu Tang,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,Kung Fu Tea,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,The Alley,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+bubble_tea,Tealive,World,expanded,https://en.wikipedia.org/wiki/Bubble_tea,webfetch
+hot_pot,Haidilao,China,seed,https://www.statista.com/statistics/1120300/china-leading-hot-pot-restaurant-chains/,websearch
+hot_pot,Xiabu Xiabu,China,expanded,https://www.statista.com/statistics/1120300/china-leading-hot-pot-restaurant-chains/,websearch
+hot_pot,Banu,China,expanded,https://www.statista.com/statistics/1120300/china-leading-hot-pot-restaurant-chains/,websearch
+hot_pot,Coucou,China,expanded,https://www.statista.com/statistics/1120300/china-leading-hot-pot-restaurant-chains/,websearch
+hot_pot,Xiaolongkan,China,expanded,https://www.goldthread2.com/food/xiaolongkan-chinese-hot-pot-chain-new-york-city/article/3014839,websearch
+hot_pot,Dezhuang,China,expanded,https://www.ichongqing.info/restaurant/dezhuang-hot-pot/,websearch
+hot_pot,Liuyishou,China,expanded,https://www.timeout.com/hong-kong/restaurants/liu-yi-shou-chong-qing-hot-pot,websearch
+hot_pot,Shu Daxia,China,expanded,https://baike.baidu.com/en/item/Sichuan%20Hot%20Pot/889274,websearch
+hot_pot,Dalongyi,China,expanded,https://baike.baidu.com/en/item/Sichuan%20Hot%20Pot/889274,websearch
+hot_pot,Little Sheep,China,expanded,https://en.wikipedia.org/wiki/Little_Sheep_Group,websearch
+soft_drinks,Coca-Cola,World,seed,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,Genki Forest,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+soft_drinks,Pepsi,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,Sprite,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,Fanta,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,7 Up,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,Dr Pepper,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,Schweppes,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,RC Cola,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,Irn-Bru,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+soft_drinks,Jones Soda,World,expanded,https://en.wikipedia.org/wiki/Soft_drink,webfetch
+bottled_water,Nongfu Spring,China,seed,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Evian,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Perrier,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,San Pellegrino,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Volvic,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Nestlé Pure Life,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Aquafina,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Dasani,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Poland Spring,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Fiji Water,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Voss,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Ganten,China,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Watsons Water,China,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Topo Chico,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Gerolsteiner,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Icelandic Glacial,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+bottled_water,Crystal Geyser,World,expanded,https://en.wikipedia.org/wiki/List_of_bottled_water_brands,webfetch
+dairy,Yili,China,seed,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Mengniu,China,seed,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Lactalis,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Nestlé,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Danone,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Fonterra,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Arla,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,FrieslandCampina,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Amul,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Saputo,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Dairy Farmers of America,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Müller,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+dairy,Grupo Lala,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_dairy_companies,webfetch
+baijiu,Moutai,China,seed,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Wuliangye,China,seed,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Luzhou Laojiao,China,seed,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,National Cellar 1573,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+baijiu,Yanghe,China,seed,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Gujing Gong Jiu,China,seed,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Fenjiu,China,seed,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Guoyuan,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+baijiu,Langjiu,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Jiannanchun,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Shuijingfang,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Xifeng,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Xijiu,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Jiugui,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Jiang Xiaobai,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Niulanshan,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+baijiu,Shede,China,expanded,https://en.wikipedia.org/wiki/Baijiu,webfetch
+beer,Tsingtao,China,seed,https://brandfinance.com/press-releases/corona-extra-moutai-and-moet-chandon-remain-most-valuable-beer-spirits-and-champagne-and-wine-brands-globally,websearch
+beer,Snow,China,seed,https://brandfinance.com/press-releases/corona-extra-moutai-and-moet-chandon-remain-most-valuable-beer-spirits-and-champagne-and-wine-brands-globally,websearch
+beer,Corona,World,expanded,https://www.beveragedaily.com/Article/2025/05/28/corona-is-the-worlds-most-valuable-beer-brand/,webfetch
+beer,Heineken,World,expanded,https://www.beveragedaily.com/Article/2025/05/28/corona-is-the-worlds-most-valuable-beer-brand/,webfetch
+beer,Budweiser,World,expanded,https://www.beveragedaily.com/Article/2025/05/28/corona-is-the-worlds-most-valuable-beer-brand/,webfetch
+beer,Michelob Ultra,World,expanded,https://www.beveragedaily.com/Article/2025/05/28/corona-is-the-worlds-most-valuable-beer-brand/,webfetch
+beer,Modelo,World,expanded,https://www.beveragedaily.com/Article/2025/05/28/corona-is-the-worlds-most-valuable-beer-brand/,webfetch
+beer,Guinness,World,expanded,https://www.beveragedaily.com/Article/2025/05/28/corona-is-the-worlds-most-valuable-beer-brand/,webfetch
+beer,Stella Artois,World,expanded,https://www.beveragedaily.com/Article/2025/05/28/corona-is-the-worlds-most-valuable-beer-brand/,webfetch
+beer,Carlsberg,World,expanded,https://en.wikipedia.org/wiki/Beer_in_China,webfetch
+beer,Harbin,China,expanded,https://en.wikipedia.org/wiki/Beer_in_China,webfetch
+beer,Yanjing,China,expanded,https://en.wikipedia.org/wiki/Beer_in_China,webfetch
+beer,Zhujiang,China,expanded,https://en.wikipedia.org/wiki/Beer_in_China,webfetch
+beer,Wusu,China,expanded,https://en.wikipedia.org/wiki/Beer_in_China,webfetch
+energy_drinks,Eastroc Beverage,China,seed,https://www.mordorintelligence.com/industry-reports/china-energy-drink-market,websearch
+energy_drinks,Red Bull,World,expanded,https://www.fortunebusinessinsights.com/energy-drinks-market-112182,websearch
+energy_drinks,Monster Energy,World,expanded,https://www.fortunebusinessinsights.com/energy-drinks-market-112182,websearch
+energy_drinks,Celsius,World,expanded,https://www.fortunebusinessinsights.com/energy-drinks-market-112182,websearch
+energy_drinks,Rockstar Energy,World,expanded,https://www.mordorintelligence.com/industry-reports/china-energy-drink-market,websearch
+energy_drinks,Lucozade,World,expanded,https://www.fortunebusinessinsights.com/energy-drinks-market-112182,websearch
+energy_drinks,Prime,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,5-Hour Energy,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,NOS,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,Amp,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,Krating Daeng,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,Lipovitan,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,V,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,Power Horse,World,expanded,https://en.wikipedia.org/wiki/Energy_drink,webfetch
+energy_drinks,Hi-Tiger,China,expanded,https://www.mordorintelligence.com/industry-reports/china-energy-drink-market,websearch
+soy_sauce,Haday,China,seed,https://www.mordorintelligence.com/industry-reports/global-soy-sauce-market,websearch
+soy_sauce,Kikkoman,World,expanded,https://www.mordorintelligence.com/industry-reports/global-soy-sauce-market,websearch
+soy_sauce,Lee Kum Kee,China,expanded,https://www.mordorintelligence.com/industry-reports/global-soy-sauce-market,websearch
+soy_sauce,Yamasa,World,expanded,https://www.mordorintelligence.com/industry-reports/global-soy-sauce-market,websearch
+soy_sauce,Pearl River Bridge,China,expanded,https://www.mordorintelligence.com/industry-reports/global-soy-sauce-market,websearch
+soy_sauce,Qianhe,China,expanded,https://www.alfalaval.com/media/stories/food-processing/chinas-brown-gold/,websearch
+soy_sauce,Chubang,China,expanded,https://www.alfalaval.com/media/stories/food-processing/chinas-brown-gold/,websearch
+soy_sauce,Marukin,World,expanded,https://oishii-desu.com/2020/08/04/the-best-japanese-soy-sauce-shoyu-brands/,websearch
+soy_sauce,San-J,World,expanded,https://www.pearlriverbridge.com/decoding-flavor-top-11-soy-sauce-brands-everyone-loves,websearch
+soy_sauce,Wan Ja Shan,World,expanded,https://www.pearlriverbridge.com/decoding-flavor-top-11-soy-sauce-brands-everyone-loves,websearch
+soy_sauce,La Choy,World,expanded,https://en.wikipedia.org/wiki/Soy_sauce,webfetch
+soy_sauce,ABC,World,expanded,https://en.wikipedia.org/wiki/Soy_sauce,webfetch
+soy_sauce,Aloha Shoyu,World,expanded,https://en.wikipedia.org/wiki/Soy_sauce,webfetch
+processed_meat,Shuanghui,China,seed,https://en.wikipedia.org/wiki/WH_Group,websearch
+processed_meat,Yurun,China,expanded,https://en.wikipedia.org/wiki/Yurun_Group,websearch
+processed_meat,Smithfield,World,expanded,https://en.wikipedia.org/wiki/WH_Group,websearch
+processed_meat,Oscar Mayer,World,expanded,https://www.tastingtable.com/1036751/best-packaged-deli-meat-brands-ranked/,webfetch
+processed_meat,Hormel,World,expanded,https://www.tastingtable.com/1036751/best-packaged-deli-meat-brands-ranked/,webfetch
+processed_meat,Hillshire Farm,World,expanded,https://www.tastingtable.com/1036751/best-packaged-deli-meat-brands-ranked/,webfetch
+processed_meat,Boar's Head,World,expanded,https://www.tastingtable.com/1036751/best-packaged-deli-meat-brands-ranked/,webfetch
+processed_meat,Ball Park,World,expanded,https://en.wikipedia.org/wiki/Ball_Park_Franks,websearch
+processed_meat,Jimmy Dean,World,expanded,https://en.wikipedia.org/wiki/Ball_Park_Franks,websearch
+processed_meat,Tyson,World,expanded,https://en.wikipedia.org/wiki/Ball_Park_Franks,websearch
+processed_meat,Applegate,World,expanded,https://www.tastingtable.com/1036751/best-packaged-deli-meat-brands-ranked/,webfetch
+processed_meat,Land O' Frost,World,expanded,https://www.tastingtable.com/1036751/best-packaged-deli-meat-brands-ranked/,webfetch
+banks,Chase,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+banks,J.P. Morgan,World,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Wells Fargo,World,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Bank of America,World,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,RBC,World,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,HDFC Bank,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+banks,BCA,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+banks,CommBank,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+banks,Morgan Stanley,World,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,ICBC,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Agricultural Bank of China,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,China Construction Bank,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Bank of China,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,China Merchants Bank,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Bank of Communications,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,China Everbright Bank,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,China CITIC Bank,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Bank of Ningbo,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+banks,China Minsheng Bank,China,seed,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,HSBC,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Citi,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,BNP Paribas,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Barclays,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Banco Santander,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,MUFG,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Goldman Sachs,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,Deutsche Bank,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,UBS,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+banks,TD Bank,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_banks,webfetch
+payment_networks,Visa,World,seed,https://wallethub.com/edu/cc/market-share-by-credit-card-network/25531,websearch
+payment_networks,Mastercard,World,seed,https://wallethub.com/edu/cc/market-share-by-credit-card-network/25531,websearch
+payment_networks,American Express,World,seed,https://wallethub.com/edu/cc/market-share-by-credit-card-network/25531,websearch
+payment_networks,UnionPay,China,expanded,https://wallethub.com/edu/cc/market-share-by-credit-card-network/25531,websearch
+payment_networks,Discover,World,expanded,https://wallethub.com/edu/cc/market-share-by-credit-card-network/25531,websearch
+payment_networks,JCB,World,expanded,https://www.airwallex.com/en-us/blog/credit-card-networks,websearch
+payment_networks,Diners Club,World,expanded,https://www.airwallex.com/en-us/blog/credit-card-networks,websearch
+payment_networks,RuPay,World,expanded,https://www.airwallex.com/en-us/blog/credit-card-networks,websearch
+payment_networks,Elo,World,expanded,https://www.airwallex.com/en-us/blog/credit-card-networks,websearch
+payment_networks,Mir,World,expanded,https://www.airwallex.com/en-us/blog/credit-card-networks,websearch
+payment_networks,Interac,World,expanded,https://www.airwallex.com/en-us/blog/credit-card-networks,websearch
+digital_payments,PayPal,World,seed,https://www.westernunion.com/blog/en/us/top-digital-wallets/,websearch
+digital_payments,Stripe,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+digital_payments,Apple Pay,World,expanded,https://www.westernunion.com/blog/en/us/top-digital-wallets/,websearch
+digital_payments,Google Pay,World,expanded,https://www.westernunion.com/blog/en/us/top-digital-wallets/,websearch
+digital_payments,WeChat Pay,China,expanded,https://www.westernunion.com/blog/en/us/top-digital-wallets/,websearch
+digital_payments,Alipay,China,expanded,https://www.westernunion.com/blog/en/us/top-digital-wallets/,websearch
+digital_payments,Venmo,World,expanded,https://www.westernunion.com/blog/en/us/top-digital-wallets/,websearch
+digital_payments,Cash App,World,expanded,https://www.westernunion.com/blog/en/us/top-digital-wallets/,websearch
+digital_payments,Zelle,World,expanded,https://thecfoclub.com/tools/best-mobile-payment-apps/,websearch
+digital_payments,Samsung Pay,World,expanded,https://thecfoclub.com/tools/best-mobile-payment-apps/,websearch
+digital_payments,Wise,World,expanded,https://thecfoclub.com/tools/best-mobile-payment-apps/,websearch
+digital_payments,PhonePe,World,expanded,https://thecfoclub.com/tools/best-mobile-payment-apps/,websearch
+insurance,Ping An,China,seed,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,China Life,China,seed,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,CPIC,China,seed,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,PICC,China,seed,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Taikang,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+insurance,NCI,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+insurance,Allianz,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,AXA,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,MetLife,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Prudential,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Generali,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,AIG,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Zurich,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,State Farm,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Allstate,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Progressive,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Liberty Mutual,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Nippon Life,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Manulife,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,Aviva,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+insurance,LIC,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+health_insurance,UnitedHealthcare,World,seed,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+health_insurance,Elevance Health,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+health_insurance,Anthem,World,expanded,https://www.valuepenguin.com/largest-health-insurance-companies,websearch
+health_insurance,Aetna,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+health_insurance,Centene,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+health_insurance,Ambetter,World,expanded,https://www.valuepenguin.com/largest-health-insurance-companies,websearch
+health_insurance,Health Care Service Corporation,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+health_insurance,Blue Cross Blue Shield,World,expanded,https://www.valuepenguin.com/largest-health-insurance-companies,websearch
+health_insurance,Cigna,World,expanded,https://www.beckerspayer.com/rankings-ratings/top-10-largest-insurers-by-enrollment-in-2025/,websearch
+health_insurance,Kaiser Permanente,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+health_insurance,Humana,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_insurance_companies,webfetch
+mobile_carriers,China Mobile,China,seed,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,China Telecom,China,seed,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,China Unicom,China,seed,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Verizon,World,seed,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,AT&T,World,seed,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,T-Mobile,World,seed,https://www.mediar.cz/wp-content/uploads/2025/05/kantar-brandz-2025.pdf,kantar_seed
+mobile_carriers,Airtel,World,seed,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Reliance Jio,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Vodafone,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,América Móvil,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Orange,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Telefónica,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,MTN,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Deutsche Telekom,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,NTT Docomo,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Telkomsel,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Etisalat,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Telenor,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Viettel,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Ooredoo,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+mobile_carriers,Vodafone Idea,World,expanded,https://en.wikipedia.org/wiki/List_of_mobile_network_operators,webfetch
+isps,Spectrum,World,seed,https://en.wikipedia.org/wiki/Comcast,websearch
+isps,Xfinity,World,seed,https://en.wikipedia.org/wiki/Comcast,websearch
+isps,AT&T,World,expanded,https://en.wikipedia.org/wiki/Comcast,websearch
+isps,Verizon,World,expanded,https://en.wikipedia.org/wiki/Comcast,websearch
+isps,Frontier,World,expanded,https://en.wikipedia.org/wiki/Comcast,websearch
+isps,Optimum,World,expanded,https://en.wikipedia.org/wiki/Comcast,websearch
+isps,Cox,World,expanded,https://broadbandnow.com/All-Providers,websearch
+isps,T-Mobile,World,expanded,https://en.wikipedia.org/wiki/Comcast,websearch
+isps,Google Fiber,World,expanded,https://www.compareinternet.com/blog/experts-review-the-best-internet-providers-of-2025/,websearch
+isps,Starlink,World,expanded,https://www.compareinternet.com/blog/experts-review-the-best-internet-providers-of-2025/,websearch
+isps,Astound,World,expanded,https://www.compareinternet.com/blog/experts-review-the-best-internet-providers-of-2025/,websearch
+isps,WOW!,World,expanded,https://www.compareinternet.com/blog/experts-review-the-best-internet-providers-of-2025/,websearch
+airlines,Air China,China,seed,https://www.oag.com/blog/infographic-chinas-biggest-airlines,websearch
+airlines,China Southern Airlines,China,seed,https://www.oag.com/blog/infographic-chinas-biggest-airlines,websearch
+airlines,China Eastern Airlines,China,seed,https://www.oag.com/blog/infographic-chinas-biggest-airlines,websearch
+airlines,Hainan Airlines,China,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Cathay Pacific,China,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Qatar Airways,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Singapore Airlines,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Emirates,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,ANA,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Turkish Airlines,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Korean Air,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Air France,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Japan Airlines,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Swiss,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,EVA Air,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,British Airways,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Qantas,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Lufthansa,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Virgin Atlantic,World,expanded,https://thehill.com/regulation/transportation/5369351-top-20-airlines-world-2025/,websearch
+airlines,Delta Air Lines,World,expanded,https://en.wikipedia.org/wiki/World%27s_largest_airlines,webfetch
+airlines,American Airlines,World,expanded,https://en.wikipedia.org/wiki/World%27s_largest_airlines,webfetch
+airlines,United Airlines,World,expanded,https://en.wikipedia.org/wiki/World%27s_largest_airlines,webfetch
+airlines,Southwest Airlines,World,expanded,https://en.wikipedia.org/wiki/World%27s_largest_airlines,webfetch
+airlines,Ryanair,World,expanded,https://en.wikipedia.org/wiki/World%27s_largest_airlines,webfetch
+express_delivery,UPS,World,seed,https://en.wikipedia.org/wiki/Express_mail,webfetch
+express_delivery,FedEx,World,seed,https://en.wikipedia.org/wiki/Express_mail,webfetch
+express_delivery,DHL,World,expanded,https://en.wikipedia.org/wiki/Express_mail,webfetch
+express_delivery,SF Express,China,seed,https://www.mordorintelligence.com/industry-reports/china-domestic-courier-express-and-parcel-market,websearch
+express_delivery,ZTO Express,China,seed,https://www.mordorintelligence.com/industry-reports/china-domestic-courier-express-and-parcel-market,websearch
+express_delivery,YTO Express,China,seed,https://www.mordorintelligence.com/industry-reports/china-domestic-courier-express-and-parcel-market,websearch
+express_delivery,Yunda,China,expanded,https://www.mordorintelligence.com/industry-reports/china-domestic-courier-express-and-parcel-market,websearch
+express_delivery,STO Express,China,expanded,https://www.mordorintelligence.com/industry-reports/china-domestic-courier-express-and-parcel-market,websearch
+express_delivery,J&T Express,China,expanded,https://www.mordorintelligence.com/industry-reports/china-domestic-courier-express-and-parcel-market,websearch
+express_delivery,JD Logistics,China,expanded,https://www.sphericalinsights.com/blogs/world-s-top-40-companies-in-courier-express-and-parcel-market-2025-industry-intelligence-report-by-spherical-insights-2026-2035,websearch
+express_delivery,USPS,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-40-companies-in-courier-express-and-parcel-market-2025-industry-intelligence-report-by-spherical-insights-2026-2035,websearch
+express_delivery,Royal Mail,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-40-companies-in-courier-express-and-parcel-market-2025-industry-intelligence-report-by-spherical-insights-2026-2035,websearch
+express_delivery,DPD,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-40-companies-in-courier-express-and-parcel-market-2025-industry-intelligence-report-by-spherical-insights-2026-2035,websearch
+express_delivery,GLS,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-40-companies-in-courier-express-and-parcel-market-2025-industry-intelligence-report-by-spherical-insights-2026-2035,websearch
+express_delivery,Aramex,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-40-companies-in-courier-express-and-parcel-market-2025-industry-intelligence-report-by-spherical-insights-2026-2035,websearch
+food_delivery,Meituan,China,seed,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Ele.me,China,seed,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,DoorDash,World,seed,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Uber Eats,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Deliveroo,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Just Eat Takeaway,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Zomato,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Swiggy,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Grab,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,iFood,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Foodpanda,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Glovo,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Talabat,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+food_delivery,Baemin,World,expanded,https://www.singular.net/blog/food-delivery-apps/,websearch
+ride_hailing,Uber,World,seed,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Didi,China,seed,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Lyft,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Grab,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Bolt,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,inDrive,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Ola,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Gojek,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Yandex Go,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+ride_hailing,Careem,World,expanded,https://www.mordorintelligence.com/industry-reports/ride-hailing-market/companies,websearch
+online_travel,Ctrip,China,seed,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Booking.com,World,seed,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Qunar,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+online_travel,Fliggy,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+online_travel,Expedia,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Airbnb,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,MakeMyTrip,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Tongcheng,China,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Tripadvisor,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Agoda,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Priceline,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,KAYAK,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,Despegar,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+online_travel,eDreams,World,expanded,https://www.globalgrowthinsights.com/blog/10-biggest-online-travel-agency-ota-companies-in-the-world-global-growth-insights-520,websearch
+hotel_chains,Hilton,World,seed,https://brandfinance.com/press-releases/hilton-hotels-resorts-checks-in-as-the-worlds-most-valuable-hotel-brand-for-11-consecutive-years,webfetch
+hotel_chains,Marriott,World,expanded,https://brandfinance.com/press-releases/hilton-hotels-resorts-checks-in-as-the-worlds-most-valuable-hotel-brand-for-11-consecutive-years,webfetch
+hotel_chains,Hyatt,World,expanded,https://brandfinance.com/press-releases/hilton-hotels-resorts-checks-in-as-the-worlds-most-valuable-hotel-brand-for-11-consecutive-years,webfetch
+hotel_chains,IHG,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Holiday Inn,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Four Seasons,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,The Ritz-Carlton,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Sheraton,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Shangri-La,China,expanded,https://brandfinance.com/press-releases/three-chinese-hotel-rank-among-worlds-top-50-led-by-shangri-la-at-1-6-billion,websearch
+hotel_chains,Hampton by Hilton,World,expanded,https://brandfinance.com/press-releases/three-chinese-hotel-rank-among-worlds-top-50-led-by-shangri-la-at-1-6-billion,websearch
+hotel_chains,Best Western,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Ibis,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Sofitel,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Fairmont,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Mandarin Oriental,China,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+hotel_chains,Hanting,China,expanded,https://brandfinance.com/press-releases/three-chinese-hotel-rank-among-worlds-top-50-led-by-shangri-la-at-1-6-billion,websearch
+hotel_chains,Waldorf Astoria,World,expanded,https://brandfinance.com/press-releases/hilton-hotels-resorts-checks-in-as-the-worlds-most-valuable-hotel-brand-for-11-consecutive-years,webfetch
+hotel_chains,Taj Hotels,World,expanded,https://brandfinance.com/press-releases/hilton-hotels-resorts-checks-in-as-the-worlds-most-valuable-hotel-brand-for-11-consecutive-years,webfetch
+hotel_chains,Motel 6,World,expanded,https://en.wikipedia.org/wiki/Hotel_chain,webfetch
+restaurant_reviews,Dianping,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+restaurant_reviews,Yelp,World,expanded,https://www.upmenu.com/blog/restaurant-review-sites/,websearch
+restaurant_reviews,Tripadvisor,World,expanded,https://www.upmenu.com/blog/restaurant-review-sites/,websearch
+restaurant_reviews,Google Maps,World,expanded,https://www.upmenu.com/blog/restaurant-review-sites/,websearch
+restaurant_reviews,OpenTable,World,expanded,https://www.upmenu.com/blog/restaurant-review-sites/,websearch
+restaurant_reviews,Zomato,World,expanded,https://www.upmenu.com/blog/restaurant-review-sites/,websearch
+restaurant_reviews,Foursquare,World,expanded,https://www.upmenu.com/blog/restaurant-review-sites/,websearch
+restaurant_reviews,Zagat,World,expanded,https://www.upmenu.com/blog/restaurant-review-sites/,websearch
+restaurant_reviews,TheFork,World,expanded,https://sevenrooms.com/blog/10-restaurant-review-sites-how-to-manage-them/,websearch
+restaurant_reviews,Michelin Guide,World,expanded,https://sevenrooms.com/blog/10-restaurant-review-sites-how-to-manage-them/,websearch
+restaurant_reviews,Tabelog,World,expanded,https://sevenrooms.com/blog/10-restaurant-review-sites-how-to-manage-them/,websearch
+restaurant_reviews,Resy,World,expanded,https://sevenrooms.com/blog/10-restaurant-review-sites-how-to-manage-them/,websearch
+real_estate_agencies,KE,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+real_estate_agencies,Lianjia,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+real_estate_agencies,Compass,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,eXp Realty,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,RE/MAX,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Century 21,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Coldwell Banker,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Keller Williams,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Sotheby's International Realty,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Berkshire Hathaway HomeServices,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Douglas Elliman,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Redfin,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+real_estate_agencies,Better Homes and Gardens Real Estate,World,expanded,https://www.realestatenews.com/2024/12/23/trends-2025-franchise-giants-rising-brokerage-brands-to-watch,websearch
+property_developers,Vanke,China,seed,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,Poly,China,seed,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,CR Land,China,seed,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,China Overseas Land,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,Greentown,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,China Merchants Shekou,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,C&D Real Estate,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,China Jinmao,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,Yuexiu Property,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,Binjiang Group,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+property_developers,Greenland,China,expanded,https://finance.biggo.com/news/6449ee9a-5a98-4d4e-8e6b-b435723131e5,websearch
+electric_vehicles,Tesla,World,seed,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,BYD,China,seed,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,Li Auto,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+electric_vehicles,Xpeng,China,seed,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,NIO,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+electric_vehicles,Geely,China,expanded,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,Leapmotor,China,expanded,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,Wuling,China,expanded,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,Xiaomi,China,expanded,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,BMW,World,expanded,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,Volkswagen,World,expanded,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,Mercedes-Benz,World,expanded,https://www.statista.com/statistics/977407/global-sales-of-plugin-electric-vehicles-by-brand/,websearch
+electric_vehicles,Hyundai,World,expanded,https://www.edmunds.com/electric-car/,websearch
+electric_vehicles,Kia,World,expanded,https://www.edmunds.com/electric-car/,websearch
+electric_vehicles,Ford,World,expanded,https://www.edmunds.com/electric-car/,websearch
+electric_vehicles,Audi,World,expanded,https://www.edmunds.com/electric-car/,websearch
+electric_vehicles,Lucid,World,expanded,https://www.edmunds.com/electric-car/,websearch
+electric_vehicles,Rivian,World,expanded,https://www.edmunds.com/electric-car/,websearch
+electric_vehicles,Nissan,World,expanded,https://www.edmunds.com/electric-car/,websearch
+cars,Toyota,World,seed,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,Mercedes-Benz,World,seed,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,BMW,World,expanded,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,Volkswagen,World,expanded,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,Porsche,World,expanded,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,Audi,World,expanded,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,Tesla,World,expanded,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,BYD,China,expanded,https://brandfinance.com/press-releases/german-brands-anchor-global-auto-ranking-as-toyota-retains-top-spot,webfetch
+cars,Ferrari,World,expanded,https://brandfinance.com/press-releases/toyota-is-the-worlds-most-valuable-auto-brand-while-tesla-continues-to-lose-brand-value,webfetch
+cars,Hyundai,World,expanded,https://brandfinance.com/press-releases/brand-finances-report-toyota-is-the-worlds-most-valuable-brand-overtaking-mercedes-benz,websearch
+cars,Ford,World,expanded,https://www.visualcapitalist.com/ranked-the-worlds-best-selling-car-brands/,websearch
+cars,Honda,World,expanded,https://www.visualcapitalist.com/ranked-the-worlds-best-selling-car-brands/,websearch
+cars,Nissan,World,expanded,https://www.visualcapitalist.com/ranked-the-worlds-best-selling-car-brands/,websearch
+cars,Kia,World,expanded,https://www.visualcapitalist.com/ranked-the-worlds-best-selling-car-brands/,websearch
+cars,Chevrolet,World,expanded,https://www.visualcapitalist.com/ranked-the-worlds-best-selling-car-brands/,websearch
+cars,Geely,China,expanded,https://www.visualcapitalist.com/ranked-the-worlds-best-selling-car-brands/,websearch
+luxury_fashion,Louis Vuitton,World,seed,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Hermès,World,seed,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Chanel,World,seed,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Gucci,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Dior,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Prada,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Burberry,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Moncler,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Coach,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Michael Kors,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Tom Ford,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Dolce & Gabbana,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Christian Louboutin,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+luxury_fashion,Polo Ralph Lauren,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,webfetch
+sportswear,Nike,World,seed,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,Adidas,World,seed,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,Anta,China,seed,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,Puma,World,expanded,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,Lululemon,World,expanded,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,Under Armour,World,expanded,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,New Balance,World,expanded,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,ASICS,World,expanded,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,Skechers,World,expanded,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+sportswear,Li-Ning,China,expanded,https://www.globalsources.com/knowledge/how-the-top-10-sports-brands-built-their-empires/,websearch
+fast_fashion,Zara,World,seed,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,Uniqlo,World,seed,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,Shein,China,seed,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,H&M,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,Mango,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,Gap,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,Primark,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,Fashion Nova,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,Forever 21,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-fast-fashion-market-2025-watchlist-statistical-report-2024-2035,websearch
+fast_fashion,ASOS,World,expanded,https://www.championhoodie.com/blog/fast-fashion-brands/,websearch
+fast_fashion,Boohoo,World,expanded,https://www.championhoodie.com/blog/fast-fashion-brands/,websearch
+fast_fashion,New Look,World,expanded,https://www.championhoodie.com/blog/fast-fashion-brands/,websearch
+fast_fashion,Stradivarius,World,expanded,https://www.championhoodie.com/blog/fast-fashion-brands/,websearch
+cosmetics,L'Oréal Paris,World,seed,https://brandfinance.com/press-releases/global-cosmetics-brand-value-hits-record-160-billion,webfetch
+cosmetics,Chanel,World,expanded,https://brandfinance.com/press-releases/global-cosmetics-brand-value-hits-record-160-billion,webfetch
+cosmetics,Lancôme,World,expanded,https://brandfinance.com/press-releases/global-cosmetics-brand-value-hits-record-160-billion,webfetch
+cosmetics,Estée Lauder,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,Shiseido,World,expanded,https://brandfinance.com/press-releases/global-cosmetics-brand-value-hits-record-160-billion,webfetch
+cosmetics,Nivea,World,expanded,https://brandfinance.com/press-releases/global-cosmetics-brand-value-hits-record-160-billion,webfetch
+cosmetics,Guerlain,World,expanded,https://brandfinance.com/press-releases/global-cosmetics-brand-value-hits-record-160-billion,webfetch
+cosmetics,Maybelline,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,MAC,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,NARS,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,Clinique,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,Fenty Beauty,World,expanded,https://www.sephora.com/beauty/best-makeup-brands,websearch
+cosmetics,Dior,World,expanded,https://www.sephora.com/beauty/best-makeup-brands,websearch
+cosmetics,Revlon,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,CoverGirl,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,e.l.f.,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,Avon,World,expanded,https://www.statista.com/statistics/1343586/most-well-known-cosmetics-and-make-up-brands-in-the-united-states/,websearch
+cosmetics,Pechoin,China,expanded,https://brandfinance.com/press-releases/pechion-is-chinas-leading-cosmetics-brands-in-2025-global-rankings,websearch
+jewelry,Chow Tai Fook,China,seed,https://www.luxurytribune.com/en/chanel-the-most-valuable-luxury-brand-according-to-brand-finance-2025,websearch
+jewelry,Cartier,World,expanded,https://www.luxurytribune.com/en/chanel-the-most-valuable-luxury-brand-according-to-brand-finance-2025,websearch
+jewelry,Tiffany & Co.,World,expanded,https://www.luxurytribune.com/en/chanel-the-most-valuable-luxury-brand-according-to-brand-finance-2025,websearch
+jewelry,Bulgari,World,expanded,https://www.luxurytribune.com/en/chanel-the-most-valuable-luxury-brand-according-to-brand-finance-2025,websearch
+jewelry,Pandora,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,cross_category:webfetch
+jewelry,Swarovski,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,cross_category:webfetch
+jewelry,Chopard,World,expanded,https://fashionunited.com/i/most-valuable-fashion-brands,cross_category:webfetch
+jewelry,Chow Sang Sang,China,expanded,https://www.statista.com/statistics/1454321/china-most-influential-jewelry-brands/,websearch
+jewelry,Lao Feng Xiang,China,expanded,https://www.statista.com/statistics/1454321/china-most-influential-jewelry-brands/,websearch
+jewelry,Luk Fook,China,expanded,https://www.statista.com/statistics/1454321/china-most-influential-jewelry-brands/,websearch
+jewelry,Zhou Da Sheng,China,expanded,https://www.statista.com/statistics/1454321/china-most-influential-jewelry-brands/,websearch
+jewelry,Chao Hong Ji,China,expanded,https://www.statista.com/statistics/1454321/china-most-influential-jewelry-brands/,websearch
+jewelry,Laopu Gold,China,expanded,https://www.kantar.com/campaigns/brandz/china,webfetch
+home_appliances,Haier,China,seed,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Midea,China,seed,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Gree,China,expanded,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Whirlpool,World,expanded,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Electrolux,World,expanded,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Bosch,World,expanded,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,LG,World,expanded,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Samsung,World,expanded,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Beko,World,expanded,https://www.statista.com/statistics/257968/sales-of-the-leading-household-appliance-companies-worldwide/,websearch
+home_appliances,Siemens,World,expanded,https://ecommercegermany.com/blog/german-appliance-brands/,websearch
+home_appliances,Miele,World,expanded,https://ecommercegermany.com/blog/german-appliance-brands/,websearch
+home_appliances,Panasonic,World,expanded,https://www.globalgrowthinsights.com/blog/home-appliances-companies-356,websearch
+home_appliances,Dyson,World,expanded,https://www.globalgrowthinsights.com/blog/home-appliances-companies-356,websearch
+home_appliances,Hisense,China,expanded,https://www.globalgrowthinsights.com/blog/home-appliances-companies-356,websearch
+home_appliances,GE Appliances,World,expanded,https://www.globalgrowthinsights.com/blog/home-appliances-companies-356,websearch
+air_conditioners,Gree,China,seed,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Daikin,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Carrier,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Midea,China,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,LG,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Mitsubishi Electric,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Panasonic,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Trane,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Haier,China,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Hitachi,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+air_conditioners,Johnson Controls,World,expanded,https://www.sphericalinsights.com/blogs/world-s-top-20-companies-in-air-conditioning-system-market-2025-industry-intelligence-report-by-spherical-insights-2024-2035,websearch
+televisions,TCL,China,seed,https://www.trendforce.com/presscenter/news/20250806-12664.html,websearch
+televisions,Samsung,World,expanded,https://www.trendforce.com/presscenter/news/20250806-12664.html,websearch
+televisions,Hisense,China,expanded,https://www.trendforce.com/presscenter/news/20250806-12664.html,websearch
+televisions,LG,World,expanded,https://www.trendforce.com/presscenter/news/20250806-12664.html,websearch
+televisions,Xiaomi,China,expanded,https://www.trendforce.com/presscenter/news/20250806-12664.html,websearch
+televisions,Vizio,World,expanded,https://www.trendforce.com/presscenter/news/20250806-12664.html,websearch
+televisions,Sony,World,expanded,https://www.tomsguide.com/tvs/we-just-graded-every-tv-brand-on-price-performance-and-more-heres-how-their-report-cards-stack-up,websearch
+televisions,Panasonic,World,expanded,https://www.tomsguide.com/tvs/we-just-graded-every-tv-brand-on-price-performance-and-more-heres-how-their-report-cards-stack-up,websearch
+televisions,Roku,World,expanded,https://www.tomsguide.com/tvs/we-just-graded-every-tv-brand-on-price-performance-and-more-heres-how-their-report-cards-stack-up,websearch
+televisions,Philips,World,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,cross_category:websearch
+laptops,Lenovo,China,seed,https://www.fonearena.com/blog/473498/global-pc-shipments-q4-2025.html,websearch
+laptops,Dell,World,seed,https://www.fonearena.com/blog/473498/global-pc-shipments-q4-2025.html,websearch
+laptops,HP,World,expanded,https://www.fonearena.com/blog/473498/global-pc-shipments-q4-2025.html,websearch
+laptops,Apple,World,expanded,https://www.fonearena.com/blog/473498/global-pc-shipments-q4-2025.html,websearch
+laptops,Asus,World,expanded,https://www.fonearena.com/blog/473498/global-pc-shipments-q4-2025.html,websearch
+laptops,Acer,World,expanded,https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361,websearch
+laptops,Microsoft Surface,World,expanded,https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361,websearch
+laptops,MSI,World,expanded,https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361,websearch
+laptops,Razer,World,expanded,https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361,websearch
+laptops,Alienware,World,expanded,https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361,websearch
+laptops,Huawei,China,expanded,https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361,websearch
+drones,DJI,China,seed,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Autel,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Skydio,World,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Parrot,World,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Yuneec,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Hubsan,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,PowerVision,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,HoverAir,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Potensic,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Holy Stone,World,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Antigravity,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+drones,Insta360,China,expanded,https://pilotinstitute.com/best-consumer-drones/,websearch
+game_consoles,Xbox,World,seed,https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles,webfetch
+game_consoles,PlayStation,World,expanded,https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles,webfetch
+game_consoles,Nintendo,World,expanded,https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles,webfetch
+game_consoles,Steam Deck,World,expanded,https://www.windowscentral.com/gaming-best-gaming-handhelds,websearch
+game_consoles,ROG Ally,World,expanded,https://www.windowscentral.com/gaming-best-gaming-handhelds,websearch
+game_consoles,Legion Go,China,expanded,https://www.windowscentral.com/gaming-best-gaming-handhelds,websearch
+game_consoles,MSI Claw,World,expanded,https://www.windowscentral.com/gaming-best-gaming-handhelds,websearch
+game_consoles,Ayaneo,China,expanded,https://www.windowscentral.com/gaming-best-gaming-handhelds,websearch
+game_consoles,Meta Quest,World,expanded,https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles,webfetch
+game_consoles,Sega,World,expanded,https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles,webfetch
+game_consoles,Atari,World,expanded,https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles,webfetch
+game_consoles,Nex Playground,World,expanded,https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles,webfetch
+consumer_electronics,Sony,World,seed,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,Apple,World,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,Samsung,World,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,LG,World,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,Panasonic,World,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,Huawei,China,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,Xiaomi,China,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,Philips,World,expanded,https://www.morningstar.com/news/pr-newswire/20260109cn60471/20th-anniversary-list-of-global-top-brands-unveiled-chinese-consumer-electronics-brands-at-the-forefront-of-global-innovation,websearch
+consumer_electronics,Toshiba,World,expanded,https://www.news.market.us/top-10-consumer-electronics-companies/,websearch
+consumer_electronics,Epson,World,expanded,https://www.news.market.us/top-10-consumer-electronics-companies/,websearch
+consumer_electronics,Bose,World,expanded,https://www.news.market.us/top-10-consumer-electronics-companies/,websearch
+ai_chatbots,ChatGPT,World,seed,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,DeepSeek,China,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Gemini,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Perplexity,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Claude,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Microsoft Copilot,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Grok,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Poe,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Meta AI,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Mistral,World,expanded,https://www.visualcapitalist.com/the-10-most-used-ai-chatbots-in-2025/,websearch
+ai_chatbots,Doubao,China,expanded,https://www.kantar.com/campaigns/brandz/china,webfetch
+ai_chatbots,Kimi,China,expanded,https://www.kantar.com/campaigns/brandz/china,webfetch
+ai_chatbots,ChatGLM,China,expanded,https://www.kantar.com/campaigns/brandz/china,webfetch
+supermarkets,Walmart,World,seed,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Costco,World,seed,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Aldi,World,seed,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Freshippo,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+supermarkets,Carrefour,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Lidl,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Tesco,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Kroger,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Albertsons,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Aeon,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Edeka,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Auchan,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Kaufland,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+supermarkets,Lotte Mart,World,expanded,https://en.wikipedia.org/wiki/List_of_supermarket_chains,webfetch
+home_improvement,The Home Depot,World,seed,https://nrf.com/blog/2026-top-100-hardware-power-players,websearch
+home_improvement,Lowe's,World,seed,https://nrf.com/blog/2026-top-100-hardware-power-players,websearch
+home_improvement,Ace Hardware,World,expanded,https://nrf.com/blog/2026-top-100-hardware-power-players,websearch
+home_improvement,True Value,World,expanded,https://nrf.com/blog/2026-top-100-hardware-power-players,websearch
+home_improvement,Menards,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,Leroy Merlin,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,B&Q,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,Castorama,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,Screwfix,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,Bunnings,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,OBI,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,Bauhaus,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+home_improvement,Sodimac,World,expanded,https://www.insightdiy.co.uk/news/global-diy-market-grows-42-breaking-the-600-billion-ceiling/9135.htm,websearch
+furniture,IKEA,World,seed,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,Wayfair,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,Williams-Sonoma,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,Pottery Barn,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,West Elm,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,Ashley Furniture,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,RH,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,La-Z-Boy,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,Rooms To Go,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+furniture,Raymour & Flanigan,World,expanded,https://juglana.com/blogs/juglanas-stories/the-10-largest-furniture-companies-in-the-world-in-2025,websearch
+tcm,Tong Ren Tang,China,seed,https://daxueconsulting.com/tcm-brands-china/,websearch
+tcm,Yunnan Baiyao,China,seed,https://daxueconsulting.com/tcm-brands-china/,websearch
+tcm,Dong E E Jiao,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+tcm,CR Sanjiu,China,seed,https://indd.adobe.com/view/publication/453609a6-8380-4e63-aa8c-f00afae4952c/qin4/publication-web-resources/pdf/Kantar_BrandZ_2025_Most_Valuable_Chinese_Brands_EN.pdf,kantar_seed
+tcm,Pien Tze Huang,China,expanded,https://daxueconsulting.com/tcm-brands-china/,websearch
+tcm,Guangyuyuan,China,expanded,https://daxueconsulting.com/tcm-brands-china/,websearch
+tcm,Chen Liji,China,expanded,https://daxueconsulting.com/tcm-brands-china/,websearch
+tcm,Hu Qing Yu Tang,China,expanded,https://daxueconsulting.com/tcm-brands-china/,websearch
+tcm,Baiyunshan,China,expanded,https://daxueconsulting.com/tcm-brands-china/,websearch
+tcm,Eu Yan Sang,World,expanded,https://en.wikipedia.org/wiki/Eu_Yan_Sang,websearch
+online_healthcare,WeDoctor,China,seed,https://pmc.ncbi.nlm.nih.gov/articles/PMC13411075/,websearch
+online_healthcare,Ping An Good Doctor,China,expanded,https://sigosoft.com/blog/telemedicine-2025-global-trends-and-top-apps/,websearch
+online_healthcare,JD Health,China,expanded,https://pmc.ncbi.nlm.nih.gov/articles/PMC13411075/,websearch
+online_healthcare,AliHealth,China,expanded,https://pmc.ncbi.nlm.nih.gov/articles/PMC13411075/,websearch
+online_healthcare,Haodf,China,expanded,https://pmc.ncbi.nlm.nih.gov/articles/PMC13411075/,websearch
+online_healthcare,Teladoc,World,expanded,https://sigosoft.com/blog/telemedicine-2025-global-trends-and-top-apps/,websearch
+online_healthcare,Amwell,World,expanded,https://sigosoft.com/blog/telemedicine-2025-global-trends-and-top-apps/,websearch
+online_healthcare,Doctor On Demand,World,expanded,https://sigosoft.com/blog/telemedicine-2025-global-trends-and-top-apps/,websearch
+online_healthcare,MDLIVE,World,expanded,https://sigosoft.com/blog/telemedicine-2025-global-trends-and-top-apps/,websearch
+online_healthcare,Sesame,World,expanded,https://www.healthline.com/health/best-telemedicine-companies,webfetch
+online_healthcare,PlushCare,World,expanded,https://www.healthline.com/health/best-telemedicine-companies,webfetch
+online_healthcare,LifeMD,World,expanded,https://www.healthline.com/health/best-telemedicine-companies,webfetch
+online_healthcare,LiveHealth Online,World,expanded,https://www.healthline.com/health/best-telemedicine-companies,webfetch
+job_platforms,Boss Zhipin,China,seed,https://www.secondtalent.com/resources/job-boards-to-hire-employees-in-china/,websearch
+job_platforms,LinkedIn,World,expanded,https://www.theladders.com/career-advice/top-10-job-sites-for-your-2025-job-hunt,websearch
+job_platforms,Indeed,World,expanded,https://www.theladders.com/career-advice/top-10-job-sites-for-your-2025-job-hunt,websearch
+job_platforms,Glassdoor,World,expanded,https://www.theladders.com/career-advice/top-10-job-sites-for-your-2025-job-hunt,websearch
+job_platforms,ZipRecruiter,World,expanded,https://www.theladders.com/career-advice/top-10-job-sites-for-your-2025-job-hunt,websearch
+job_platforms,Monster,World,expanded,https://www.theladders.com/career-advice/top-10-job-sites-for-your-2025-job-hunt,websearch
+job_platforms,CareerBuilder,World,expanded,https://www.biginterview.com/resources/best-job-search-sites,webfetch
+job_platforms,SimplyHired,World,expanded,https://www.biginterview.com/resources/best-job-search-sites,webfetch
+job_platforms,Dice,World,expanded,https://www.biginterview.com/resources/best-job-search-sites,webfetch
+job_platforms,FlexJobs,World,expanded,https://www.biginterview.com/resources/best-job-search-sites,webfetch
+job_platforms,Zhaopin,China,expanded,https://www.secondtalent.com/resources/job-boards-to-hire-employees-in-china/,websearch
+job_platforms,51job,China,expanded,https://www.secondtalent.com/resources/job-boards-to-hire-employees-in-china/,websearch
+job_platforms,Liepin,China,expanded,https://www.secondtalent.com/resources/job-boards-to-hire-employees-in-china/,websearch
+job_platforms,Lagou,China,expanded,https://www.secondtalent.com/resources/job-boards-to-hire-employees-in-china/,websearch
+job_platforms,Maimai,China,expanded,https://www.secondtalent.com/resources/job-boards-to-hire-employees-in-china/,websearch
+news_apps,Toutiao,China,seed,https://en.wikipedia.org/wiki/Toutiao,websearch
+news_apps,Google News,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,Apple News,World,expanded,https://thecampusreview.com/edtech-and-ai/best-news-apps/,websearch
+news_apps,Flipboard,World,expanded,https://thecampusreview.com/edtech-and-ai/best-news-apps/,websearch
+news_apps,SmartNews,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,Yahoo News,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,BBC News,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,CNN,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,AP News,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,NewsBreak,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,Fox News,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,The New York Times,World,expanded,https://www.owebest.com/blog/news-apps-in-usa,websearch
+news_apps,Tencent News,China,expanded,https://en.wikipedia.org/wiki/Toutiao,websearch
+news_apps,NetEase News,China,expanded,https://en.wikipedia.org/wiki/Toutiao,websearch
+video_games,Tencent,China,seed,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,NetEase,China,seed,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Sony Interactive Entertainment,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Xbox,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Nintendo,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Electronic Arts,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Take-Two Interactive,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Valve,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Epic Games,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Roblox,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,miHoYo,China,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Bandai Namco,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Nexon,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Sega,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Krafton,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Konami,World,expanded,https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue,webfetch
+video_games,Activision Blizzard,World,expanded,https://respawn.outlookindia.com/gaming/gaming-guides/biggest-game-companies-in-the-world-and-their-metrics-in-2025,websearch
+video_games,Riot Games,World,expanded,https://respawn.outlookindia.com/gaming/gaming-guides/biggest-game-companies-in-the-world-and-their-metrics-in-2025,websearch
+video_games,Supercell,World,expanded,https://respawn.outlookindia.com/gaming/gaming-guides/biggest-game-companies-in-the-world-and-their-metrics-in-2025,websearch
+movie_studios,Disney,World,seed,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
+movie_studios,Warner Bros.,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
+movie_studios,Universal Pictures,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
+movie_studios,Sony Pictures,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
+movie_studios,Paramount Pictures,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Lionsgate,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
+movie_studios,A24,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
+movie_studios,Amazon MGM Studios,World,expanded,https://en.wikipedia.org/wiki/Major_film_studios,webfetch
+movie_studios,20th Century Studios,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Columbia Pictures,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,DreamWorks,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Marvel Studios,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Lucasfilm,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Legendary,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Blumhouse,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+movie_studios,Neon,World,expanded,https://en.wikipedia.org/wiki/Film_studio,webfetch
+cigarettes,Marlboro,World,seed,https://brandfinance.com/press-releases/marlboro-is-the-worlds-most-valuable-tobacco-brand-for-the-10th-consecutive-year-but-smokeless-alternatives-gain-ground,websearch
+cigarettes,L&M,World,expanded,https://brandfinance.com/press-releases/marlboro-is-the-worlds-most-valuable-tobacco-brand-for-the-10th-consecutive-year-but-smokeless-alternatives-gain-ground,websearch
+cigarettes,Pall Mall,World,expanded,https://brandfinance.com/press-releases/marlboro-is-the-worlds-most-valuable-tobacco-brand-for-the-10th-consecutive-year-but-smokeless-alternatives-gain-ground,websearch
+cigarettes,Winston,World,expanded,https://brandfinance.com/press-releases/marlboro-is-the-worlds-most-valuable-tobacco-brand-for-the-10th-consecutive-year-but-smokeless-alternatives-gain-ground,websearch
+cigarettes,Camel,World,expanded,https://brandfinance.com/press-releases/marlboro-is-the-worlds-most-valuable-tobacco-brand-for-the-10th-consecutive-year-but-smokeless-alternatives-gain-ground,websearch
+cigarettes,Rothmans,World,expanded,https://brandfinance.com/press-releases/marlboro-is-the-worlds-most-valuable-tobacco-brand-for-the-10th-consecutive-year-but-smokeless-alternatives-gain-ground,websearch
+cigarettes,Chesterfield,World,expanded,https://brandfinance.com/press-releases/marlboro-is-the-worlds-most-valuable-tobacco-brand-for-the-10th-consecutive-year-but-smokeless-alternatives-gain-ground,websearch
+cigarettes,Newport,World,expanded,https://brandfinance.com/press-releases/marlboro-keeps-its-spark-as-worlds-most-valuable-tobacco-brand,webfetch
+cigarettes,Gold Flake,World,expanded,https://brandfinance.com/press-releases/marlboro-keeps-its-spark-as-worlds-most-valuable-tobacco-brand,webfetch
+cigarettes,Sampoerna,World,expanded,https://brandfinance.com/press-releases/marlboro-keeps-its-spark-as-worlds-most-valuable-tobacco-brand,webfetch

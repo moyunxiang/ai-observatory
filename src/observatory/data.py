@@ -5,14 +5,15 @@
     category_merges.csv   Task 1: raw_label, merged_into_category_id, reason
     category_brands.csv   Task 2: category_id, brand, world_china, origin, source_url
     category_attempts.csv Task 3: one row per (category, run) validation attempt
-    brand_aliases.json    {canonical: [variants]}
+    brand_aliases.json    {canonical: [variants]}           (applies to every category)
+    category_aliases.json {category_id: {canonical: [variants]}}  (only within that category)
 """
 
 import csv
 import json
 from pathlib import Path
 
-from .normalize import normalize_brand
+from .normalize import build_alias_map, normalize_brand
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 MIN_BRANDS = 10
@@ -64,6 +65,27 @@ def load_aliases() -> dict[str, list[str]]:
         return json.load(f)
 
 
+def load_category_aliases() -> dict[str, dict[str, list[str]]]:
+    path = DATA_DIR / "category_aliases.json"
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def alias_maps(category_ids: list[str]) -> dict[str, dict[str, str]]:
+    """Per-category alias map = global aliases + that category's own aliases."""
+    global_aliases = load_aliases()
+    per_cat = load_category_aliases()
+    maps = {}
+    for cid in category_ids:
+        merged = {k: list(v) for k, v in global_aliases.items()}
+        for canonical, variants in per_cat.get(cid, {}).items():
+            merged.setdefault(canonical, []).extend(variants)  # union, not override
+        maps[cid] = build_alias_map(merged)
+    return maps
+
+
 def check_seeds(seeds: list[dict], categories: list[dict]) -> list[str]:
     """Task 1 acceptance: every seed brand maps to an existing category."""
     cat_ids = {c["category_id"] for c in categories}
@@ -80,11 +102,12 @@ def check_category_brands(
     category_ids: list[str],
     brand_table: dict[str, list[dict]],
     seeds: list[dict],
-    alias_map: dict,
+    alias_by_cat: dict[str, dict[str, str]],
 ) -> list[str]:
     """Task 2 acceptance: >= 10 unique brands per category, each with a source."""
     problems = []
     for cid in category_ids:
+        alias_map = alias_by_cat.get(cid, {})
         rows = brand_table.get(cid, [])
         keys = {normalize_brand(r["brand"], alias_map) for r in rows}
         if len(keys) < MIN_BRANDS:
@@ -103,6 +126,7 @@ def check_category_brands(
     for s in seeds:
         cid = s["primary_category_id"]
         if cid in wanted:
+            alias_map = alias_by_cat.get(cid, {})
             keys = {normalize_brand(r["brand"], alias_map) for r in brand_table.get(cid, [])}
             if normalize_brand(s["brand"], alias_map) not in keys:
                 problems.append(f"{cid}: seed brand {s['brand']} missing from category_brands.csv")

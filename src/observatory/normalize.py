@@ -15,6 +15,7 @@ import unicodedata
 _CORPORATE_SUFFIXES = {
     "inc", "incorporated", "corp", "corporation", "co", "company",
     "ltd", "limited", "llc", "plc", "gmbh", "ag", "sa", "group", "holdings",
+    "com",  # "Booking.com" == "Booking", "JD.com" == "JD"
 }
 
 _PUNCT_RE = re.compile(r"[^\w\s]")

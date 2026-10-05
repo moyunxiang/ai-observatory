@@ -21,6 +21,10 @@ class TestNormalize(unittest.TestCase):
         self.assertEqual(basic_normalize("The North Face"), "north face")
         self.assertEqual(basic_normalize("Procter & Gamble Co."), "procter and gamble")
 
+    def test_dotcom_suffix(self):
+        self.assertEqual(basic_normalize("Booking.com"), basic_normalize("Booking"))
+        self.assertEqual(basic_normalize("JD.com"), "jd")
+
     def test_suffix_not_stripped_when_only_token(self):
         self.assertEqual(basic_normalize("Group"), "group")
 

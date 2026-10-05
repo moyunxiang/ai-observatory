@@ -1,0 +1,149 @@
+{
+ "banks": {
+  "Agricultural Bank of China": [
+   "ABC"
+  ],
+  "China Construction Bank": [
+   "CCB"
+  ],
+  "Bank of China": [
+   "BOC"
+  ],
+  "China Merchants Bank": [
+   "CMB"
+  ],
+  "Bank of Communications": [
+   "BoCom"
+  ]
+ },
+ "short_video": {
+  "Instagram Reels": [
+   "Instagram"
+  ],
+  "YouTube Shorts": [
+   "YouTube"
+  ],
+  "Snapchat Spotlight": [
+   "Snapchat"
+  ],
+  "Facebook Reels": [
+   "Facebook"
+  ]
+ },
+ "restaurant_reviews": {
+  "Google Maps": [
+   "Google",
+   "Google Reviews",
+   "Google Business Profile"
+  ],
+  "Dianping": [
+   "Meituan Dianping"
+  ]
+ },
+ "game_consoles": {
+  "PlayStation": [
+   "Sony"
+  ],
+  "Xbox": [
+   "Microsoft Xbox",
+   "Microsoft"
+  ],
+  "Steam Deck": [
+   "Valve"
+  ],
+  "ROG Ally": [
+   "Asus"
+  ],
+  "Legion Go": [
+   "Lenovo"
+  ],
+  "MSI Claw": [
+   "MSI"
+  ]
+ },
+ "video_games": {
+  "Sony Interactive Entertainment": [
+   "Sony",
+   "PlayStation",
+   "PlayStation Studios"
+  ],
+  "Xbox": [
+   "Microsoft Gaming",
+   "Xbox Game Studios",
+   "Microsoft"
+  ]
+ },
+ "air_conditioners": {
+  "Mitsubishi Electric": [
+   "Mitsubishi"
+  ]
+ },
+ "music_streaming": {
+  "Yandex Music": [
+   "Yandex"
+  ]
+ },
+ "health_insurance": {
+  "Aetna": [
+   "CVS Health",
+   "Aetna (CVS Health)"
+  ]
+ },
+ "energy_drinks": {
+  "Monster Energy": [
+   "Monster"
+  ],
+  "Rockstar Energy": [
+   "Rockstar"
+  ]
+ },
+ "video_streaming": {
+  "Prime Video": [
+   "Amazon Prime"
+  ],
+  "HBO Max": [
+   "Max",
+   "HBO"
+  ],
+  "YouTube": [
+   "YouTube Premium"
+  ]
+ },
+ "laptops": {
+  "Microsoft Surface": [
+   "Microsoft"
+  ],
+  "Apple": [
+   "MacBook"
+  ]
+ },
+ "movie_studios": {
+  "Disney": [
+   "Walt Disney Studios",
+   "Walt Disney Pictures",
+   "The Walt Disney Company",
+   "Walt Disney"
+  ],
+  "Universal Pictures": [
+   "Universal"
+  ],
+  "Paramount Pictures": [
+   "Paramount"
+  ]
+ },
+ "digital_payments": {
+  "Google Pay": [
+   "Google Wallet"
+  ]
+ },
+ "isps": {
+  "Verizon": [
+   "Verizon Fios",
+   "Fios"
+  ],
+  "AT&T": [
+   "AT&T Fiber",
+   "AT&T Internet"
+  ]
+ }
+}

@@ -14,6 +14,7 @@ can be re-run on saved answers (e.g. after alias fixes) without re-querying.
 import argparse
 import csv
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,16 +23,15 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from observatory.data import (  # noqa: E402
-    append_attempts, check_category_brands, check_seeds, load_aliases, load_attempts,
+    alias_maps, append_attempts, check_category_brands, check_seeds, load_attempts,
     load_categories, load_category_brands, load_seed_brands,
 )
 from observatory.llm import PROMPT_TEMPLATE, SUPPORTED_PROVIDERS, build_prompt, query_llm  # noqa: E402
 from observatory.manual import parse_sheet, render_sheet  # noqa: E402
 from observatory.metrics import PASS_THRESHOLD, passes, recall_at_k  # noqa: E402
-from observatory.normalize import build_alias_map  # noqa: E402
 from observatory.parse import parse_brand_list  # noqa: E402
 
-RUNS_DIR = ROOT / "runs"
+RUNS_DIR = Path(os.environ.get("OBSERVATORY_RUNS_DIR", ROOT / "runs"))  # override only for smoke tests
 OUTPUTS_DIR = ROOT / "outputs"
 MIN_PARSED_WARN = 5
 
@@ -56,9 +56,9 @@ def cmd_check(args) -> int:
     categories = load_categories()
     b2c = load_categories(b2c_only=True)
     seeds = load_seed_brands()
-    alias_map = build_alias_map(load_aliases())
+    ids = [c["category_id"] for c in b2c]
     problems = check_seeds(seeds, categories)
-    problems += check_category_brands([c["category_id"] for c in b2c], load_category_brands(), seeds, alias_map)
+    problems += check_category_brands(ids, load_category_brands(), seeds, alias_maps(ids))
     print(f"{len(seeds)} seed brands, {len(categories)} categories ({len(b2c)} B2C in Task 2/3 scope).")
     if problems:
         print(f"NOT ready ({len(problems)} problems):")
@@ -139,9 +139,10 @@ def cmd_query(args) -> int:
 def cmd_score(args) -> int:
     run_dir = Path(args.run_dir)
     records = [json.loads(line) for line in open(run_dir / "responses.jsonl", encoding="utf-8")]
-    alias_map = build_alias_map(load_aliases())
+    ids = [r["category_id"] for r in records]
+    alias_by_cat = alias_maps(ids)
     brand_table = load_category_brands()
-    problems = check_category_brands([r["category_id"] for r in records], brand_table, load_seed_brands(), alias_map)
+    problems = check_category_brands(ids, brand_table, load_seed_brands(), alias_by_cat)
     if problems:
         print("Brand table not ready for this run; run `check` first.")
         return 1
@@ -156,8 +157,8 @@ def cmd_score(args) -> int:
             predicted = parse_brand_list(rec["response"])
             table = [b["brand"] for b in brand_table[cid]]
             pre = [b["brand"] for b in brand_table[cid] if b["origin"] != "added_post_validation"]
-            r = recall_at_k(table, predicted, k=10, alias_map=alias_map)
-            r_pre = recall_at_k(pre, predicted, k=10, alias_map=alias_map)
+            r = recall_at_k(table, predicted, k=10, alias_map=alias_by_cat[cid])
+            r_pre = recall_at_k(pre, predicted, k=10, alias_map=alias_by_cat[cid])
             row.update(
                 result="Pass" if passes(r["recall"]) else "Fail",
                 recall=f"{r['recall']:.1f}",
@@ -200,13 +201,13 @@ def cmd_score(args) -> int:
             "run_id": run_dir.name, "recall": r["recall"], "recall_pre_additions": r["recall_pre_additions"],
             "result": r["result"],
         })
-    if new:
+    if new and not args.no_record:
         append_attempts(new)
 
     for r in rows:
         print(f"{r['result']:5}  {r['recall']:>4}  {r['category_name']}")
     print(f"\n{summary['n_pass']}/{summary['n_scored']} passed (threshold {PASS_THRESHOLD}). "
-          f"{len(new)} new attempt rows recorded.")
+          f"{0 if args.no_record else len(new)} new attempt rows recorded.")
     return 0
 
 
@@ -263,6 +264,7 @@ def main() -> int:
 
     s = sub.add_parser("score", help="compute Recall@10 for a saved run")
     s.add_argument("run_dir")
+    s.add_argument("--no-record", action="store_true", help="do not append to data/category_attempts.csv")
 
     sub.add_parser("master", help="build outputs/master_table.csv from latest attempts")
 

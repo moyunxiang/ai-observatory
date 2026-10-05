@@ -1,1 +1,1079 @@
-{}
+{
+ "J.P. Morgan": [
+  "JPMorgan",
+  "JP Morgan",
+  "JPMorgan Chase",
+  "JPMorgan Chase & Co."
+ ],
+ "ICBC": [
+  "Industrial and Commercial Bank of China"
+ ],
+ "Citi": [
+  "Citigroup",
+  "Citibank"
+ ],
+ "TD Bank": [
+  "Toronto-Dominion Bank",
+  "TD"
+ ],
+ "MUFG": [
+  "Mitsubishi UFJ Financial Group"
+ ],
+ "Bank of America": [
+  "BofA"
+ ],
+ "RBC": [
+  "Royal Bank of Canada"
+ ],
+ "Moutai": [
+  "Kweichow Moutai",
+  "Maotai"
+ ],
+ "Fenjiu": [
+  "Xinghuacun",
+  "Xinghuacun Fenjiu",
+  "Xing Hua Cun",
+  "Shanxi Fenjiu"
+ ],
+ "Gujing Gong Jiu": [
+  "Gujing",
+  "Gujing-gongjiu",
+  "Gujinggong"
+ ],
+ "Guoyuan": [
+  "Guo Yuan",
+  "Jinshiyuan"
+ ],
+ "Wuliangye": [
+  "Wu Liang Ye"
+ ],
+ "Xijiu": [
+  "Guizhou Xijiu"
+ ],
+ "Luzhou Laojiao": [
+  "Lu Zhou Lao Jiao"
+ ],
+ "National Cellar 1573": [
+  "Guojiao 1573"
+ ],
+ "Shuijingfang": [
+  "Shui Jing Fang",
+  "Swellfun",
+  "Shuijing Fang"
+ ],
+ "Xifeng": [
+  "Xifengjiu",
+  "Xifeng Jiu"
+ ],
+ "Shede": [
+  "Shedejiu",
+  "Shede Spirits"
+ ],
+ "Jiannanchun": [
+  "Jian Nan Chun"
+ ],
+ "Langjiu": [
+  "Lang Jiu"
+ ],
+ "Jiang Xiaobai": [
+  "Jiangxiaobai"
+ ],
+ "Niulanshan": [
+  "Niu Lan Shan"
+ ],
+ "Haday": [
+  "Haitian",
+  "Foshan Haitian",
+  "Haitian Flavouring"
+ ],
+ "Eastroc Beverage": [
+  "Eastroc",
+  "Dongpeng",
+  "Dongpeng Special Drink",
+  "Eastroc Super Drink"
+ ],
+ "Hi-Tiger": [
+  "Le Hu"
+ ],
+ "Lucozade": [
+  "Lucozade Energy"
+ ],
+ "Lipovitan": [
+  "Lipovitan D"
+ ],
+ "Snow": [
+  "Snow Beer"
+ ],
+ "Tsingtao": [
+  "Tsingtao Beer"
+ ],
+ "Harbin": [
+  "Harbin Beer"
+ ],
+ "Yanjing": [
+  "Yanjing Beer",
+  "Beijing Yanjing Beer"
+ ],
+ "Zhujiang": [
+  "Zhujiang Beer",
+  "Pearl River Beer"
+ ],
+ "Wusu": [
+  "Wusu Beer"
+ ],
+ "Corona": [
+  "Corona Extra"
+ ],
+ "Mixue Bingcheng": [
+  "Mixue",
+  "Mixue Ice Cream & Tea",
+  "MXBC"
+ ],
+ "Good Me": [
+  "Guming",
+  "Goodme"
+ ],
+ "Heytea": [
+  "Hey Tea"
+ ],
+ "CoCo Fresh Tea & Juice": [
+  "CoCo",
+  "CoCo Tea",
+  "CoCo Fresh Tea"
+ ],
+ "Gong Cha": [
+  "Gongcha"
+ ],
+ "Yi Dian Dian": [
+  "1 Dian Dian",
+  "Yidiandian",
+  "50 Lan"
+ ],
+ "Auntea Jenny": [
+  "Hu Shang A Yi",
+  "Hushang Ayi"
+ ],
+ "Baicha Baidao": [
+  "Bai Cha Bai Dao",
+  "ChaPanda",
+  "Cha Panda"
+ ],
+ "Chagee": [
+  "Bawang Chaji"
+ ],
+ "Xiabu Xiabu": [
+  "Xiabuxiabu"
+ ],
+ "Banu": [
+  "Banu Hot Pot"
+ ],
+ "Coucou": [
+  "Coucou Hotpot",
+  "Cou Cou"
+ ],
+ "Liuyishou": [
+  "Liu Yi Shou",
+  "Liu's Chongqing Hot Pot"
+ ],
+ "Shu Daxia": [
+  "Shudaxia"
+ ],
+ "Dalongyi": [
+  "Da Long Yi"
+ ],
+ "Little Sheep": [
+  "Xiao Fei Yang",
+  "Xiaofeiyang"
+ ],
+ "Dezhuang": [
+  "De Zhuang"
+ ],
+ "Xiaolongkan": [
+  "Xiao Long Kan"
+ ],
+ "Nongfu Spring": [
+  "Nongfu"
+ ],
+ "Nestlé Pure Life": [
+  "Pure Life"
+ ],
+ "San Pellegrino": [
+  "S.Pellegrino",
+  "S. Pellegrino"
+ ],
+ "Fiji Water": [
+  "Fiji"
+ ],
+ "Ganten": [
+  "Ganten Water"
+ ],
+ "Watsons Water": [
+  "Watsons"
+ ],
+ "Yili": [
+  "Yili Group"
+ ],
+ "Mengniu": [
+  "Mengniu Dairy"
+ ],
+ "Arla": [
+  "Arla Foods"
+ ],
+ "Dairy Farmers of America": [
+  "DFA"
+ ],
+ "Grupo Lala": [
+  "Lala"
+ ],
+ "Danone": [
+  "Dannon"
+ ],
+ "Ctrip": [
+  "Trip.com",
+  "Trip.com Group"
+ ],
+ "Tongcheng": [
+  "Tongcheng Travel",
+  "LY.com",
+  "Tongcheng-Elong"
+ ],
+ "Meituan": [
+  "Meituan Waimai"
+ ],
+ "Ele.me": [
+  "Eleme"
+ ],
+ "Uber Eats": [
+  "UberEats"
+ ],
+ "Just Eat Takeaway": [
+  "Just Eat",
+  "Takeaway"
+ ],
+ "Grab": [
+  "GrabFood"
+ ],
+ "Didi": [
+  "DiDi Chuxing",
+  "Didi Chuxing"
+ ],
+ "Yandex Go": [
+  "Yandex Taxi"
+ ],
+ "inDrive": [
+  "inDriver"
+ ],
+ "Ola": [
+  "Ola Cabs"
+ ],
+ "KE": [
+  "Beike",
+  "KE Holdings"
+ ],
+ "Lianjia": [
+  "Homelink"
+ ],
+ "RE/MAX": [
+  "Remax"
+ ],
+ "Sotheby's International Realty": [
+  "Sotheby's",
+  "Sotheby's Realty"
+ ],
+ "Keller Williams": [
+  "Keller Williams Realty"
+ ],
+ "eXp Realty": [
+  "eXp"
+ ],
+ "Berkshire Hathaway HomeServices": [
+  "BHHS"
+ ],
+ "Coldwell Banker": [
+  "Coldwell Banker Realty"
+ ],
+ "Poly": [
+  "Poly Developments",
+  "Poly Property",
+  "Poly Real Estate"
+ ],
+ "Vanke": [
+  "China Vanke"
+ ],
+ "CR Land": [
+  "China Resources Land"
+ ],
+ "China Overseas Land": [
+  "China Overseas Land & Investment",
+  "COLI",
+  "China Overseas"
+ ],
+ "Greentown": [
+  "Greentown China"
+ ],
+ "China Merchants Shekou": [
+  "CMSK"
+ ],
+ "C&D Real Estate": [
+  "C&D"
+ ],
+ "China Jinmao": [
+  "Jinmao"
+ ],
+ "Yuexiu Property": [
+  "Yuexiu"
+ ],
+ "Binjiang Group": [
+  "Binjiang"
+ ],
+ "Greenland": [
+  "Greenland Holdings"
+ ],
+ "Li Auto": [
+  "Lixiang",
+  "Li Xiang"
+ ],
+ "Xpeng": [
+  "XPeng Motors",
+  "Xiaopeng"
+ ],
+ "Wuling": [
+  "SAIC-GM-Wuling"
+ ],
+ "Leapmotor": [
+  "Leap Motor"
+ ],
+ "Lucid": [
+  "Lucid Motors"
+ ],
+ "Mercedes-Benz": [
+  "Mercedes",
+  "Mercedes Benz"
+ ],
+ "Volkswagen": [
+  "VW"
+ ],
+ "Chevrolet": [
+  "Chevy"
+ ],
+ "Geely": [
+  "Geely Auto"
+ ],
+ "Louis Vuitton": [
+  "LV"
+ ],
+ "Dior": [
+  "Christian Dior"
+ ],
+ "Polo Ralph Lauren": [
+  "Ralph Lauren"
+ ],
+ "Dolce & Gabbana": [
+  "D&G"
+ ],
+ "Li-Ning": [
+  "LiNing"
+ ],
+ "L'Oréal Paris": [
+  "L'Oréal",
+  "Loreal",
+  "L'Oreal"
+ ],
+ "MAC": [
+  "M.A.C.",
+  "MAC Cosmetics"
+ ],
+ "Fenty Beauty": [
+  "Fenty"
+ ],
+ "e.l.f.": [
+  "elf",
+  "e.l.f. Cosmetics",
+  "ELF Cosmetics"
+ ],
+ "CoverGirl": [
+  "Cover Girl"
+ ],
+ "Maybelline": [
+  "Maybelline New York"
+ ],
+ "Pechoin": [
+  "Pechion"
+ ],
+ "Tiffany & Co.": [
+  "Tiffany"
+ ],
+ "Bulgari": [
+  "Bvlgari"
+ ],
+ "Lao Feng Xiang": [
+  "Laofengxiang"
+ ],
+ "Laopu Gold": [
+  "Lao Pu Gold",
+  "Laopu"
+ ],
+ "Zhou Da Sheng": [
+  "Chow Tai Seng"
+ ],
+ "Luk Fook": [
+  "Luk Fook Jewellery"
+ ],
+ "LG": [
+  "LG Electronics"
+ ],
+ "GE Appliances": [
+  "GE"
+ ],
+ "Beko": [
+  "Arcelik"
+ ],
+ "Roku": [
+  "Roku TV"
+ ],
+ "Microsoft Surface": [
+  "Surface"
+ ],
+ "Autel": [
+  "Autel Robotics"
+ ],
+ "Holy Stone": [
+  "Holystone"
+ ],
+ "HoverAir": [
+  "Hover Air",
+  "Zero Zero Robotics"
+ ],
+ "Meta Quest": [
+  "Oculus",
+  "Oculus Quest",
+  "Reality Labs Quest"
+ ],
+ "Nintendo": [
+  "Nintendo Switch",
+  "Nintendo Switch 2"
+ ],
+ "PlayStation": [
+  "Sony PlayStation"
+ ],
+ "Steam Deck": [
+  "Valve Steam Deck"
+ ],
+ "ROG Ally": [
+  "ASUS ROG Ally",
+  "Asus ROG Ally"
+ ],
+ "Legion Go": [
+  "Lenovo Legion Go"
+ ],
+ "Gemini": [
+  "Google Gemini",
+  "Bard"
+ ],
+ "Claude": [
+  "Anthropic Claude"
+ ],
+ "Microsoft Copilot": [
+  "Copilot",
+  "Bing Chat"
+ ],
+ "Grok": [
+  "xAI Grok"
+ ],
+ "Mistral": [
+  "Le Chat",
+  "Mistral AI",
+  "Mistral Le Chat"
+ ],
+ "ChatGPT": [
+  "OpenAI ChatGPT"
+ ],
+ "Kimi": [
+  "Moonshot AI",
+  "Kimi Chat"
+ ],
+ "ChatGLM": [
+  "Zhipu",
+  "Zhipu AI",
+  "Zhipu Qingyan"
+ ],
+ "Perplexity": [
+  "Perplexity AI"
+ ],
+ "Electronic Arts": [
+  "EA",
+  "EA Games"
+ ],
+ "Take-Two Interactive": [
+  "Take-Two"
+ ],
+ "miHoYo": [
+  "HoYoverse"
+ ],
+ "Bandai Namco": [
+  "Bandai Namco Entertainment"
+ ],
+ "NetEase": [
+  "NetEase Games"
+ ],
+ "Tencent": [
+  "Tencent Games",
+  "Tencent Interactive Entertainment"
+ ],
+ "Valve": [
+  "Valve Corporation"
+ ],
+ "Epic Games": [
+  "Epic"
+ ],
+ "Roblox": [
+  "Roblox Corporation"
+ ],
+ "Warner Bros.": [
+  "Warner Bros",
+  "Warner Bros. Pictures",
+  "Warner Brothers",
+  "Warner Bros. Discovery",
+  "Warner Bros. Entertainment"
+ ],
+ "Universal Pictures": [
+  "Universal Studios",
+  "Universal Filmed Entertainment Group"
+ ],
+ "Sony Pictures": [
+  "Sony Pictures Entertainment"
+ ],
+ "Paramount Pictures": [
+  "Paramount Skydance Studios"
+ ],
+ "Lionsgate": [
+  "Lionsgate Films",
+  "Lions Gate",
+  "Lionsgate Studios"
+ ],
+ "Amazon MGM Studios": [
+  "MGM",
+  "Metro-Goldwyn-Mayer",
+  "Amazon Studios"
+ ],
+ "20th Century Studios": [
+  "20th Century Fox",
+  "Twentieth Century Fox"
+ ],
+ "DreamWorks": [
+  "DreamWorks Pictures",
+  "DreamWorks Animation"
+ ],
+ "Marvel Studios": [
+  "Marvel"
+ ],
+ "Legendary": [
+  "Legendary Pictures",
+  "Legendary Entertainment"
+ ],
+ "Blumhouse": [
+  "Blumhouse Productions"
+ ],
+ "Ping An": [
+  "Ping An Insurance"
+ ],
+ "China Life": [
+  "China Life Insurance"
+ ],
+ "CPIC": [
+  "China Pacific Insurance",
+  "China Pacific Insurance Company"
+ ],
+ "PICC": [
+  "People's Insurance Company of China"
+ ],
+ "NCI": [
+  "New China Life",
+  "New China Life Insurance"
+ ],
+ "Taikang": [
+  "Taikang Life",
+  "Taikang Insurance"
+ ],
+ "Prudential": [
+  "Prudential Financial",
+  "Prudential plc"
+ ],
+ "Generali": [
+  "Assicurazioni Generali"
+ ],
+ "AIG": [
+  "American International Group"
+ ],
+ "Zurich": [
+  "Zurich Insurance",
+  "Zurich Insurance Group"
+ ],
+ "LIC": [
+  "Life Insurance Corporation",
+  "Life Insurance Corporation of India"
+ ],
+ "Manulife": [
+  "Manulife Financial"
+ ],
+ "Allstate": [
+  "The Allstate Corp"
+ ],
+ "UnitedHealthcare": [
+  "UnitedHealth Group",
+  "UnitedHealth",
+  "United Healthcare"
+ ],
+ "Elevance Health": [
+  "Elevance"
+ ],
+ "Blue Cross Blue Shield": [
+  "BCBS"
+ ],
+ "Health Care Service Corporation": [
+  "HCSC",
+  "Health Care Service Corp"
+ ],
+ "Cigna": [
+  "Cigna Healthcare"
+ ],
+ "Kaiser Permanente": [
+  "Kaiser"
+ ],
+ "Ambetter": [
+  "Ambetter Health"
+ ],
+ "Airtel": [
+  "Bharti Airtel"
+ ],
+ "Reliance Jio": [
+  "Jio"
+ ],
+ "América Móvil": [
+  "Claro",
+  "Telcel"
+ ],
+ "Telefónica": [
+  "Movistar"
+ ],
+ "Etisalat": [
+  "e&",
+  "Etisalat by e&"
+ ],
+ "Vodafone Idea": [
+  "Vi"
+ ],
+ "NTT Docomo": [
+  "Docomo"
+ ],
+ "Deutsche Telekom": [
+  "Telekom"
+ ],
+ "Xfinity": [
+  "Comcast",
+  "Comcast Xfinity"
+ ],
+ "Spectrum": [
+  "Charter",
+  "Charter Spectrum"
+ ],
+ "T-Mobile": [
+  "T-Mobile Home Internet",
+  "T-Mobile 5G Home Internet"
+ ],
+ "Astound": [
+  "Astound Broadband"
+ ],
+ "WOW!": [
+  "WideOpenWest"
+ ],
+ "Cox": [
+  "Cox Communications"
+ ],
+ "Frontier": [
+  "Frontier Communications",
+  "Frontier Fiber"
+ ],
+ "Optimum": [
+  "Altice",
+  "Altice USA"
+ ],
+ "DHL": [
+  "DHL Express"
+ ],
+ "SF Express": [
+  "SF",
+  "S.F. Express",
+  "Shunfeng"
+ ],
+ "ZTO Express": [
+  "ZTO"
+ ],
+ "YTO Express": [
+  "YTO"
+ ],
+ "Yunda": [
+  "Yunda Express"
+ ],
+ "STO Express": [
+  "STO",
+  "Shentong"
+ ],
+ "J&T Express": [
+  "J&T",
+  "Jitu"
+ ],
+ "JD Logistics": [
+  "JD Express"
+ ],
+ "USPS": [
+  "United States Postal Service"
+ ],
+ "DPD": [
+  "DPDgroup"
+ ],
+ "UPS": [
+  "United Parcel Service"
+ ],
+ "FedEx": [
+  "FedEx Express"
+ ],
+ "Dianping": [
+  "Dazhong Dianping"
+ ],
+ "TheFork": [
+  "The Fork",
+  "LaFourchette"
+ ],
+ "Michelin Guide": [
+  "Michelin",
+  "Guide Michelin"
+ ],
+ "ANA": [
+  "All Nippon Airways",
+  "ANA All Nippon Airways"
+ ],
+ "Japan Airlines": [
+  "JAL"
+ ],
+ "Swiss": [
+  "Swiss International Air Lines",
+  "Swiss International Airlines"
+ ],
+ "Qantas": [
+  "Qantas Airways"
+ ],
+ "Saudia": [
+  "Saudi Arabian Airlines"
+ ],
+ "STARLUX": [
+  "STARLUX Airlines"
+ ],
+ "Cathay Pacific": [
+  "Cathay"
+ ],
+ "American Airlines": [
+  "American Airlines Group"
+ ],
+ "Delta Air Lines": [
+  "Delta"
+ ],
+ "Hilton": [
+  "Hilton Hotels & Resorts",
+  "Hilton Worldwide",
+  "Hilton Hotels"
+ ],
+ "Marriott": [
+  "Marriott International",
+  "Marriott Hotels",
+  "Marriott Bonvoy"
+ ],
+ "Hyatt": [
+  "Hyatt Hotels"
+ ],
+ "IHG": [
+  "InterContinental",
+  "InterContinental Hotels Group",
+  "InterContinental Hotels & Resorts"
+ ],
+ "Four Seasons": [
+  "Four Seasons Hotels and Resorts"
+ ],
+ "The Ritz-Carlton": [
+  "Ritz-Carlton"
+ ],
+ "Shangri-La": [
+  "Shangri-La Hotels and Resorts"
+ ],
+ "Hampton by Hilton": [
+  "Hampton Inn",
+  "Hampton"
+ ],
+ "Best Western": [
+  "Best Western Hotels & Resorts"
+ ],
+ "Hanting": [
+  "Hanting Hotels",
+  "Hanting Hotel"
+ ],
+ "Taj Hotels": [
+  "Taj",
+  "Taj Hotels Resorts and Palaces"
+ ],
+ "Prime Video": [
+  "Amazon Prime Video"
+ ],
+ "Disney+": [
+  "Disney Plus"
+ ],
+ "Paramount+": [
+  "Paramount Plus"
+ ],
+ "Apple TV": [
+  "Apple TV+",
+  "Apple TV Plus"
+ ],
+ "Tencent Video": [
+  "WeTV"
+ ],
+ "JioHotstar": [
+  "Hotstar",
+  "Disney+ Hotstar",
+  "JioCinema"
+ ],
+ "Amazon Music": [
+  "Amazon Music Unlimited"
+ ],
+ "Tencent Music": [
+  "QQ Music",
+  "Tencent Music Entertainment"
+ ],
+ "NetEase Cloud Music": [
+  "NetEase Music"
+ ],
+ "X": [
+  "Twitter",
+  "X (Twitter)"
+ ],
+ "Facebook Messenger": [
+  "Messenger"
+ ],
+ "Xiaohongshu": [
+  "RedNote",
+  "Little Red Book"
+ ],
+ "Weibo": [
+  "Sina Weibo"
+ ],
+ "WeChat": [
+  "Weixin"
+ ],
+ "QQ": [
+  "Tencent QQ"
+ ],
+ "Kuaishou": [
+  "Kwai"
+ ],
+ "Bing": [
+  "Microsoft Bing"
+ ],
+ "Yahoo": [
+  "Yahoo! Search",
+  "Yahoo Search"
+ ],
+ "Brave Search": [
+  "Brave"
+ ],
+ "Petal Search": [
+  "Petal"
+ ],
+ "Motorola": [
+  "Lenovo-Motorola",
+  "Moto"
+ ],
+ "JD": [
+  "Jingdong"
+ ],
+ "Pinduoduo": [
+  "PDD"
+ ],
+ "Walmart": [
+  "Walmart Marketplace"
+ ],
+ "Alibaba": [
+  "AliExpress"
+ ],
+ "Chipotle": [
+  "Chipotle Mexican Grill"
+ ],
+ "Domino's": [
+  "Domino's Pizza"
+ ],
+ "Dunkin'": [
+  "Dunkin' Donuts",
+  "Dunkin Donuts"
+ ],
+ "Costa Coffee": [
+  "Costa"
+ ],
+ "Luckin Coffee": [
+  "Luckin"
+ ],
+ "Cotti Coffee": [
+  "Cotti"
+ ],
+ "The Coffee Bean & Tea Leaf": [
+  "Coffee Bean & Tea Leaf",
+  "Coffee Bean"
+ ],
+ "Blue Bottle Coffee": [
+  "Blue Bottle"
+ ],
+ "7 Up": [
+  "7UP",
+  "Seven Up"
+ ],
+ "Pepsi": [
+  "Pepsi-Cola"
+ ],
+ "Coca-Cola": [
+  "Coke"
+ ],
+ "Genki Forest": [
+  "Yuanqi Senlin"
+ ],
+ "Pearl River Bridge": [
+  "PRB"
+ ],
+ "Lee Kum Kee": [
+  "LKK"
+ ],
+ "Chubang": [
+  "Meiweixian"
+ ],
+ "Wan Ja Shan": [
+  "Wanjashan"
+ ],
+ "Shuanghui": [
+  "WH Group"
+ ],
+ "Hormel": [
+  "Hormel Foods",
+  "Hormel Natural Choice"
+ ],
+ "Applegate": [
+  "Applegate Farms",
+  "Applegate Naturals"
+ ],
+ "Ball Park": [
+  "Ball Park Franks"
+ ],
+ "Tyson": [
+  "Tyson Foods"
+ ],
+ "Smithfield": [
+  "Smithfield Foods"
+ ],
+ "Freshippo": [
+  "Hema",
+  "Hema Fresh"
+ ],
+ "The Home Depot": [
+  "Home Depot"
+ ],
+ "Ashley Furniture": [
+  "Ashley",
+  "Ashley HomeStore"
+ ],
+ "RH": [
+  "Restoration Hardware"
+ ],
+ "Tong Ren Tang": [
+  "Beijing Tong Ren Tang",
+  "Tongrentang"
+ ],
+ "Pien Tze Huang": [
+  "Pianzaihuang"
+ ],
+ "Dong E E Jiao": [
+  "Dong-E-E-Jiao",
+  "Dong'e Ejiao",
+  "DEEJ"
+ ],
+ "CR Sanjiu": [
+  "999",
+  "China Resources Sanjiu",
+  "Sanjiu"
+ ],
+ "Hu Qing Yu Tang": [
+  "Huqingyutang"
+ ],
+ "Baiyunshan": [
+  "Guangzhou Baiyunshan"
+ ],
+ "WeDoctor": [
+  "Guahao"
+ ],
+ "Ping An Good Doctor": [
+  "Ping An Health"
+ ],
+ "AliHealth": [
+  "Alibaba Health"
+ ],
+ "Haodf": [
+  "Good Doctor Online"
+ ],
+ "Teladoc": [
+  "Teladoc Health"
+ ],
+ "Amwell": [
+  "American Well"
+ ],
+ "Sesame": [
+  "Sesame Care"
+ ],
+ "Boss Zhipin": [
+  "Kanzhun"
+ ],
+ "51job": [
+  "Qiancheng Wuyou"
+ ],
+ "Toutiao": [
+  "Jinri Toutiao",
+  "Today's Headlines"
+ ],
+ "BBC News": [
+  "BBC"
+ ],
+ "CNN": [
+  "CNN Breaking News"
+ ],
+ "AP News": [
+  "Associated Press",
+  "AP"
+ ],
+ "NewsBreak": [
+  "News Break"
+ ],
+ "The New York Times": [
+  "New York Times",
+  "NYT"
+ ],
+ "Nestlé": [
+  "Nestle"
+ ],
+ "Krating Daeng": [],
+ "Prime": [
+  "Prime Energy",
+  "Prime Hydration"
+ ],
+ "NOS": [
+  "NOS Energy"
+ ],
+ "Amp": [
+  "Amp Energy"
+ ],
+ "V": [
+  "V Energy"
+ ]
+}

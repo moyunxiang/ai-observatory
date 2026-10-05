@@ -41,3 +41,25 @@
 - Ambiguous primary categories (Assumption, verify by review): Tencent -> Video Game Companies; TCL -> TVs; Sony -> Consumer Electronics; LinkedIn merged into Social Media; Microsoft out_of_scope.
 
 **Next**: Task 2 — build `data/category_brands.csv` (>=10 brands/category with source URL) via web search.
+
+#### 2026-10-05 19:20 HKT — Task 2: category brand tables (60 B2C categories, 838 rows)
+
+**Context**: Task 1 done (189 seeds, 60 B2C + 6 out_of_scope categories). Need >=10 real brands per category, merged with seeds, each traceable.
+
+**Actions**:
+- Web research per category (WebFetch of list pages, mainly Wikipedia / Brand Finance / FashionUnited; WebSearch where pages were blocked). Every consulted page logged in `data/raw/task2/evidence.jsonl` (113 entries; method = webfetch | websearch).
+- Added per-category aliases (`data/category_aliases.json`) on top of global `data/brand_aliases.json`; merge = union per canonical (bug found: first version overrode global variants, PlayStation lost "Sony PlayStation"; fixed in `data.alias_maps`).
+- Normalization: trailing "com" token stripped (Booking.com == Booking). Test added.
+- `scripts/build_category_brands.py`: curated SELECTION -> `data/category_brands.csv` with auto-attached source_url/source_method/origin; fails if any brand lacks evidence.
+- `score --no-record`, `OBSERVATORY_RUNS_DIR` env override for smoke tests.
+- Smoke test in scratchpad (SYNTHETIC answers, not GPT output, not saved in repo): export -> import -> score on hot_pot + game_consoles -> both 0.8 as constructed (8/10 hits). Confirms parser + aliases + metric end-to-end.
+
+**Results**: 838 rows; per-category 10–29 brands; source_method: websearch 441, webfetch 360, kantar_seed 31, cross_category 6. World 609 / China 229. `check`: "All Task 1/2 checks OK". Tests 14/14 OK.
+
+**Decisions / Assumptions**:
+- World/China rule: China = HQ in mainland China / Hong Kong / Macau; otherwise World (e.g. Taiwan-origin tea chains = World). Assumption — confirm with Jia Liu.
+- Websearch-method rows rely on a search summary of the cited page (weaker than webfetch). Verification: spot-check sample by user; upgrade to webfetch if challenged.
+- Several verification searches named candidate brands in the query (confirmation search). Documented as a limitation.
+- Parent/brand aliasing kept minimal (exceptions: Aetna<->CVS Health, Claro/Telcel<->América Móvil, Movistar<->Telefónica).
+
+**Next**: Export full manual sheet (run r1) for user to run in ChatGPT; then import/score; rename failed categories.
