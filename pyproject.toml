@@ -1,0 +1,6 @@
+[project]
+name = "ai-observatory-pilot"
+version = "0.1.0"
+description = "Pilot: validate LLM consistency on consumer category -> brand associations (Recall@10)."
+requires-python = ">=3.10"
+dependencies = []  # stdlib only for now; LLM SDK added once provider is chosen

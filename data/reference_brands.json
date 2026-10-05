@@ -1,0 +1,122 @@
+{
+  "running_shoes": {
+    "category_name": "Running Shoes",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "smartphones": {
+    "category_name": "Smartphones",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "laptops": {
+    "category_name": "Laptops",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "wireless_earbuds": {
+    "category_name": "Wireless Earbuds",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "power_banks": {
+    "category_name": "Power Banks",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "action_cameras": {
+    "category_name": "Action Cameras",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "vacuum_cleaners": {
+    "category_name": "Vacuum Cleaners",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "air_purifiers": {
+    "category_name": "Air Purifiers",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "coffee_machines": {
+    "category_name": "Coffee Machines",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "electric_toothbrushes": {
+    "category_name": "Electric Toothbrushes",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "skincare": {
+    "category_name": "Skincare",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "sunscreen": {
+    "category_name": "Sunscreen",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "sportswear": {
+    "category_name": "Sportswear",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "outdoor_jackets": {
+    "category_name": "Outdoor Jackets",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "luggage": {
+    "category_name": "Luggage",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "coffee_chains": {
+    "category_name": "Coffee Chains",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "fast_food_chains": {
+    "category_name": "Fast Food Chains",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "hotel_chains": {
+    "category_name": "Hotel Chains",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "food_delivery_platforms": {
+    "category_name": "Food Delivery Platforms",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  },
+  "ride_hailing_services": {
+    "category_name": "Ride-Hailing Services",
+    "brands": [],
+    "source": "",
+    "notes": ""
+  }
+}
